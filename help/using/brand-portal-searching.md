@@ -1,7 +1,7 @@
 ---
 title: Suchen von Assets in Brand Portal
 seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
-description: Mit der Brand Portal-Suchfunktion können Sie schnell mithilfe von Omnisearch nach relevanten Assets suchen. Mit Suchfiltern können Sie die Suche weiter einschränken. Speichern Sie Ihre Suchen als Smart-Sammlungen, um sie später wiederverwenden zu können.
+description: Mit der Suchfunktion von Brand Portal können Sie mithilfe von Omnisearch schnell nach relevanten Assets suchen. Mit Suchfiltern können Sie die Suche weiter eingrenzen. Speichern Sie Ihre Suchen als Smart-Sammlungen für die Zukunft.
 seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
@@ -12,8 +12,8 @@ discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1341'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,6 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
    >* Hierfür sind mindestens drei Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
    >* Wenn Sie nach `mountain biking` suchen, gibt Omnisearch alle Assets in den Suchergebnissen zurück, für die sowohl `mountain` als auch `biking` in den Metadatenfeldern verfügbar sind. Zum Beispiel `mountain` im Feld `Title` und `biking` im Feld `Description`. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt das Asset jedoch in den Suchergebnissen selbst dann zurück, wenn im Metadatenfeld der Smart-Tags nur einer der beiden Begriffe vorhanden ist. Wenn zum Beispiel ein Asset `mountain` als eines der Smart-Tags enthält, aber in keinem anderen Metadatenfeld `biking` enthält und Sie nach `mountain biking` suchen, gibt Omnisearch das Asset weiterhin in den Suchergebnissen zurück.
 
-
 1. Wählen Sie aus den relevanten Vorschlägen in der Dropdown-Liste ein Asset aus, auf das Sie schnell zugreifen möchten.
 
    ![](assets/assets-search-result.png)
@@ -55,9 +54,9 @@ Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen A
 
 ## Suche mithilfe von Facetten im Bereich „Filter“ {#search-using-facets-in-filters-panel}
 
-Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
+Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können für eine zielgerichtetere Suche einfach einen Drilldown zur gewünschten Detailtiefe durchführen.
 
-Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, zum Beispiel PDF oder MS® Word.
+Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Suchbereich weiter reduzieren, indem Sie in der Suchfacette Dateityp den MIME-Typ für das Bild angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, zum Beispiel PDF oder MS® Word.
 
 ![Bereich „Filter“ in Brand Portal](assets/file-type-search.png "Bereich „Filter“ in Brand Portal")
 
@@ -73,6 +72,7 @@ So können Sie mit den verfügbaren [Suchfacetten](../using/brand-portal-search
 Verwenden Sie beispielsweise die folgenden Standardfilter:
 
    * Nutzen Sie den **[!UICONTROL Pfadbrowser]** um Assets in einem bestimmten Verzeichnis zu suchen. Der Standardsuchpfad der Sucheigenschaft für den Pfadbrowser lautet `/content/dam/mac/<tenant-id>/`. Dieser kann durch Bearbeiten des Standardsuchformulars konfiguriert werden.
+
    >[!NOTE]
    >
    >Für Benutzer ohne Administratorrechte zeigt der [!UICONTROL Pfadbrowser] im Bereich [!UICONTROL Filter] nur die Inhaltsstruktur der Ordner (und der Vorgängerordner) an, die für sie freigegeben sind.\
@@ -89,22 +89,21 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
    Sie können im Bedienfeld „Filter“ [benutzerdefinierte Suchfacetten](../using/brand-portal-search-facets.md) verwenden, indem Sie das zugrunde liegende Suchformular bearbeiten.
 
    * Wenn im Suchformular verwendet, können Sie mithilfe von **[!UICONTROL Eigenschaftsprädikat]** nach Assets suchen, die mit einer Metadateneigenschaft übereinstimmen, der das Prädikat zugeordnet ist.\
-      Wenn beispielsweise das Eigenschaftsprädikat [!UICONTROL `jcr:content /metadata/dc:title`] zugeordnet ist, können Sie Assets auf Grundlage ihres Titels suchen.\
-      Das [!UICONTROL Eigenschaftsprädikat] unterstützt die Textsuche nach Folgendem:
+     Wenn beispielsweise das Eigenschaftsprädikat [!UICONTROL `jcr:content /metadata/dc:title`] zugeordnet ist, können Sie Assets auf Grundlage ihres Titels suchen.\
+     Das [!UICONTROL Eigenschaftsprädikat] unterstützt die Textsuche nach Folgendem:
 
-      **Teilsätze**
+     **Teilsätze**
 Wenn Sie die Asset-Suche mithilfe teilweiser Sätze im Eigenschaftsprädikat ermöglichen möchten, aktivieren Sie im Suchformular das Kontrollkästchen **[!UICONTROL Teilsuche]**. Dadurch können Sie nach den gewünschten Assets suchen, auch wenn Sie nicht die genauen Wörter/Sätze angeben, die in den Asset-Metadaten verwendet werden.
 
-      >[!NOTE]
-      >
-      > Brand Portal unterstützt die folgenden Felder für die Teilsuche:
-      >* jcr:content/metadata/dc:title
-      >* jcr:content/jcr:title
-      >* jcr:content/metadata/dam:search_promote
-      >* jcr:content/metadata/dc:format
+     >[!NOTE]
+     >
+     > Brand Portal unterstützt die folgenden Felder für die Teilsuche:
+     >* jcr:content/metadata/dc:title
+     >* jcr:content/jcr:title
+     >* jcr:content/metadata/dam:search_promote
+     >* jcr:content/metadata/dc:format
 
-
-      Sie haben folgende Möglichkeiten:
+     Sie haben folgende Möglichkeiten:
       * Geben Sie im Bedienfeld „Filter“ in der Facette ein Wort an, das im gesuchten Satz vorhanden ist. Suchen Sie beispielsweise nach dem Begriff **klettern** (und das Eigenschaftsprädikat ist der Eigenschaft [!UICONTROL `dc:title`] zugeordnet), dann werden alle Assets mit dem Wort **klettern** in der Titelphrase zurückgegeben.
       * Geben Sie einen Teil des Wortes ein, das im Suchbegriff vorkommt, und füllen Sie die Lücken mit dem Platzhalterzeichen (&#42;).
 Zum Beispiel gibt die Suche nach:
@@ -112,19 +111,20 @@ Zum Beispiel gibt die Suche nach:
          * **&#42;klettern** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
          * **&#42;klettern&#42;** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die die Zeichenfolge „klettern“ enthalten.
 
-Um eine Suche ohne Groß-/Kleinschreibung im Eigenschaftsprädikat zuzulassen, aktivieren Sie das Kontrollkästchen       **Text ohne Berücksichtigung der Groß- und Kleinschreibung**
+     **Text ohne Berücksichtigung der Groß- und Kleinschreibung**
 Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinschreibung zuzulassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Groß- und Kleinschreibung ignorieren]** im Suchformular. Bei der Textsuche im Eigenschaftsprädikat wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden.
+
    >[!NOTE]
    >
    >Nach Aktivierung des Kontrollkästchens **[!UICONTROL Teilsuche]** wird **[!UICONTROL Groß-/Kleinschreibung ignorieren]** standardmäßig aktiviert.
 
    ![](assets/wildcard-prop-1.png)
 
-   Die Suchergebnisse werden entsprechend den angewendeten Filtern angezeigt, zusammen mit der Anzahl der Suchergebnisse.
+   Die Suchergebnisse werden entsprechend den angewendeten Filtern zusammen mit der Anzahl der Suchergebnisse angezeigt.
 
    ![](assets/omnisearch-with-filters.png)
 
-   Asset-Suchergebnis mit Suchergebniszählung.
+   Asset-Suchergebnis mit Zählung der Suchergebnisse.
 
 1. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
 

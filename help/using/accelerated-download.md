@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
-workflow-type: ht
-source-wordcount: '1019'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Die folgende Tabelle zeigt die Download-Leistung für eine 2 GB große Datei unt
 
 *Die tatsächlichen Ergebnisse variieren aufgrund von Faktoren wie Netzwerkbandbreite, Server-Latenz und Client-Standort. Dabei ist zu berücksichtigen, dass sich der Brand Portal-Server in Oregon (USA) befindet.*
 
-| Client-Standort | Latenz zwischen Client und Server (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Dauer des Downloads einer 2 GB großen Datei mit dem Aspera-Dateiübertragungsbeschleuniger (Sekunden) |
+| Client-Standort | Latenz zwischen Client und Server (Millisekunden) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Dauer des Downloads einer 2 GB großen Datei mit dem Aspera-Dateiübertragungsbeschleuniger (Sekunden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | USA, Westküste (Nordkalifornien) | 18 | 36 | 57 |
 | USA, Westen (Oregon) | 42 | 36 | 57 |

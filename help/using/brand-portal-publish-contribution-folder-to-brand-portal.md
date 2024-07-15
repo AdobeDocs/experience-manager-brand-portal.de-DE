@@ -1,5 +1,5 @@
 ---
-title: 'Konfigurieren und Veröffentlichen des Beitragsordners aus Experience Manager Assets in Brand Portal '
+title: Konfigurieren und Veröffentlichen des Beitragsordners aus Experience Manager Assets in Brand Portal
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Hier erhalten Sie einen Einblick in die Konfiguration und Veröffentlichung eines Beitragsordners aus Experience Manager Assets in Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 

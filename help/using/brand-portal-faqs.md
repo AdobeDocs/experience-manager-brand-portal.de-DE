@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1509'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1529'
+ht-degree: 97%
 
 ---
 
@@ -85,14 +85,14 @@ Weitere Informationen finden Sie in [Asset-Beschaffung in Brand Portal](brand-po
 
 
 
-**Frage: Wann findet der Wechsel zur neuen Brand Portal-Version statt?**
+**Frage: Wann ziehe ich auf die neue Version von Brand Portal um?**
 
 **Antwort:** Brand Portal 6.4.5 wurde im Oktober 2019 für die Produktion freigegeben. Die nächste Brand Portal-Version wird voraussichtlich im 3. Quartal 2020 veröffentlicht.
 Bezüglich Updates und Versionsänderungen wird empfohlen, die [Versionshinweise](brand-portal-release-notes.md) und [Neuigkeiten in Brand Portal](whats-new.md) zu verfolgen.
 
 
 
-**Frage: Wie sind die Auswirkungen auf meine Benutzer?**
+**Frage: Sind meine Benutzer betroffen?**
 
 **Antwort:** Die Brand Portal-Version 6.4.5 ist ausschließlich in Brand Portal verfügbar, sodass keine Auswirkungen auf Ihre Endbenutzer auftreten.
 
@@ -197,12 +197,12 @@ Dies gilt für alle Ordner, die von Experience Manager Assets in Brand Portal ve
 
 >[!NOTE]
 >
->Der Veröffentlichungszeitplan ist vorläufig und kann jederzeit geändert werden. Wenden Sie sich an Ihren Adobe-Kundenbetreuer oder den Kundensupport, um aktuelle Informationen zum Veröffentlichungszeitplan zu erhalten.
+>Der Veröffentlichungszeitplan ist vorläufig und kann geändert werden. Wenden Sie sich an Ihren Adobe-Kundenbetreuer oder an den Kundensupport, um den aktualisierten Veröffentlichungszeitplan zu erhalten.
 
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
-Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff benötigen, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+Diese Sites sind nur für Kundinnen und Kunden verfügbar. Wenn Sie eine Kundin oder ein Kunde sind und Zugriff benötigen, wenden Sie sich an die Adobe-Kundenbetreuung.
 
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)

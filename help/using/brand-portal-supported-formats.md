@@ -1,7 +1,7 @@
 ---
 title: Unterstützte Dateiformate
 seo-title: Supported file formats
-description: 'Jedes Experience Manager Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
+description: Jedes Experience Manager Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate.
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '315'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Jedes Experience Manager Assets Brand Portal unterstützt die in der Matrix aufg
 | TAR | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
 | ZIP | ✓ | ✓ | ✓ | ✓ | nicht vorhanden | ✓ | ✓ | ✕ |
 
-Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
+In der folgenden Legende werden die in der Matrix verwendeten Symbole erläutert:
 
 | Symbol | Bedeutung |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|

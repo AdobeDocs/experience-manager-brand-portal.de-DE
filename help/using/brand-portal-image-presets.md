@@ -1,7 +1,7 @@
 ---
 title: Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen
 seo-title: Apply image presets or dynamic renditions
-description: 'Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mithilfe von Bildvorgaben kann Experience Manager Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch bereitstellen. '
+description: Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mithilfe von Bildvorgaben kann Experience Manager Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch bereitstellen.
 seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
@@ -11,9 +11,9 @@ discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 91%
 
 ---
 
@@ -27,14 +27,14 @@ Bildvorgaben werden verwendet, um dynamische Ausgabedarstellungen von Bildern zu
 
 >[!NOTE]
 >
->Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften für eine benutzerdefinierte Bildvorgabe festlegen. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
+>Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
 Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben erforderlich sind, finden Sie unter [Verwalten von Bildvorgaben](../using/brand-portal-image-presets.md).
 
 ## Erstellen von Bildvorgaben {#create-an-image-preset}
 
-Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabedarstellungen angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
+Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabedarstellungen angezeigt werden. Sie können eine Bildvorgabe von Grund auf neu erstellen oder eine vorhandene mit einem neuen Namen speichern. Wählen Sie beim Erstellen einer Bildvorgabe eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die au
    >Auf der Seite **[!UICONTROL Bildvorgabe bearbeiten]** können Sie auch Eigenschaften einer vorhandenen Bildvorgabe bearbeiten. Um eine Bildvorgabe zu bearbeiten, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
-1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird von der Seite „Bildvorgaben“ entfernt.
+1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird von der Seite &quot;Bildvorgaben&quot;entfernt.
 
 ## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau  {#apply-image-presets-when-previewing-images}
 
@@ -100,7 +100,7 @@ Beim Herunterladen von Bildern und deren Ausgabedarstellungen aus Brand Portal g
    ![](assets/donload-assets-dialog.png)
 
 1. Um dynamische Ausgabedarstellungen der Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabedarstellung(en)]** aus.
-1. Sie können jedoch auch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder und deren Ausgabedarstellungen beim Herunterladen dynamisch neu formatieren können. Geben Sie hierfür Größe, Format, Farbraum, Auflösung und Bild-Modifikator an.
+1. Sie können jedoch auch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder und deren Ausgabedarstellungen beim Herunterladen dynamisch neu formatieren können. Geben Sie Größe, Format, Farbraum, Auflösung und Bild-Modifikator an.
 
    ![](assets/dynamicrenditions.png)
 

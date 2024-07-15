@@ -11,9 +11,9 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2167'
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ Verwenden Sie als Produkt-Administrator die [[!UICONTROL Adobe Admin Console]](h
 
 >[!NOTE]
 >
->Neue Benutzer ohne Zugriff auf Brand Portal können über den Brand Portal-Anmeldebildschirm den Zugriff anfordern. Weitere Informationen finden Sie unter [Anfordern von Zugriff auf Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Wenn Sie im Benachrichtigungsbereich eine Benachrichtigung über eine Zugriffsanforderung erhalten, klicken Sie auf die entsprechende Benachrichtigung und dann auf **[!UICONTROL Zugriff erlauben]**. Alternativ können Sie auch auf den Link in der eingegangenen E-Mail mit der Zugriffsanforderung klicken. Anschließend wird der Benutzer über die [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hinzugefügt. Befolgen Sie dazu die unten beschriebenen Schritte 4 bis 7.
+>Neue Benutzer ohne Zugriff auf Brand Portal können über den Anmeldebildschirm von Brand Portal Zugriff anfordern. Weitere Informationen finden Sie unter [Zugriff auf Brand Portal anfordern](../using/brand-portal.md#request-access-to-brand-portal). Wenn Sie im Benachrichtigungsbereich eine Benachrichtigung über eine Zugriffsanforderung erhalten, klicken Sie auf die entsprechende Benachrichtigung und dann auf **[!UICONTROL Zugriff erlauben]**. Alternativ können Sie auch auf den Link in der eingegangenen E-Mail mit der Zugriffsanforderung klicken. Anschließend wird der Benutzer über die [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) hinzugefügt. Befolgen Sie dazu die unten beschriebenen Schritte 4 bis 7.
 
 >[!NOTE]
 >
@@ -156,8 +156,6 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
    * Klicken Sie auf **[!UICONTROL Speichern]**.
 
-
-
 1. Gehen Sie wie folgt vor, um mehrere Benutzer zum Produktprofil hinzuzufügen:
 
    * Wählen Sie **[!UICONTROL die Auslassungszeichen (...) > Benutzer über CSV hinzufügen]** aus.
@@ -169,9 +167,10 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
    ![Benutzer über CSV hinzufügen](assets/admin_console_addbulkuserscsv.png)
 
    * Klicken Sie auf **[!UICONTROL Hochladen]**.
+
    Wenn Sie Benutzer zum standardmäßigen Produktprofil (Brand Portal) hinzugefügt haben, wird an die E-Mail-Adressen der hinzugefügten Benutzer eine Begrüßungs-E-Mail gesendet. Sie können jetzt auf Brand Portal zugreifen, indem sie auf den Link in der Begrüßungs-E-Mail klicken und sich mithilfe einer [!UICONTROL Adobe ID] anmelden. Weitere Informationen finden Sie unter [Schritte bei der ersten Anmeldung](../using/brand-portal-onboarding.md).
 
-   Benutzer, die zu einem benutzerdefinierten oder neuen Produktprofil hinzugefügt werden, erhalten keine E-Mail-Benachrichtigung.
+   Benutzer, die zu einem benutzerdefinierten oder neuen Produktprofil hinzugefügt wurden, erhalten keine E-Mail-Benachrichtigungen.
 
 ## Bereitstellen von Administratorrechten für Benutzer {#provide-administrator-privileges-to-users}
 
@@ -215,7 +214,7 @@ Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder e
 
    >[!NOTE]
    >
-   >Die Administratorrolle „Produktprofil-Administrator“ (ehemals „Konfigurations-Administrator“) wird in Brand Portal nicht unterstützt. Vermeiden Sie es, Benutzern die Administratorrolle „Produktprofil-Administrator“ zuzuweisen.
+   >Brand Portal unterstützt keine Produktprofil-Administratorberechtigungen (ehemals &quot;Konfigurationsadministrator&quot;). Vermeiden Sie es, Benutzern die Administratorrolle „Produktprofil-Administrator“ zuzuweisen.
 
 1. Überprüfen Sie die Auswahl des Administratortyps und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -226,9 +225,9 @@ Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder e
 
 ## Verwalten von Benutzerrollen {#manage-user-roles}
 
-Administratoren können die Rollen für Benutzer in Brand Portal ändern.
+Administratoren können die Benutzerrollen in Brand Portal ändern.
 
-Zusätzlich zur Administratorrolle werden in Brand Portal die folgenden Rollen unterstützt:
+Zusätzlich zur Administratorrolle unterstützt Brand Portal die folgenden Rollen:
 
 * [!UICONTROL Betrachter:] Benutzer mit dieser Rolle können Dateien und Ordner anzeigen, die ein Administrator für sie freigegeben hat. Betrachter können zudem nach Assets suchen und diese herunterladen. Sie können jedoch keine Inhalte (Dateien, Ordner, [!UICONTROL Sammlungen]) für andere Benutzer freigeben.
 * [!UICONTROL Bearbeiter:] Benutzer mit dieser Rolle verfügen über alle Berechtigungen eines Betrachters. Zusätzlich können Bearbeiter Inhalte (Ordner, [!UICONTROL Sammlungen], Links) für andere Benutzer freigeben.
@@ -249,12 +248,12 @@ Zusätzlich zur Administratorrolle werden in Brand Portal die folgenden Rollen u
 
    >[!NOTE]
    >
-   >Bei Administratorbenutzern ist die Liste [!UICONTROL Rolle] deaktiviert. Die Rollen für diese Benutzer können nicht ausgewählt werden.
+   >Die Liste [!UICONTROL Rolle] für Administrator-Benutzer ist deaktiviert. Sie können diese Benutzer nicht auswählen, um ihre Rollen zu ändern.
 
 
    >[!NOTE]
    >
-   >Die Auswahl der Benutzerrolle ist auch dann deaktiviert, wenn der Benutzer zu einer Gruppe mit der Rolle „Bearbeiter“ gehört. Wenn Sie die Bearbeitungsberechtigungen des Benutzers widerrufen möchten, müssen Sie den Benutzer aus der Gruppe mit der Rolle „Bearbeiter“ entfernen oder die Rolle der gesamten Gruppe in „Betrachter“ ändern.
+   >Die Benutzerrolle ist auch dann deaktiviert, wenn der Benutzer Mitglied der Editor-Gruppe ist. Um die Bearbeitungsberechtigungen des Benutzers zu widerrufen, entfernen Sie den Benutzer aus der Gruppe &quot;Bearbeiter&quot;oder ändern Sie die Rolle der gesamten Gruppe in &quot;Betrachter&quot;.
 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Rolle wird für den entsprechenden Benutzer geändert. Wenn Sie mehrere Benutzer ausgewählt haben, werden die Rollen für alle ausgewählten Benutzer gleichzeitig geändert.

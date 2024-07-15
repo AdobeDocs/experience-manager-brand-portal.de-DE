@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 94%
 
 ---
 
@@ -43,9 +43,9 @@ Im Folgenden werden die Schritte zum Freigeben von Assets als Link beschrieben:
 
    ![](assets/link-sharing.png)
 
-   * Geben Sie im Feld „E-Mail-Adresse“ die E-Mail-Adresse des Benutzers ein, für den Sie den Link freigeben möchten. Sie können den Link für mehrere Benutzer freigeben. Wenn der Benutzer zu Ihrem Unternehmen gehört, wählen Sie die E-Mail-Adresse des Benutzers in den vorgeschlagenen Dropdown-Listeneinträgen aus. Wenn es sich um einen externen Benutzer handelt, geben Sie die vollständige E-Mail-Adresse ein und drücken Sie die **[!UICONTROL Eingabetaste]**. Die E-Mail-Adresse wird der Liste der Benutzer hinzugefügt.
+   * Geben Sie im Feld „E-Mail-Adresse“ die E-Mail-Adresse des Benutzers ein, für den Sie den Link freigeben möchten. Sie können den Link für mehrere Benutzer freigeben. Wenn die Person Mitglied Ihres Unternehmens ist, wählen Sie ihre E-Mail-ID aus den Vorschlägen aus, die in der Dropdown-Liste angezeigt werden. Wenn es sich um einen externen Benutzer handelt, geben Sie die vollständige E-Mail-Adresse ein und drücken Sie die **[!UICONTROL Eingabetaste]**. Die E-Mail-Adresse wird der Liste der Benutzer hinzugefügt.
 
-      ![](assets/link-sharing-text.png)
+     ![](assets/link-sharing-text.png)
 
    * Geben Sie in das Feld **[!UICONTROL Betreff]** einen Betreff für das freizugebende Asset ein.
    * Geben Sie bei Bedarf eine Nachricht in das Feld **[!UICONTROL Nachricht]** ein.
@@ -128,9 +128,9 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
 ## Unterstützung von Vorschauen und Miniaturen für Asset-Formate {#preview-thumbnail-support}
 
-Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniaturen und Vorschauen unterstützt:
+Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniaturansichten und die Vorschau unterstützt:
 
-| Asset-Format | Miniatur-Unterstützung | Vorschau-Unterstützung |
+| Asset-Format | Unterstützung von Miniaturansichten | Vorschau-Support |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -189,7 +189,7 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 | TAR | nicht vorhanden | ✕ |
 | ZIP | ✓ | ✕ |
 
-Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
+In der folgenden Legende werden die in der Matrix verwendeten Symbole erläutert:
 
 | Symbol | Bedeutung |
 |---|---|
@@ -214,6 +214,6 @@ Gehen Sie wie folgt vor, um die Freigabe eines Assets als Link aufzuheben:
 
    >[!NOTE]
    >
-   >Die Anzeige der freigegebenen Links ist benutzerdefiniert. Die Funktion zeigt nicht alle Links an, die von allen Benutzern eines Mandanten freigegebenen werden.
+   >Die Anzeige freigegebener Links ist benutzerspezifisch. Diese Funktion zeigt nicht alle Links an, die von allen Benutzern eines Mandanten gemeinsam genutzt werden.
 
 1. Klicken Sie in der Warnmeldung auf **[!UICONTROL Weiter]**, um das Aufheben der Freigabe zu bestätigen. Der Eintrag für den Link wird aus der Liste freigegebener Links entfernt.

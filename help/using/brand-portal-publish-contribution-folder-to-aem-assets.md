@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
-workflow-type: ht
-source-wordcount: '1471'
+workflow-type: tm+mt
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
@@ -138,19 +138,19 @@ Es gibt zwei Berichte, die die Administratoren verwenden können, um den Status 
 
 * Navigieren Sie in Brand Portal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset-Beitragsstatus]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge in den verschiedenen Phasen des Veröffentlichungs-Workflows wider.
 
-   ![](assets/contribution-folder-status-v2.png)
+  ![](assets/contribution-folder-status-v2.png)
 
 * Gehen Sie in Experience Manager Assets (On-Premise oder Managed Service) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
 
-   ![](assets/publishing-status.png)
+  ![](assets/publishing-status.png)
 
 * Gehen Sie in Experience Manager Assets as a Cloud Service zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**.
 
-   Sie können auch direkt über die globale Navigation zu **[!UICONTROL Aufträge]** gehen.
+  Sie können auch direkt über die globale Navigation zu **[!UICONTROL Aufträge]** gehen.
 
-   Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets aus Brand Portal in Experience Manager Assets as a Cloud Service.
+  Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets aus Brand Portal in Experience Manager Assets as a Cloud Service.
 
-   ![](assets/cloud-service-job-status.png)
+  ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
@@ -169,7 +169,7 @@ Brand Portal führt jetzt alle zwölf Stunden automatische Aufträge aus, um all
 * Gesamtzahl der Assets, die erfolgreich in einem Auftrag gelöscht wurden
 * Gesamtspeicher, der infolge der Auftragsausführung verfügbar gemacht wurde
 
-   ![Löschbericht](assets/deletion-reports.png)
+  ![Löschbericht](assets/deletion-reports.png)
 
 Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch noch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
 
@@ -179,7 +179,6 @@ Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalt
 >
 > * Kunden können sich an die Adobe-Kundenunterstützung wenden, um die automatische Löschfunktion zu deaktivieren und wieder zu aktivieren oder die Häufigkeit der Ausführung zu ändern.
 > * Diese Funktion ist in Experience Manager 6.5.13.0 und höheren Versionen verfügbar.
-
 
 ### Anzeigen und Herunterladen von Löschberichten {#view-delete-jobs}
 

@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
-workflow-type: ht
-source-wordcount: '1018'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 74%
 
 ---
 
@@ -28,11 +28,11 @@ Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin
 
 ![](assets/bp_subheader.png)
 
-Über den Leistenselektor oben links in Brand Portal öffnen Sie ein Dropdown-Menü mit Optionen zum Navigieren in Assethierarchien, Optimieren Ihrer Suche und Anzeigen von Ressourcen.
+Die Schienenauswahl oben links in der Brand Portal-Dropdown-Liste bietet Optionen zum Navigieren in Asset-Hierarchien, Optimieren der Suche und Anzeigen von Ressourcen.
 
 ![](assets/siderail-1.png)
 
-Sie können Assets in jeder der Ansichten, die im Ansichtselektor oben rechts in Brand Portal verfügbar sind (Karten-, Spalten- und Listenansicht), anzeigen, durchblättern und auswählen.
+Sie können Assets in einer der verfügbaren Ansichten (Karte, Spalte und Liste) in der Ansichtsauswahl oben rechts in Brand Portal anzeigen, durch sie navigieren und sie auswählen.
 
 ![](assets/viewselector.png)
 
@@ -40,7 +40,7 @@ Sie können Assets in jeder der Ansichten, die im Ansichtselektor oben rechts in
 
 Anzeige, Navigation und Auswahl sind grundsätzlich in allen Ansichten gleich. Je nach verwendeter Ansicht kommt es aber zu geringfügigen Abweichungen beim Umgang.
 
-Sie können Ressourcen in jeder der verfügbaren Ansichten anzeigen, durchblättern und auswählen (für weitere Aktionen):
+Sie können Ihre Ressourcen in einer der verfügbaren Ansichten anzeigen, durch sie navigieren und sie auswählen (für weitere Aktionen):
 
 * Spaltenansicht
 * Kartenansicht
@@ -50,7 +50,7 @@ Sie können Ressourcen in jeder der verfügbaren Ansichten anzeigen, durchblätt
 
 ![](assets/card-view.png)
 
-In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind  die folgenden Details angegeben:
+In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Diese Karten enthalten die folgenden Details:
 
 * eine visuelle Darstellung des Assets bzw. Ordners
 * Typ
@@ -88,7 +88,7 @@ Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordne
 
 #### Anzeigeeinstellungen in der Kartenansicht
 
-Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]** wird bei Auswahl der Option **[!UICONTROL Anzeigeeinstellungen]** im Ansichtselektor geöffnet. Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und Einfluss auf die Anzahl der angezeigten Miniaturansichten nehmen.
+Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]** wird bei Auswahl der Option **[!UICONTROL Anzeigeeinstellungen]** im Ansichtselektor geöffnet. Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und die Anzahl der angezeigten Miniaturansichten steuern.
 
 ![](assets/cardviewsettings.png)
 
@@ -96,9 +96,9 @@ Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]** wird bei Auswahl der Option
 
 ![](assets/list-view.png)
 
-In der Listenansicht werden Informationen für jede Ressource auf der aktuellen Ebene aufgelistet. In der Listenansicht werden die folgenden Details angezeigt:
+In der Listenansicht werden Informationen für jede Ressource auf der aktuellen Ebene aufgelistet. Die Listenansicht enthält die folgenden Details:
 
-* Miniaturbild der Assets
+* Miniaturbild von Assets
 * Name
 * Titel
 * Gebietsschema
@@ -125,18 +125,18 @@ Die Listenansicht zeigt das Asset **[!UICONTROL Name]** standardmäßig in der e
 
 ![](assets/column-view.png)
 
-Navigieren Sie in der Spaltenansicht in der Inhaltsstruktur durch eine Reihe von kaskadierenden Spalten. Diese Ansicht hilft Ihnen, die Asset-Hierarchie zu visualisieren und in ihr zu navigieren.
+Verwenden Sie die Spaltenansicht, um in einer Inhaltsstruktur durch eine Reihe kaskadierender Spalten zu navigieren. Diese Ansicht hilft Ihnen, die Asset-Hierarchie zu visualisieren und in ihr zu navigieren.
 
-Durch die Auswahl einer Ressource in der ersten Spalte (ganz links) werden die untergeordneten Ressourcen in der zweiten Spalte rechts daneben angezeigt. Durch die Auswahl einer Ressource in der zweiten Spalte werden die untergeordneten Ressourcen in der dritten Spalte rechts daneben angezeigt usw.
+Bei Auswahl einer Ressource in der ersten (ganz links) Spalte werden untergeordnete Ressourcen in der zweiten Spalte rechts angezeigt. Wenn Sie eine Ressource in der zweiten Spalte auswählen, werden untergeordnete Ressourcen in der dritten Spalte rechts angezeigt usw.
 
-Sie können in der Struktur nach oben und unten navigieren, indem Sie auf einen Ressourcennamen oder den Pfeil rechts vom Ressourcennamen tippen oder klicken.
+Sie können in der Struktur nach oben und unten navigieren, indem Sie auf den Ressourcennamen oder den Pfeil rechts vom Ressourcennamen tippen oder klicken.
 
 * Beim Tippen bzw. Klicken werden der Ressourcenname und der Pfeil hervorgehoben.
 * Durch Tippen oder Klicken auf die Miniaturansicht wird die Ressource ausgewählt.
-* Wenn diese Option ausgewählt ist, wird ein Häkchen auf der Miniaturansicht angezeigt und der Ressourcenname wird hervorgehoben.
+* Wenn diese Option aktiviert ist, wird ein Häkchen auf der Miniaturansicht angezeigt und der Ressourcenname wird hervorgehoben.
 * Die Details der ausgewählten Ressource werden in der letzten Spalte angezeigt.
 
-Wird ein Asset in der Spaltenansicht ausgewählt, wird die visuelle Darstellung des Assets in der letzten Spalte zusammen mit den folgenden Details angezeigt:
+Wenn ein Asset in der Spaltenansicht ausgewählt ist, wird in der letzten Spalte eine visuelle Darstellung des Assets zusammen mit den folgenden Details angezeigt:
 
 * Titel
 * Name
@@ -144,7 +144,7 @@ Wird ein Asset in der Spaltenansicht ausgewählt, wird die visuelle Darstellung 
 * Datum und Uhrzeit, zu dem bzw. zu der das Asset aus AEM in Brand Portal veröffentlicht wurde
 * Größe
 * Typ
-* Option „Weitere Details“ zum Aufrufen der Seite „Details“ des Assets
+* Option &quot;Weitere Details&quot;, um zur Detailseite des Assets zu gelangen
 
 <!--
 Comment Type: draft
@@ -244,7 +244,7 @@ Navigieren Sie in der Inhaltshierarchie zum gewünschten Asset.
 
 ## Asset-Details {#asset-details}
 
-Auf der Seite „Details“ eines Assets können Sie das Asset anzeigen und herunterladen, einen Link zum Asset freigeben, das Asset in eine Sammlung verschieben oder dessen Seite „Eigenschaften“ anzeigen. Sie können nacheinander auch durch die Seite „Details“ anderer Assets im selben Ordner navigieren.
+Auf der Asset-Detailseite können Sie ein Asset anzeigen, herunterladen, den Link eines Assets freigeben, es in eine Sammlung verschieben oder die zugehörige Eigenschaftsseite anzeigen. Sie können auch nacheinander durch die Detailseite anderer Assets desselben Ordners navigieren.
 
 ![](assets/asset-detail.png)
 

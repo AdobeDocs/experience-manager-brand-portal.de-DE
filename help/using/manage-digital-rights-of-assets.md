@@ -12,17 +12,17 @@ discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
-workflow-type: ht
-source-wordcount: '907'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '901'
+ht-degree: 84%
 
 ---
 
 # Verwalten der digitalen Rechte von Assets {#manage-digital-rights-of-assets}
 
-Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dies kann innerhalb und außerhalb des Unternehmens durch das Verknüpfen eines Ablaufdatums (und einer Uhrzeit) mit genehmigten Assets, die aus AEM in Brand Portal veröffentlicht werden, oder durch Lizenzierung dieser Assets für die bedingte Verwendung durchgesetzt werden. Auch in Brand Portal können Sie ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
+Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dies kann innerhalb und außerhalb des Unternehmens durch das Verknüpfen eines Ablaufdatums (und einer Uhrzeit) mit genehmigten Assets, die aus AEM in Brand Portal veröffentlicht werden, oder durch Lizenzierung dieser Assets für die bedingte Verwendung durchgesetzt werden. Außerdem können Sie mit Brand Portal ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
 
-Erfahren Sie, wie die Assets in Brand Portal gesichert werden und welche Nutzungsberechtigungen damit verknüpft sind.
+Lesen Sie weiter, um zu erfahren, wie die Assets in Brand Portal gesichert werden, und lernen Sie die zugehörigen Nutzungsberechtigungen kennen.
 
 ## Asset-Ablauf {#asset-expiration}
 
@@ -40,7 +40,7 @@ Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröf
 
 In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Assets angezeigt:
 
-|  | **[!UICONTROL Linkfreigabe]** | **[!UICONTROL Download]** | **[!UICONTROL Eigenschaften]** | **[!UICONTROL Zu Sammlung hinzufügen]** | **[!UICONTROL Löschen]** |
+|   | **[!UICONTROL Linkfreigabe]** | **[!UICONTROL Download]** | **[!UICONTROL Eigenschaften]** | **[!UICONTROL Zu Sammlung hinzufügen]** | **[!UICONTROL Löschen]** |
 |---|---|---|---|---|---|
 | **[!UICONTROL Administrator]** | Nicht verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar |
 | **[!UICONTROL Bearbeiter]** | Nicht verfügbar | Nicht verfügbar | Verfügbar | Verfügbar | Nicht verfügbar |
@@ -53,13 +53,13 @@ In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Asse
 
 ### Gültigkeitsstatus und Assets {#expiration-status-of-assets}
 
-Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht]** anzeigen. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
+Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht]** anzeigen. Eine rote Markierung auf der Karte zeigt an, dass das Asset abgelaufen ist.
 
 ![](assets/expired_assets_cardview.png)
 
 >[!NOTE]
 >
->In den Listen- und Spaltenansichten wird der Gültigkeitsstatus der Assets nicht angezeigt.
+>In Listen- und Spaltenansichten wird der Ablaufstatus von Assets nicht angezeigt.
 
 ## Ablauf des Asset-Links {#asset-link-expiration}
 
@@ -73,7 +73,7 @@ Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freige
 
 ## Lizenzierte Assets {#licensed-assets}
 
-Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Diese Vereinbarung für lizenzierte Assets wird angezeigt, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Abgelaufene oder nicht abgelaufene Assets, die durch eine Lizenz geschützt sind, können von allen Benutzern angezeigt werden. Jedoch ist der Download und die Verwendung von abgelaufenen genehmigten Assets begrenzt. Informationen zum Verhalten von abgelaufenen lizenzierten Assets und den zulässigen Aktivitäten basierend auf Benutzerrollen finden Sie unter [Nutzungsberechtigungen in Bezug auf abgelaufene Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Diese Vereinbarung für lizenzierte Assets wird angezeigt, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Unabhängig davon, ob die Assets abgelaufen sind oder nicht, können alle Benutzer lizenzgeschützte Assets anzeigen. Das Herunterladen und Verwenden abgelaufener lizenzierter Assets ist jedoch eingeschränkt. Informationen zum Verhalten abgelaufener lizenzierter Assets und zulässiger Aktivitäten basierend auf Benutzerrollen finden Sie unter [Nutzungsberechtigungen abgelaufener Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
 Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de). Dies geschieht, indem die Metadateneigenschaften des Assets in [!DNL Experience Manager Assets] festgelegt werden.
 

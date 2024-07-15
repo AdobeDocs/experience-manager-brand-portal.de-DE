@@ -11,15 +11,15 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '996'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 91%
 
 ---
 
 # Arbeiten mit Berichten {#work-with-reports}
 
-Die Berichterstellungsfunktion ist hilfreich, um die Brand Portal-Nutzung zu bewerten und festzustellen, wie interne und externe Benutzer mit genehmigten Assets interagieren. Administratoren können den Brand Portal-Verwendungsbericht anzeigen, der immer auf der Seite „Asset-Berichte“ verfügbar ist. Auch Berichte über Benutzeranmeldungen und heruntergeladene, abgelaufene, veröffentlichte und über Links freigegebene Assets können erzeugt und auf der Seite „Asset-Berichte“ angezeigt werden. Diese Berichte sind hilfreich bei der Analyse der Ressourcenbereitstellung, mit deren Hilfe Sie wichtige Erfolgsmetriken ableiten können, um die Akzeptanz genehmigter Ressourcen innerhalb und außerhalb Ihrer Organisation zu messen.
+Die Berichterstellungsfunktion ist hilfreich, um die Brand Portal-Nutzung zu bewerten und festzustellen, wie interne und externe Benutzer mit genehmigten Assets interagieren. Administratoren können den Brand Portal-Nutzungsbericht anzeigen, der immer auf der Seite &quot;Asset-Berichte&quot;verfügbar ist. Auch Berichte über Benutzeranmeldungen und heruntergeladene, abgelaufene, veröffentlichte und über Links freigegebene Assets können erzeugt und auf der Seite „Asset-Berichte“ angezeigt werden. Diese Berichte sind hilfreich bei der Analyse der Ressourcenbereitstellung, mit deren Hilfe Sie wichtige Erfolgsmetriken ableiten können, um die Akzeptanz genehmigter Ressourcen innerhalb und außerhalb Ihrer Organisation zu messen.
 
 Die Berichtverwaltungsoberfläche ist intuitiv und enthält detaillierte Optionen und Steuerungen, mit denen Sie auf gespeicherte Berichte zugreifen können. Über die Seite „Asset-Berichte“, auf der alle bisher erstellten Berichte aufgelistet werden, können Sie Berichte anzeigen, herunterladen oder löschen.
 
@@ -72,13 +72,13 @@ Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informati
    >
    >Der Bericht „Veröffentlichen“ zeigt keine Informationen zu Inhaltsfragmenten an, da diese nicht in Brand Portal veröffentlicht werden können.
 
-   Der Bericht zur **[!UICONTROL Linkfreigabe]** listet alle Assets auf, die über Links von der Brand Portal-Benutzeroberfläche aus in einem bestimmten Zeitrahmen freigegeben wurden. Der Bericht beinhaltet auch Informationen, wann und von welchem Benutzer das Asset über den Link freigegeben wurde und wann der Link abläuft, sowie Angaben zur Anzahl freigegebener Links für den Mandanten (und Benutzer, für die der Asset-Link freigegeben wurde). Die Spalten im Bericht zur Linkfreigabe können nicht angepasst werden.
+   Der Bericht zur **[!UICONTROL Linkfreigabe]** listet alle Assets auf, die über Links von der Brand Portal-Benutzeroberfläche aus in einem bestimmten Zeitrahmen freigegeben wurden. Der Bericht beinhaltet auch Informationen, wann und von welchem Benutzer das Asset über den Link freigegeben wurde und wann der Link abläuft, sowie Angaben zur Anzahl freigegebener Links für den Mandanten (und Benutzer, für die der Asset-Link freigegeben wurde). Die Spalten des Berichts zur Linkfreigabe können nicht angepasst werden.
 
    ![](assets/link-share-report.png)
 
    >[!NOTE]
    >
-   >Der Bericht zur Linkfreigabe zeigt keine Benutzer an, die Zugriff auf das über den Link freigegebene Asset haben oder die das Asset über den Link heruntergeladen haben.
+   >Der Bericht zur Linkfreigabe zeigt keine Benutzer an, die Zugriff auf das über den Link freigegebene Asset haben oder das Asset über den Link heruntergeladen haben.
    >
    >Zum Nachverfolgen von Downloads über den freigegebenen Link müssen Sie den Bericht „Download“ nach der Auswahl der Option **[!UICONTROL Nur Downloads über Link-Freigabe]** auf der Seite **[!UICONTROL Bericht erstellen]** erzeugen. Der Benutzer (heruntergeladen von) ist in diesem Fall jedoch anonym.
 
@@ -92,7 +92,7 @@ Administratoren können die folgenden Standardberichte generieren und verwalten.
 * Veröffentlichen
 * Link-Freigabe
 
-Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentlichen“ können für die Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu generieren:
+Die Spalten im Bericht Download, Ablauf und Publish können für die Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu erstellen:
 
 1. Tippen oder klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
@@ -118,7 +118,7 @@ Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentliche
    >Die Sonderzeichen # und % im Berichtstitel werden bei der Berichtserstellung durch einen Bindestrich (-) ersetzt.
 
 1. Tippen/klicken Sie auf **[!UICONTROL Weiter]**, um die Spalten für die Berichte „Download“, „Ablauf“ und „Veröffentlichen“ zu konfigurieren.
-1. Aktivieren oder deaktivieren Sie dazu die entsprechenden Kontrollkästchen. Um zum Beispiel die Namen von Benutzern (die Assets heruntergeladen haben) im Bericht **[!UICONTROL Download]** anzuzeigen, wählen Sie **[!UICONTROL Heruntergeladen von]** aus. Die folgende Abbildung veranschaulicht die Auswahl von Standardspalten im Bericht „Download“.
+1. Aktivieren oder deaktivieren Sie dazu die entsprechenden Kontrollkästchen. Um zum Beispiel die Namen von Benutzern (die Assets heruntergeladen haben) im Bericht **[!UICONTROL Download]** anzuzeigen, wählen Sie **[!UICONTROL Heruntergeladen von]** aus. Die folgende Abbildung zeigt die Auswahl der Standardspalten im Bericht Download .
 
    ![](assets/createdownloadreport.png)
 

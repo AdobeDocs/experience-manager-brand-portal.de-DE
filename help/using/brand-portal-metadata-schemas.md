@@ -1,7 +1,7 @@
 ---
 title: Verwenden von Metadatenschema-Formularen
 seo-title: Use the metadata schema form
-description: Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Mit dem für ein Asset angewendeten Schema legen Sie fest, welche Metadatenfelder auf der Eigenschaftsseite des Assets angezeigt werden.
+description: Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Das Schema, das Sie auf ein Asset anwenden, bestimmt die Metadatenfelder, die auf der Eigenschaftsseite angezeigt werden.
 seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
@@ -11,15 +11,15 @@ discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '1718'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1719'
+ht-degree: 80%
 
 ---
 
 # Verwenden von Metadatenschema-Formularen {#use-the-metadata-schema-form}
 
-Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Mit dem für ein Asset angewendeten Schema legen Sie fest, welche Metadatenfelder auf der Eigenschaftsseite des Assets angezeigt werden.
+Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Das Schema, das Sie auf ein Asset anwenden, bestimmt die Metadatenfelder, die auf der Eigenschaftsseite angezeigt werden.
 
 Normalerweise werden auf der Seite **[!UICONTROL Eigenschaften]** für jedes Asset je nach MIME-Typ des Assets die standardmäßigen Metadateneigenschaften angezeigt. Mit dem Metadatenschema-Editor können Administratoren vorhandene Schemata ändern oder benutzerdefinierte Metadatenschemata hinzufügen. Experience Manager Assets Brand Portal bietet Standardformulare für Assets verschiedener MIME-Typen. Sie können jedoch auch benutzerdefinierte Formulare für solche Assets hinzufügen.
 
@@ -45,9 +45,9 @@ Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
 ## Bearbeiten von Metadatenschema-Formularen {#edit-a-metadata-schema-form}
 
-Sie können ein neu hinzugefügtes oder vorhandenes Metadatenschema-Formular bearbeiten. Das Metadatenschema-Formular enthält aus dem übergeordneten Objekt abgeleitete Inhalte, einschließlich Registerkarten und Formularelementen innerhalb von Registerkarten. Sie können diese Formularelemente einem Feld innerhalb eines Metadatenknotens zuordnen bzw. dafür konfigurieren.
+Sie können ein neu hinzugefügtes oder vorhandenes Metadatenschema-Formular bearbeiten. Das Metadatenschema-Formular enthält aus dem übergeordneten Formular abgeleitete Inhalte, einschließlich Registerkarten und Formularelementen in Registerkarten. Sie können diese Formularelemente einem Feld in einem Metadatenknoten zuordnen oder konfigurieren.
 
-Sie können dem Metadatenschema-Formular neue Registerkarten oder Formularelemente hinzufügen. Die (vom übergeordneten Objekt) abgeleiteten Registerkarten und Formularelemente sind gesperrt. Sie können auf untergeordneter Ebene nicht geändert werden.
+Sie können dem Metadatenschema-Formular neue Registerkarten oder Formularelemente hinzufügen. Die abgeleiteten Registerkarten und Formularelemente (aus dem übergeordneten Element) sind gesperrt. Sie können auf untergeordneter Ebene nicht geändert werden.
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
@@ -104,7 +104,7 @@ Um die Eigenschaften einer Metadatenkomponente im Formular zu bearbeiten, klicke
 
 * **[!UICONTROL Feldbezeichnung]**: Der Name der Metadateneigenschaft, der auf der Eigenschaftsseite des Assets angezeigt wird.
 
-* **[!UICONTROL Zu Eigenschaft zuordnen]**: Der Wert dieser Eigenschaft liefert den relativen Pfad/Namen zum Asset-Knoten für dessen Speicherort im CRX-Repository. Er beginnt mit „**./**“, um anzugeben, dass der Pfad sich unter dem Knoten des Assets befindet.
+* **[!UICONTROL Zu Eigenschaft zuordnen]**: Der Wert dieser Eigenschaft liefert den relativen Pfad/Namen zum Asset-Knoten für dessen Speicherort im CRX-Repository. Sie beginnt mit „**./**&quot;, um anzugeben, dass sich der Pfad unter dem Knoten des Assets befindet.
 
 Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
@@ -139,7 +139,7 @@ Das Standardschemaformular enthält die Registerkarten **[!UICONTROL Allgemein]*
 
 ## Anwenden eines Metadatenschemas auf Ordner {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal ermöglicht die Anpassung und Kontrolle des Metadatenschemas, sodass die Seite **[!UICONTROL Eigenschaften]** eines Assets nur die gewünschten Informationen anzeigt. Um die auf der Seite **[!UICONTROL Eigenschaften]** angezeigten Metadaten zu kontrollieren, entfernen Sie die erforderlichen Metadaten aus dem Metadatenschema-Formular und wenden Sie sie auf den entsprechenden Ordner an.
+Mit Brand Portal können Sie das Metadatenschema so anpassen und steuern, dass die Seite **[!UICONTROL Eigenschaften]** eines Assets nur die gewünschten Informationen anzeigt. Um die auf der Seite **[!UICONTROL Eigenschaften]** angezeigten Metadaten zu steuern, entfernen Sie die erforderlichen Metadaten aus dem Metadatenschema-Formular und wenden Sie sie auf den spezifischen Ordner an.
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwenden:
 
@@ -167,11 +167,11 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwe
 
 >[!NOTE]
 >
->Wenn Sie ein Schema mit verschachtelten Schemata auf einen Ordner mit Videodateien anwenden, werden die Metadaten-Eigenschaften für die Videodateien möglicherweise nicht richtig gerendert. Um sicherzustellen, dass die Metadaten-Eigenschaften richtig gerendert werden, entfernen Sie die verschachtelten Schemata und wenden Sie nur das übergeordnete Schema auf den Ordner an.
+>Wenn Sie ein Schema mit verschachtelten Schemata auf einen Ordner mit Videodateien anwenden, werden die Metadateneigenschaften für die Videodateien möglicherweise nicht ordnungsgemäß dargestellt. Um sicherzustellen, dass die Metadateneigenschaften korrekt dargestellt werden, entfernen Sie die verschachtelten Schemata und wenden Sie nur das übergeordnete Schema auf den Ordner an.
 
 ## Löschen von Metadaten-Schemaformularen {#delete-a-metadata-schema-form}
 
-In Brand Portal können Sie nur benutzerdefinierte Schemaformulare löschen. Die Standardschemaformulare/-vorlagen können nicht gelöscht werden. Sie können aber alle benutzerdefinierten Änderungen in diesen Formularen löschen.
+Mit Brand Portal können Sie nur benutzerdefinierte Schemaformulare löschen. Die Standardschemaformulare/-vorlagen können nicht gelöscht werden. Sie können jedoch alle benutzerdefinierten Änderungen in diesen Formularen löschen.
 
 Um ein Formular zu löschen, wählen Sie das Formular aus und klicken Sie auf das Symbol **[!UICONTROL Löschen]**.
 
@@ -217,7 +217,7 @@ Brand Portal ordnet die folgenden MIME-Typen und Schemaformulare zu:
 | video/wmv | video/x-ms-wmv |
 | video/flv | video/x-flv |
 
-Im Folgenden finden Sie eine Liste der standardmäßigen Metadaten-Eigenschaften:
+Im Folgenden finden Sie eine Liste der standardmäßigen Metadateneigenschaften:
 
 * jcr:content/metadata/cq:tags
 * jcr:content/metadata/dc:format

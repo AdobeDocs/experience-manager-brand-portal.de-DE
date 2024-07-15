@@ -1,8 +1,8 @@
 ---
 title: Verwalten der Lightbox-Sammlung
-seo-title: Verwalten der Lightbox-Sammlung
-description: Lightbox ist ein spezieller Sammlungstyp, der den einfachen Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive Lightbox, die automatisch erstellt wird, wenn er sich erstmals bei Brand Portal anmeldet. Die Lightbox-Sammlung kann nicht gelöscht werden.
-seo-description: Lightbox ist ein spezieller Sammlungstyp, der den einfachen Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive Lightbox, die automatisch erstellt wird, wenn er sich erstmals bei Brand Portal anmeldet. Die Lightbox-Sammlung kann nicht gelöscht werden.
+seo-title: Manage the lightbox collection
+description: Lightbox ist ein spezieller Sammlungstyp, der den einfachen Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive Lightbox, die automatisch erstellt wird, wenn er sich zum ersten Mal bei Brand Portal anmeldet. Die Lightbox-Sammlung kann nicht gelöscht werden.
+seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
 uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -11,9 +11,9 @@ discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 91%
 
 ---
 

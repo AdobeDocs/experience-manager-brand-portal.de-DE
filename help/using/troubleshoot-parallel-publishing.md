@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 95%
 
 ---
 
@@ -33,21 +33,21 @@ Jedoch kann das Veröffentlichen zwischenzeitlich aufgrund zu großer Sling-Auft
 
 ## Beheben von Problemen bei der ersten Veröffentlichung: Überprüfen der Veröffentlichungskonfiguration {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-So validieren Sie Ihre Veröffentlichungskonfigurationen:
+Überprüfen der Veröffentlichungskonfigurationen:
 
-1. Überprüfen Sie die Fehlerprotokolle.
-1. Überprüfen Sie, ob der Replikationsagent erstellt wurde.
+1. Überprüfen der Fehlerprotokolle
+1. Überprüfen, ob der Replikationsagent erstellt wurde
 1. Testen Sie die Verbindung.
 
 **Prüfen der Protokollfragmente beim Erstellen des Cloud Service**
 
-Prüfen Sie die Protokollfragmente. Überprüfen Sie, ob der Replikationsagent erstellt wurde oder nicht. Wenn die Erstellung des Replikationsagenten scheitert, bearbeiten Sie den Cloud-Service, indem Sie geringfügige Änderungen am Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
+Überprüfen Sie die Tail-Logs. Überprüfen Sie, ob der Replikationsagent erstellt wurde. Wenn die Erstellung des Replikationsagenten scheitert, bearbeiten Sie den Cloud-Service, indem Sie geringfügige Änderungen am Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
 
 Wenn der Cloud-Service selbst nach mehrmaligem Bearbeiten nicht richtig konfiguriert ist, senden Sie ein Daycare-Ticket.
 
-**Testen der Verbindung zu Replikationsagenten**
+**Verbindung mit Replikationsagenten testen**
 
-Sehen Sie sich das Protokoll an. Wenn im Replikationsprotokoll Fehler gemeldet werden:
+Zeigen Sie das Protokoll an, wenn im Replikationsprotokoll Fehler gefunden werden:
 
 1. Wenden Sie sich an den Adobe-Support.
 
@@ -67,8 +67,7 @@ Wenn eine Veröffentlichung nicht funktioniert, liegt das meistens daran, dass d
 
 1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost::4502: ausführen)\
    i. Löschen Sie `/etc/replication/agents.author/mp_replication`
-ii. Löschen Sie 
-`/etc/cloudservices/mediaportal/<config_name>`
+ii. Löschen Sie `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gehen Sie zu localhost:4502/useradmin:\
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`

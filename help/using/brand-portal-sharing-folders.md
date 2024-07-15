@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1104'
+ht-degree: 80%
 
 ---
 
@@ -25,10 +25,10 @@ Assets müssen in Brand Portal aus einer vorkonfigurierten Experience Manager-Au
 Nachfolgend werden der Ordnerfreigabe-Workflow und der Benutzerzugriff beschrieben:
 
 * Standardmäßig werden alle aus Experience Manager Assets in Brand Portal veröffentlichten Ordner nur für den Brand Portal-Administrator angezeigt, wenn sie bei der Konfiguration der Replikation nicht als „Öffentlich“ gekennzeichnet sind.
-* Der Administrator nutzt die Konsole **[!UICONTROL Ordnereigenschaften]**, um einen Ordner für ausgewählte Benutzer oder Gruppen freizugeben. Nur die Benutzer und Gruppen, für die die Ordner freigegeben wurden, können den Ordner nach dem Anmelden bei Brand Portal sehen. Der Ordner ist für andere Benutzer nicht sichtbar.
+* Der Administrator nutzt die Konsole **[!UICONTROL Ordnereigenschaften]**, um einen Ordner für ausgewählte Benutzer oder Gruppen freizugeben. Nur die Benutzer oder Gruppen, für die der Ordner freigegeben ist, können den Ordner nach der Anmeldung bei Brand Portal sehen. Der Ordner ist für andere Benutzer nicht sichtbar.
 * Der Administrator kann auch festlegen, dass ein Ordner öffentlich zugänglich gemacht wird, und zwar durch das Kontrollkästchen **[!UICONTROL Öffentlicher Ordner]** in den **[!UICONTROL Ordnereigenschaften]**. Ein öffentlicher Ordner ist für alle Benutzer sichtbar.
 
-* Wenn sich Benutzer bei Brand Portal anmelden, sehen sie unabhängig von den Benutzerrollen und Berechtigungen alle öffentlichen Ordner sowie die Ordner, die direkt für sie oder ihre Gruppe freigegeben wurden. Private Ordner oder für andere Benutzer freigegebene Ordner sind nicht für alle Benutzer sichtbar.
+* Unabhängig von den Benutzerrollen und Berechtigungen sehen Benutzer bei der Anmeldung bei Brand Portal alle öffentlichen Ordner sowie die Ordner, die direkt für sie oder eine Gruppe freigegeben sind, zu der sie gehören. Private Ordner oder Ordner, die für andere Benutzer freigegeben wurden, sind nicht für alle Benutzer sichtbar.
 
 ### Freigeben von Ordnern für Benutzergruppen in Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
@@ -52,12 +52,12 @@ Wenn die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** deaktivie
 
 In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen für Freigabe/Aufheben der Freigabe für verschiedene Benutzerrollen dargestellt:
 
-|  | Zugriff auf alle Ordner, die aus AEM Assets in Brand Portal veröffentlicht wurden | Zugriff auf freigegebene Ordner | Freigabe/Aufheben der Freigabe von Ordnerrechten |
+|               | Zugriff auf alle Ordner, die aus AEM Assets in Brand Portal veröffentlicht wurden | Zugriff auf freigegebene Ordner | Freigeben/Aufheben der Freigabe von Ordnerberechtigungen |
 |---------------|-----------|-----------|------------|
 | Administrator | Ja | Ja | Ja |
-| Bearbeiter | Nein* | Ja, nur wenn die Ordner für die Benutzer oder deren Gruppe freigegeben wurden | Ja, nur für die Ordner, die für die Benutzer oder deren Gruppe freigegeben wurden |
-| Betrachter | Nein* | Ja, nur wenn die Ordner für die Benutzer oder deren Gruppe freigegeben wurden | Nein |
-| Gastbenutzer | Nein* | Ja, nur wenn die Ordner für die Benutzer oder deren Gruppe freigegeben wurden | Nein |
+| Bearbeiter | Nein* | Ja nur, wenn es für sie oder die Gruppe freigegeben wurde, zu der sie gehören | Ja, nur für die Ordner, die für die Benutzer oder deren Gruppe freigegeben wurden |
+| Betrachter | Nein* | Ja nur, wenn es für sie oder die Gruppe freigegeben wurde, zu der sie gehören | Nein |
+| Gastbenutzer | Nein* | Ja nur, wenn es für sie oder die Gruppe freigegeben wurde, zu der sie gehören | Nein |
 
 >[!NOTE]
 >
@@ -69,15 +69,15 @@ Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in B
 
 **Wenn die Konfiguration deaktiviert ist**
 
-Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der  Zielseite, bei der Anmeldung in Brand Portal.
+Benutzer ohne Administratorrechte sehen bei der Anmeldung bei der Brand Portal alle Ordner, die für sie auf der Landingpage freigegeben wurden.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
 **Wenn die Konfiguration aktiviert ist**
 
-Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen die Ordnerstruktur (angefangen beim Stammordner) und die freigegebenen Ordner in den jeweiligen übergeordneten Ordnern.
+Benutzer ohne Administratorrechte sehen bei der Anmeldung bei Brand Portal die Ordnerstruktur (angefangen beim Stammordner) und die freigegebenen Ordner, die in den jeweiligen übergeordneten Ordnern angeordnet sind.
 
-Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Schlosssymbol erkennen.
+Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
 
 Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird angezeigt, wenn Sie einen virtuellen Ordner in der **[!UICONTROL Spaltenansicht]** und **[!UICONTROL Listenansicht]** auswählen.
 
@@ -111,7 +111,7 @@ Führen Sie folgende Schritte aus, um einen Ordner in Brand Portal für Benutzer
 
    ![](assets/folder_properties.png)
 
-1. Geben Sie in der Konsole **[!UICONTROL Ordnereigenschaften]** im Feld **[!UICONTROL Ordnertitel]** den Titel des Ordners an, wenn die Benutzer den Standardnamen nicht sehen sollen.
+1. Geben Sie in der Konsole **[!UICONTROL Ordnereigenschaften]** den Ordnertitel im Feld **[!UICONTROL Ordnertitel]** an, wenn den Benutzern der Standardname nicht angezeigt werden soll.
 1. Wählen Sie aus der Liste **[!UICONTROL Benutzer hinzufügen]** den Benutzer oder die Gruppe aus, für den/die Sie den Ordner freigeben möchten, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wählen Sie **[!UICONTROL Anonyme Benutzer]** aus dem Dropdown-Menü **[!UICONTROL Mitglieder]**.
 

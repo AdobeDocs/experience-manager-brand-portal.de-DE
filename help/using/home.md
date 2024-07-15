@@ -5,8 +5,8 @@ description: Nutzen Sie Experience Manager Assets Brand Portal, um Marketing-Anf
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
-workflow-type: ht
-source-wordcount: '439'
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---

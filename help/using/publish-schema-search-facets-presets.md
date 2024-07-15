@@ -10,9 +10,9 @@ content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1141'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
