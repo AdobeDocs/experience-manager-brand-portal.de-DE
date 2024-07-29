@@ -1,19 +1,15 @@
 ---
 title: Unterstützung für Dynamic Video in Brand Portal
-seo-title: Dynamic video support on Brand Portal
 description: Unterstützung für Dynamic Video in Brand Portal
-seo-description: Dynamic video support on Brand Portal
-uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
-discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -106,7 +102,7 @@ Stellen Sie sicher, dass die Konfigurationsdetails in Brand Portal und der **[!U
 ### Öffentliche Ausgangs-IPs für den Dynamic Media Scene7-Modus auf die Zulassungsliste setzen
 
 Wenn Dynamic Media **[!UICONTROL Scene7]** mit aktivierter [sicherer Vorschau](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=de) genutzt wird, um Video-Assets für Brand Portal bereitzustellen, richtet **[!UICONTROL Scene7]** einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit einer beliebigen Anforderung an diesen Server wird die IP-Ursprungsadresse geprüft. Wenn die eingehende Anforderung nicht in der Liste genehmigter IP-Adressen enthalten ist, wird eine Fehlerantwort zurückgegeben.
-Der **[!UICONTROL Scene7]**-Unternehmensadministrator konfiguriert daher eine Liste genehmigter IP-Adressen für die **[!UICONTROL sichere Testumgebung]** seines Unternehmens. Dies erfolgt über die Flash-Benutzeroberfläche von **[!UICONTROL SPS]** (Scene7 Publishing System). Stellen Sie sicher, dass die Egress-IP für Ihre jeweilige Region (siehe unten) in diese genehmigte Liste aufgenommen wird.
+Der Unternehmensadministrator **[!UICONTROL Scene7]** konfiguriert daher eine Liste genehmigter IP-Adressen für die **[!UICONTROL sichere Testumgebung]** seines Unternehmens über die Flash-Benutzeroberfläche von **[!UICONTROL SPS]** (Scene7 Publishing System). Stellen Sie sicher, dass die Egress-IP für Ihre jeweilige Region (siehe unten) in diese genehmigte Liste aufgenommen wird.
 Informationen zum Hinzufügen einer dieser Egress-IPs zur Zulassungsliste finden Sie unter [Vorbereiten Ihres Kontos für sicheres Testen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=de#testing-the-secure-testing-service).
 Die Egress-IPs lauten wie folgt:
 

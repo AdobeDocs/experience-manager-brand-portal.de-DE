@@ -1,26 +1,22 @@
 ---
 title: Durchsuchen von Assets in Brand Portal
-seo-title: Browse assets on Brand Portal
 description: Durchsuchen Sie Assets, navigieren Sie in Asset-Hierarchien und suchen Sie nach Assets – mithilfe verschiedener Anzeigeoptionen und Benutzeroberflächen-Elemente in Brand Portal.
-seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
-uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 72%
+source-wordcount: '1015'
+ht-degree: 31%
 
 ---
 
 # Durchsuchen von Assets in Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal bietet zahlreiche Funktionen und Benutzeroberflächen-Elemente, die das Durchsuchen von Ressourcen, Navigieren in Asset-Hierarchien und Suchen nach Assets unter Verwendung verschiedener Anzeigeoptionen erleichtern.
+Experience Manager Assets Brand Portal bietet verschiedene Funktionen und Elemente der Benutzeroberfläche, die das Durchsuchen von Ressourcen, Navigieren in Asset-Hierarchien und Suchen nach Assets mithilfe verschiedener Anzeigeoptionen erleichtern.
 
-Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin-Benutzern den Zugriff auf den Admin-Tool-Bereich.
+Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin-Benutzern den Zugriff auf den Admin Tools-Bereich.
 
 ![](assets/aemlogo.png)
 
@@ -28,11 +24,11 @@ Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin
 
 ![](assets/bp_subheader.png)
 
-Die Schienenauswahl oben links in der Brand Portal-Dropdown-Liste bietet Optionen zum Navigieren in Asset-Hierarchien, Optimieren der Suche und Anzeigen von Ressourcen.
+Die Schienenauswahl oben links in Brand Portal zeigt Optionen zum Navigieren in Asset-Hierarchien, Optimieren der Suche und Anzeigen von Ressourcen an.
 
 ![](assets/siderail-1.png)
 
-Sie können Assets in einer der verfügbaren Ansichten (Karte, Spalte und Liste) in der Ansichtsauswahl oben rechts in Brand Portal anzeigen, durch sie navigieren und sie auswählen.
+Sie können Assets in einer der verfügbaren Ansichten (Karte, Spalte und Liste) in der Ansichtsauswahl von Brand Portal anzeigen, navigieren und auswählen.
 
 ![](assets/viewselector.png)
 
@@ -56,31 +52,32 @@ In der Kartenansicht werden Informationskarten für jedes Element auf der aktuel
 * Typ
 * Titel
 * Name
-* Datum und Uhrzeit, zu dem bzw. zu der das Asset aus AEM in Brand Portal veröffentlicht wurde
+* Datum und Uhrzeit der Veröffentlichung des Assets in Brand Portal von AEM
 * Größe
 * Dimensionen
 
-Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten tippen/klicken (vermeiden Sie dabei die Schnellzugriffe) und über die [Breadcrumb-Navigation in der Kopfzeile](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html?lang=de) wieder nach oben navigieren.
+Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten klicken (vermeiden Sie dabei die Schnellaktionen), oder über die [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) wieder nach oben navigieren.
 
 ![](assets/cardquickactions.png)
 
 #### Kartenansicht für Benutzer ohne Administratorrechte
 
 Karten von Ordnern in der Kartenansicht zeigen Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern und Gastbenutzern) Informationen zur Ordnerhierarchie an. Diese Funktion informiert die Benutzer über den Speicherort der Ordner, auf die sie zugreifen, in Bezug auf die übergeordnete Hierarchie.
-Informationen zur Ordnerhierarchie sind besonders hilfreich, um die Ordner zu unterscheiden, deren Namen anderen Ordnern ähneln, die in einer anderen Ordnerhierarchie freigegeben sind. Wenn Benutzer ohne Administratorrechte nicht die Ordnerstruktur der für sie freigegebenen Assets berücksichtigen, können Assets bzw. Ordner mit denselben Namen für Verwirrung sorgen.
 
-* Die auf den entsprechenden Karten angezeigten Pfade werden so gekürzt, dass sie zu den Kartengrößen passen. Die Benutzer können den vollständigen Pfad jedoch in einer QuickInfo sehen, wenn sie den Mauszeiger über den verkürzten Pfad bewegen.
+Informationen zur Ordnerhierarchie sind besonders hilfreich, um die Ordner zu unterscheiden, deren Namen anderen Ordnern ähneln, die über eine andere Ordnerhierarchie freigegeben wurden. Wenn die Benutzer ohne Administratorrechte die Ordnerstruktur der für sie freigegebenen Assets nicht kennen, scheinen Assets/Ordner mit ähnlichen Namen verwirrend.
+
+* Die auf den entsprechenden Karten angezeigten Pfade werden so gekürzt, dass sie zu den Kartengrößen passen. Benutzer können den vollständigen Pfad jedoch als QuickInfo anzeigen, indem sie den Mauszeiger über den verkürzten Pfad bewegen.
 
 ![](assets/folder-hierarchy1.png)
 
 **Option „Überblick“ zur Anzeige der Asset-Eigenschaften**
 
-Die Option „Überblick“ steht Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern, Gastbenutzern) zum Anzeigen von Asset-Eigenschaften von ausgewählten Assets/Ordnern zur Verfügung. Die Option „Überblick“ finden Sie an folgenden Stellen:
+Die Option &quot;Überblick&quot;steht Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern, Gastbenutzern) zum Anzeigen von Asset-Eigenschaften ausgewählter Assets/Ordner zur Verfügung. Die Option „Überblick“ finden Sie an folgenden Stellen:
 
-* In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
-* In der Dropdown-Liste des ausgewählten Leistenselektors
+* In der Symbolleiste oben bei Auswahl eines Assets/Ordners.
+* Wählen Sie in der Dropdown-Liste die Schienenauswahl aus.
 
-Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
+Wenn Sie die Option **[!UICONTROL Überblick]** auswählen, während ein Asset/Ordner ausgewählt ist, können Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Auf der Asset-Detailseite können Benutzer durch Auswahl der Option Übersicht die Metadaten des Assets sehen.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +85,7 @@ Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordne
 
 #### Anzeigeeinstellungen in der Kartenansicht
 
-Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]** wird bei Auswahl der Option **[!UICONTROL Anzeigeeinstellungen]** im Ansichtselektor geöffnet. Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und die Anzahl der angezeigten Miniaturansichten steuern.
+Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]** wird durch Auswahl von **[!UICONTROL Anzeigeeinstellungen]** in der Ansichtsauswahl geöffnet. Damit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und die Anzahl der angezeigten Miniaturansichten steuern.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +106,7 @@ In der Listenansicht werden Informationen für jede Ressource auf der aktuellen 
 * Ordnerpfad, der die Asset-Hierarchie anzeigt
 * Datum der Veröffentlichung des Assets in Brand Portal
 
-Über die Spalte „Pfad“ können Sie die Position des Assets in der Ordnerhierarchie identifizieren. Sie können die Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen tippen/klicken und mithilfe der [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html?lang=de) wieder nach oben navigieren.
+Mit der Spalte &quot;Pfad&quot;können Sie den Asset-Speicherort in der Ordnerhierarchie leicht identifizieren. Sie können in der Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen klicken, und mithilfe der [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) wieder nach oben navigieren.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Anzeigeeinstellungen in der Listenansicht
 
-Die Listenansicht zeigt das Asset **[!UICONTROL Name]** standardmäßig in der ersten Spalte an. Darüber hinaus werden weitere Informationen wie der **[!UICONTROL Titel]**, das **[!UICONTROL Gebietsschema]**, der **[!UICONTROL Typ]**, die **[!UICONTROL Dimensionen]**, die **[!UICONTROL Größe]**, die **[!UICONTROL Bewertung]** und der Veröffentlichungsstatus des Assets angezeigt. Sie können jedoch die anzuzeigenden Spalten über die **[!UICONTROL Anzeigeeinstellungen]** auswählen.
+In der Listenansicht wird standardmäßig das Asset **[!UICONTROL Name]** als erste Spalte angezeigt. Darüber hinaus werden weitere Informationen wie der **[!UICONTROL Titel]**, das **[!UICONTROL Gebietsschema]**, der **[!UICONTROL Typ]**, die **[!UICONTROL Dimensionen]**, die **[!UICONTROL Größe]**, die **[!UICONTROL Bewertung]** und der Veröffentlichungsstatus des Assets angezeigt. Sie können jedoch die anzuzeigenden Spalten über die **[!UICONTROL Anzeigeeinstellungen]** auswählen.
 
 ![](assets/list-view-setting.png)
 
@@ -129,22 +126,22 @@ Verwenden Sie die Spaltenansicht, um in einer Inhaltsstruktur durch eine Reihe k
 
 Bei Auswahl einer Ressource in der ersten (ganz links) Spalte werden untergeordnete Ressourcen in der zweiten Spalte rechts angezeigt. Wenn Sie eine Ressource in der zweiten Spalte auswählen, werden untergeordnete Ressourcen in der dritten Spalte rechts angezeigt usw.
 
-Sie können in der Struktur nach oben und unten navigieren, indem Sie auf den Ressourcennamen oder den Pfeil rechts vom Ressourcennamen tippen oder klicken.
+Sie können im Baum nach oben und unten navigieren. Klicken Sie auf den Ressourcennamen oder den Pfeil rechts neben dem Ressourcennamen.
 
 * Beim Tippen bzw. Klicken werden der Ressourcenname und der Pfeil hervorgehoben.
 * Durch Tippen oder Klicken auf die Miniaturansicht wird die Ressource ausgewählt.
 * Wenn diese Option aktiviert ist, wird ein Häkchen auf der Miniaturansicht angezeigt und der Ressourcenname wird hervorgehoben.
 * Die Details der ausgewählten Ressource werden in der letzten Spalte angezeigt.
 
-Wenn ein Asset in der Spaltenansicht ausgewählt ist, wird in der letzten Spalte eine visuelle Darstellung des Assets zusammen mit den folgenden Details angezeigt:
+Wenn ein Asset in der Spaltenansicht ausgewählt ist, wird in der letzten Spalte eine visuelle Darstellung des Assets mit den folgenden Details angezeigt:
 
 * Titel
 * Name
 * Dimensionen
-* Datum und Uhrzeit, zu dem bzw. zu der das Asset aus AEM in Brand Portal veröffentlicht wurde
+* Datum und Uhrzeit der Veröffentlichung des Assets in Brand Portal von AEM
 * Größe
 * Typ
-* Option &quot;Weitere Details&quot;, um zur Detailseite des Assets zu gelangen
+* Option &quot;Weitere Details&quot;auf der Detailseite des Assets
 
 <!--
 Comment Type: draft
@@ -244,15 +241,15 @@ Navigieren Sie in der Inhaltshierarchie zum gewünschten Asset.
 
 ## Asset-Details {#asset-details}
 
-Auf der Asset-Detailseite können Sie ein Asset anzeigen, herunterladen, den Link eines Assets freigeben, es in eine Sammlung verschieben oder die zugehörige Eigenschaftsseite anzeigen. Sie können auch nacheinander durch die Detailseite anderer Assets desselben Ordners navigieren.
+Auf der Asset-Detailseite können Sie ein Asset anzeigen, herunterladen, den Link des Assets freigeben, es in eine Sammlung verschieben oder die Eigenschaftenseite anzeigen. Außerdem können Sie auf der Detailseite anderer Assets desselben Ordners nacheinander navigieren.
 
 ![](assets/asset-detail.png)
 
-Zeigen Sie mithilfe des Leistenselektors auf der Seite „Details“ des Assets die Metadaten des Assets oder dessen zahlreiche Ausgabedarstellungen an.
+Um die Metadaten des Assets anzuzeigen oder die verschiedenen Ausgabeformate anzuzeigen, verwenden Sie die Schienenauswahl auf der Asset-Detailseite.
 
 ![](assets/asset-overview.png)
 
-Sie können alle verfügbaren Ausgabedarstellungen des Assets auf der Seite „Details“ des Assets anzeigen und im Bedienfeld **[!UICONTROL Ausgabedarstellungen]** eine Ausgabedarstellung zur Anzeige in der Vorschau auswählen.
+Sie können alle verfügbaren Ausgabeformate des Assets auf der Asset-Detailseite anzeigen und eine Ausgabedarstellung aus dem Bedienfeld **[!UICONTROL Ausgabeformate]** auswählen, um eine Vorschau anzuzeigen.
 
 ![](assets/renditions.png)
 
@@ -266,7 +263,7 @@ Sie können alle verfügbaren Ausgabedarstellungen des Assets auf der Seite „D
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-Öffnen Sie die Seite „Asset-Eigenschaften“ mit der Option **[!UICONTROL Eigenschaften (p)]** in der oberen Symbolleiste.
+Öffnen Sie die Seite mit den Asset-Eigenschaften mit der Option **[!UICONTROL Eigenschaften (p)]** in der oberen Leiste.
 
 ![](assets/asset-properties.png)
 
