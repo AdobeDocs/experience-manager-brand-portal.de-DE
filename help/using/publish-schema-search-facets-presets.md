@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1133'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um Bildvorgaben in Brand Portal zu veröffentlichen:
 
 Gehen Sie wie folgt vor, um die Veröffentlichung von Bildvorgaben in Brand Portal rückgängig zu machen:
 
-1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken oder tippen Sie dann auf das **[!UICONTROL Werkzeugsymbol]** und navigieren Sie zu **[!UICONTROL Assets > Bildvorgaben]**.
+1. Tippen oder klicken Sie in AEM Autoreninstanz auf das AEM Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken Sie dann auf das Symbol **[!UICONTROL Tools]** und navigieren Sie zu **[!UICONTROL Assets > Bildvorgaben]**.
 1. Wählen Sie eine Bildvorgabe aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 ## Veröffentlichen des Metadatenschemas in Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ Wenn Benutzer ein benutzerdefiniertes Schema in der AEM-Autoreninstanz erstellt 
 
 Gehen Sie wie folgt vor, um ein Metadatenschema aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
-1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Metadatenschemata]**.
+1. Tippen oder klicken Sie in AEM -Autoreninstanz auf das AEM -Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Metadatenschemata]**.
 1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL In Brand Portal veröffentlichen]** aus.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema aus der AEM-Autoreninstanz in Br
 
 So machen Sie die Veröffentlichung eines Metadatenschemas in Brand Portal rückgängig:
 
-1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Metadatenschemata]**.
+1. Tippen oder klicken Sie in AEM -Autoreninstanz auf das AEM -Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Metadatenschemata]**.
 1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 ## Veröffentlichen von Suchfacetten in Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Wenn Sie das benutzerdefinierte Suchformular **[!UICONTROL Asset-Admin-Suchschie
 
 Gehen Sie wie folgt vor, um die bearbeitete Suchfacette aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
-1. Tippen/klicken Sie auf das AEM-Logo und navigieren Sie zu **[!UICONTROL Tools > Allgemein > Suchformulare]**.
+1. Klicken Sie auf das AEM-Logo und navigieren Sie zu **[!UICONTROL Tools > Allgemein > Forms durchsuchen]**.
 1. Wählen Sie das bearbeitete Suchformular und **[!UICONTROL In Brand Portal veröffentlichen]** aus.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um die bearbeitete Suchfacette aus der AEM-Autoreninsta
 
 So machen Sie die Veröffentlichung von Suchformularen in Brand Portal rückgängig:
 
-1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Allgemein > Suchformulare]**.
+1. Tippen oder klicken Sie in AEM -Autoreninstanz auf das AEM -Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Allgemein > Forms durchsuchen]**.
 1. Wählen Sie das Suchformular und oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 >[!NOTE]
