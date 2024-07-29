@@ -6,9 +6,9 @@ feature-set: Experience Manager Assets
 type: Documentation
 index: y
 recommendations: noDisplay
-source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '112'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 |--- |--- |
 | solution-title | Wird in der Artikelkopfzeile als Link verwendet |
 | solution-hub-url | Öffnet die helpx-Hub-Seite |
-| solution-icon | Zeigt das Lösungssymbol neben Lösungstitel an. Noch nicht implementiert |
+| solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
 | getting-started-url | Link zur helpx-Seite „Erste Schritte“ |
 | tutorials-url | Link zu Video-Tutorials – entweder helpx-Tutorials oder KT-Tutorials |
 | mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standard ist 2 |
