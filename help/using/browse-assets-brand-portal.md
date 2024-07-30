@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 31%
+source-wordcount: '1013'
+ht-degree: 30%
 
 ---
 
@@ -109,7 +109,7 @@ In der Listenansicht werden Informationen für jede Ressource auf der aktuellen 
 Mit der Spalte &quot;Pfad&quot;können Sie den Asset-Speicherort in der Ordnerhierarchie leicht identifizieren. Sie können in der Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen klicken, und mithilfe der [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) wieder nach oben navigieren.
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### Anzeigeeinstellungen in der Listenansicht
@@ -128,7 +128,7 @@ Bei Auswahl einer Ressource in der ersten (ganz links) Spalte werden untergeordn
 
 Sie können im Baum nach oben und unten navigieren. Klicken Sie auf den Ressourcennamen oder den Pfeil rechts neben dem Ressourcennamen.
 
-* Beim Tippen bzw. Klicken werden der Ressourcenname und der Pfeil hervorgehoben.
+* Der Ressourcenname und der Chevron werden beim Klicken hervorgehoben.
 * Durch Tippen oder Klicken auf die Miniaturansicht wird die Ressource ausgewählt.
 * Wenn diese Option aktiviert ist, wird ein Häkchen auf der Miniaturansicht angezeigt und der Ressourcenname wird hervorgehoben.
 * Die Details der ausgewählten Ressource werden in der letzten Spalte angezeigt.
@@ -218,13 +218,13 @@ Deselecting All
 Comment Type: draft
 
 <p>In all cases, as you select items the count of the items selected is displayed at the upper right of the toolbar.</p>
-<p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p>
+<p>You can deselect all items and exit selection mode by clicking the X next to the count.</p>
 -->
 
 <!--
 Comment Type: draft
 
-<p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
+<p>In all views, all items can be deselected by clicking escape on the keyboard if you are using a desktop device.</p>
 -->
 
 ## Inhaltsstruktur {#content-tree}
