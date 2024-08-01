@@ -1,19 +1,15 @@
 ---
 title: Beschleunigen von Downloads in Brand Portal
-seo-title: Speed up the Brand Portal downloads
 description: Verkürzen Sie die Download-Zeiten von Brand Portal und freigegebenen Links.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 99%
+source-wordcount: '1009'
+ht-degree: 70%
 
 ---
 
@@ -21,11 +17,11 @@ ht-degree: 99%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal ermöglicht das Verkürzen der Download-Zeiten großer Asset-Dateien durch die Integration mit IBM® Aspera Connect, einer Install-on-Demand-Anwendung. Das Programm nutzt proprietäre Technologie, um TCP-Overheads zu verhindern und Übertragungsgeschwindigkeiten für Asset-Dateien zu verbessern. Diese Integration sorgt für eine Verkürzung der Download-Zeiten.
+Adobe Experience Manager Assets Brand Portal ermöglicht das Verkürzen der Download-Zeiten großer Asset-Dateien durch die Integration mit IBM® Aspera Connect, einer Install-on-Demand-Anwendung. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern und die Übertragungsgeschwindigkeit der Asset-Dateien zu verbessern. Durch diese Integration wird ein verbessertes Download-Erlebnis gewährleistet.
 
 >[!NOTE]
 >
->Die jeweilige Download-Geschwindigkeit variiert jedoch abhängig von Faktoren wie der Netzwerkbandbreite, der Serverlatenz und dem geografischen Standort der Clients.
+>Die Downloadgeschwindigkeit variiert für Benutzer, da sie von Faktoren wie Netzwerkbandbreite, Serverlatenz und dem geografischen Standort von Clients abhängt.
 
 Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktiviert, wodurch die Zeit zum Herunterladen der gewünschten Asset-Dateien von Brand Portal erheblich verringert wird.
 
@@ -56,7 +52,7 @@ Nachfolgend sind die Download-Domains für verschiedene geografische Standorte a
 
 ## Beispiele für Download-Zeiten mit dem Dateibeschleuniger {#expected-download-performance-using-file-accelerator}
 
-Die folgende Tabelle zeigt die Download-Leistung für eine 2 GB große Datei unter Verwendung des Aspera Connect Datei-Download-Beschleunigers:
+Die folgende Tabelle zeigt die Download-Zeiten für eine Datei, die mit dem Aspera Connect-Datei-Downloadbeschleuniger 2 GB beträgt:
 
 *Die tatsächlichen Ergebnisse variieren aufgrund von Faktoren wie Netzwerkbandbreite, Server-Latenz und Client-Standort. Dabei ist zu berücksichtigen, dass sich der Brand Portal-Server in Oregon (USA) befindet.*
 
@@ -87,23 +83,23 @@ So laden Sie Assets schneller von Brand Portal herunter:
 
      ![select-asset](assets/select-asset.png)
 
-1. Das Dialogfeld **[!UICONTROL Herunterladen]** mit allen ausgewählten Assets wird geöffnet.
+1. Das Dialogfeld **[!UICONTROL Download]** wird geöffnet, in dem alle ausgewählten Assets aufgelistet sind.
 
-   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen]**.
+   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL `Create separate folder for each asset`]** .
 
-   Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden von Regeln finden Sie unter [Herunterladen von Assets](../using/brand-portal-download-assets.md#download-assets).
+   Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden der Regeln finden Sie unter [Herunterladen von Assets](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialogfeld](assets/download-dialog-box-new.png)
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsdialog für den Download von Assets mit IBM® Aspera Connect angezeigt.
 
-   Wenn Sie die Assets zum ersten Mal herunterladen und IBM® Aspera Connect nicht in Ihrem Browser installiert haben oder die vorhandene Version veraltet ist, werden Sie aufgefordert, den Aspera Download-Beschleuniger (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) zu installieren.
+   Wenn Sie Assets zum ersten Mal heruntergeladen haben und IBM® Aspera Connect nicht in Ihrem Browser installiert ist, werden Sie aufgefordert, es zu installieren. Wenn die vorhandene Version veraltet ist, werden Sie auch aufgefordert, den [Aspera Download Accelerator](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) zu installieren.
 
    ![](assets/aspera-not-launched.png)
 
 1. **Installation des Aspera Connect-Clients**
 
-   Um den IBM® Aspera Connect-Client zu installieren, führen Sie das Setup über die .msi-Datei der IBM® Aspera Connect Client-Anwendung aus und folgen dem Installationsassistenten.
+   Um das Client-Setup für IBM® Aspera Connect zu installieren, führen Sie das Setup über die MSI-Datei der IBM® Aspera Connect-Clientanwendung aus und folgen Sie dem Installationsassistenten.
 
    ![](assets/aspera-download-1.png)
 
@@ -180,20 +176,20 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Verwendung des Dateibeschleunigers im Microsoft® Edge-Browser {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge wird im erweiterten geschützten Modus (Enhanced Protected Mode, EPM) ausgeführt, der die Kommunikation mit dem Aspera Connect-Server verhindert, während er sich im selben privaten Netzwerk oder auf einer vertrauenswürdigen Website befindet. Daher wird jedes Mal, wenn eine Verbindung mit dem Server hergestellt wird, ein Popup-Fenster angezeigt.
+Microsoft® Edge wird im erweiterten geschützten Modus (Enhanced Protected Mode, APM) ausgeführt, der die Kommunikation mit dem Aspera Connect-Server im selben privaten Netzwerk oder mit einer vertrauenswürdigen Site verhindert. Daher wird jedes Mal, wenn eine Verbindung mit dem Server hergestellt wird, ein Popup-Fenster angezeigt.
 
 ![](assets/switchapps-msedge.png)
 
-Um die Funktion für beschleunigte Downloads in Microsoft® Edge zu verwenden, müssen Sie die Brand Portal-Website aus der Liste der vertrauenswürdigen Websites entfernen.
+Um die Funktion für beschleunigte Downloads in Microsoft® Edge zu verwenden, entfernen Sie die Brand Portal-Website aus der Liste der vertrauenswürdigen Websites.
 
 1. Öffnen Sie die Systemsteuerung (drücken Sie dazu die Tastenkombination **[!UICONTROL Windows-Taste+X]** und wählen Sie dann **[!UICONTROL Systemsteuerung]** aus).
 1. Navigieren Sie zu **[!UICONTROL Netzwerk und Internet]** > **[!UICONTROL Internetoptionen]**. Klicken Sie auf die Registerkarte **[!UICONTROL Sicherheit]**.
 1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
-1. Entfernen Sie die Brand Portal-Website aus der Liste.
+1. Entfernen Sie die Brand Portal-Site aus der Liste.
 
 ## Voreinstellungen für den Aspera Connect-Client {#aspera-connect-client-preferences}
 
-Im IBM® Aspera Connect-Client können Sie einige nützliche Einstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Einstellungen]** auswählen.
+Es gibt einige nützliche Voreinstellungen, die in den Voreinstellungen des IBM® Aspera Connect-Clients festgelegt werden können, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]** auswählen.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ Sie können den Standardspeicherort für Downloads festlegen.
 
 ![](assets/aspera-preferences.png)
 
-Außerdem kann der Aspera Connect-Client so markiert werden, dass er beim Systemstart automatisch gestartet wird, sodass der Verbindungs-Client ausgeführt wird und so für einen schnelleren Download-Start verfügbar ist.
+Außerdem kann der Aspera Connect-Client so markiert werden, dass er beim Systemstart automatisch gestartet wird. Außerdem wird der Connect-Client ausgeführt und steht für einen schnelleren Download zur Verfügung.
 
 ![](assets/aspera-automaticallylaunch.png)
 
@@ -213,7 +209,7 @@ Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, versuchen Sie die
 
    Wenn die Ports nicht in Ordnung sind, kontaktieren Sie Ihr Netzwerk-Team, um sicherzustellen, dass die Ports 33001 (TCP und UDP) nicht in der Firewall blockiert werden.
 
-1. Wenn die Ports einwandfrei funktionieren, vergewissern Sie sich anschließend, dass Ihr Netzwerk nicht langsam ist. Messen Sie dazu die verfügbare Bandbreite über [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Wenn die Ports in Ordnung sind, überprüfen Sie, ob Ihr Netzwerk nicht langsam ist, indem Sie die verfügbare Bandbreite mit [https://www.speedtest.net/](https://www.speedtest.net/) messen.
 
    Ist die Bandbreite gering (1–10 MBit/s oder nur KBit/s), rufen Sie die Aspera-Voreinstellungen auf und versuchen Sie, die Bandbreite auf die verfügbare Bandbreite zu beschränken.
 
