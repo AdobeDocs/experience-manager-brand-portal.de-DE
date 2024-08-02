@@ -5,10 +5,10 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 44%
+source-wordcount: '603'
+ht-degree: 40%
 
 ---
 
@@ -69,7 +69,7 @@ Melden Sie sich bei einer AEM-Autoreninstanz mit Administratorrechten an und gre
 
 ## Priorisieren der Suche {#search-promote}
 
-In AEM Assets Brand Portal können Sie bestimmte Assets priorisieren, damit sie in den Suchanfragen, die auf einem Suchbegriff-Tag basieren, ganz oben in den Suchergebnissen erscheinen.
+Mit AEM Assets Brand Portal können Sie bestimmte Assets zu den Top-Ergebnissen für Suchvorgänge machen, die auf einem Keyword-Tag basieren.
 
 Gehen Sie wie folgt vor, um ein Asset für einen Suchbegriff zu priorisieren:
 

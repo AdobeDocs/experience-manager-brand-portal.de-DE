@@ -1,19 +1,15 @@
 ---
 title: Verwenden von Metadatenschema-Formularen
-seo-title: Use the metadata schema form
 description: Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Das Schema, das Sie auf ein Asset anwenden, bestimmt die Metadatenfelder, die auf der Eigenschaftsseite angezeigt werden.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 80%
+source-wordcount: '1622'
+ht-degree: 68%
 
 ---
 
@@ -45,7 +41,7 @@ Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
 ## Bearbeiten von Metadatenschema-Formularen {#edit-a-metadata-schema-form}
 
-Sie können ein neu hinzugefügtes oder vorhandenes Metadatenschema-Formular bearbeiten. Das Metadatenschema-Formular enthält aus dem übergeordneten Formular abgeleitete Inhalte, einschließlich Registerkarten und Formularelementen in Registerkarten. Sie können diese Formularelemente einem Feld in einem Metadatenknoten zuordnen oder konfigurieren.
+Alle hinzugefügten oder vorhandenen Metadatenschema-Formulare können bearbeitet werden. Das Metadatenschema-Formular enthält aus dem übergeordneten Formular abgeleitete Inhalte, einschließlich Registerkarten und Formularelementen in Registerkarten. Sie können diese Formularelemente einem Feld in einem Metadatenknoten zuordnen oder konfigurieren.
 
 Sie können dem Metadatenschema-Formular neue Registerkarten oder Formularelemente hinzufügen. Die abgeleiteten Registerkarten und Formularelemente (aus dem übergeordneten Element) sind gesperrt. Sie können auf untergeordneter Ebene nicht geändert werden.
 
@@ -66,9 +62,9 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Bearbeiten]**.
 
-   Die Seite **[!UICONTROL Metadatenschema-Editor]** wird mit der Registerkarte **[!UICONTROL Allgemein]** auf der linken Seite und der Registerkarte **[!UICONTROL Formular erstellen]** auf der rechten Seite geöffnet.
+   Die Seite **[!UICONTROL Metadatenschema-Editor]** wird mit der Registerkarte **[!UICONTROL Einfach]** auf der linken Seite geöffnet. Auf der rechten Seite wird die Registerkarte **[!UICONTROL Formular erstellen]** geöffnet.
 
-1. Passen Sie auf der Seite **[!UICONTROL Metadatenschema-Editor]** die Seite **[!UICONTROL Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **[!UICONTROL Formular erstellen]** auf die Registerkarte **[!UICONTROL Allgemein]** ziehen.
+1. Passen Sie auf der Seite **[!UICONTROL Metadatenschema-Editor]** die Seite **[!UICONTROL Eigenschaften]** des Assets an. Ziehen Sie einfach eine oder mehrere Komponenten aus einer Liste von Komponententypen auf der Registerkarte **[!UICONTROL Formular erstellen]**. Ziehen Sie sie auf die Registerkarte **[!UICONTROL Einfach]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,10 +82,10 @@ Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente,
 | **[!UICONTROL Zahl]** | Fügen Sie eine Zahlenkomponente hinzu. |
 | **[!UICONTROL Datum]** | Fügen Sie eine Datumskomponente hinzu. |
 | **[!UICONTROL Dropdown]** | Fügen Sie eine Dropdown-Liste hinzu. |
-| **[!UICONTROL Standard-Tags]** | Fügen Sie ein Tag hinzu. **Hinweis:** Administratoren müssen ggf. den Pfadwert ändern, z. B. `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, wenn sie das Metadatenschemaformular aus Experience Manager Assets veröffentlichen, wobei der Pfad keine Mandanten-Informationen enthält, z. B. `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Standard-Tags]** | Fügen Sie ein Tag hinzu. Administratoren müssen möglicherweise den Pfadwert ändern. Beispiel: `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, wenn sie das Metadatenschema-Formular aus Experience Manager Assets veröffentlichen, wobei der Pfad keine Mandanteninformationen enthält, z. B. `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Smart-Tags]** | Automatisch erkannte Tags, wenn Sie das Smart-Tags-Add-on für Experience Manager Assets erworben und konfiguriert haben. |
 | **[!UICONTROL Ausgeblendetes Feld]** | Fügen Sie ein ausgeblendetes Feld hinzu. Dieses wird beim Speichern des Assets als POST-Parameter gesendet. |
-| **[!UICONTROL Asset referenziert von]** | Fügen Sie diese Komponente hinzu, um eine Liste der vom Asset referenzierten Assets anzuzeigen. |
+| **[!UICONTROL Asset referenziert von]** | Fügen Sie diese Komponente hinzu, um eine Liste der Assets anzuzeigen, auf die vom Asset verwiesen wird. |
 | **[!UICONTROL Asset-Verweise]** | Fügen Sie dies hinzu, um eine Liste der Assets anzuzeigen, die das Asset referenzieren. |
 | **[!UICONTROL Asset-Bewertung]** | Die durchschnittliche Bewertung eines Assets, die vor der Veröffentlichung in Brand Portal in Experience Manager Assets hinzugefügt wird. |
 | **[!UICONTROL Kontextuelle Metadaten]** | Zur Steuerung der Anzeige anderer Metadaten auf der Eigenschaftenseite von Assets. |
@@ -108,9 +104,9 @@ Um die Eigenschaften einer Metadatenkomponente im Formular zu bearbeiten, klicke
 
 Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
--- `./jcr:content/metadata/dc:title`: Speichert den Wert im Metadatenknoten des Assets als die Eigenschaft [!UICONTROL `dc:title`].
+-- `./jcr:content/metadata/dc:title`: Speichert den Wert im Metadatenknoten des Assets als die Eigenschaft `dc:title`.
 
--- `./jcr:created`: Zeigt die Eigenschaft „jcr“ im Knoten des Assets an. Wenn Sie diese Eigenschaften für Ansichtseigenschaften konfigurieren, wird empfohlen, dass Sie sie mit „Bearbeitung deaktivieren“ markieren, da sie geschützt sind. Andernfalls tritt der Fehler „Assets konnten nicht geändert werden“ auf, wenn Sie die Eigenschaften des Assets speichern.
+-- `./jcr:created`: Zeigt die Eigenschaft „jcr“ im Knoten des Assets an. Wenn Sie diese Eigenschaften in den Ansichtseigenschaften konfiguriert haben, empfiehlt Adobe, dass Sie sie als Bearbeitung deaktivieren markiert haben, da sie geschützt sind. Andernfalls tritt der Fehler &quot;Assets konnte nicht geändert werden&quot;auf, wenn Sie die Eigenschaften des Assets speichern.
 
 * **[!UICONTROL Platzhalter]**: Mit dieser Eigenschaft können Sie Benutzern relevante Informationen zur Metadateneigenschaft angeben.
 * **[!UICONTROL Erforderlich]**: Mit dieser Eigenschaft können Sie eine Metadateneigenschaft auf der Eigenschaftsseite als obligatorisch markieren.
@@ -131,7 +127,7 @@ Das Standardschemaformular enthält die Registerkarten **[!UICONTROL Allgemein]*
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Um einem Schemaformular eine neue Registerkarte hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Standardmäßig hat die neue Registerkarte den Namen „Unbenannt-1“. Sie können den Namen auf der Registerkarte **[!UICONTROL Einstellungen]** ändern.
+* Um einem Schemaformular eine neue Registerkarte hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Standardmäßig hat die neue Registerkarte den Namen &quot;Unbenannt-1&quot;. Sie können den Namen auf der Registerkarte **[!UICONTROL Einstellungen]** ändern.
 
 ![](assets/add-tab-metadata-form.png)
 
@@ -139,7 +135,7 @@ Das Standardschemaformular enthält die Registerkarten **[!UICONTROL Allgemein]*
 
 ## Anwenden eines Metadatenschemas auf Ordner {#apply-a-metadata-schema-to-a-folder}
 
-Mit Brand Portal können Sie das Metadatenschema so anpassen und steuern, dass die Seite **[!UICONTROL Eigenschaften]** eines Assets nur die gewünschten Informationen anzeigt. Um die auf der Seite **[!UICONTROL Eigenschaften]** angezeigten Metadaten zu steuern, entfernen Sie die erforderlichen Metadaten aus dem Metadatenschema-Formular und wenden Sie sie auf den spezifischen Ordner an.
+Mit Brand Portal können Sie das Metadatenschema so anpassen und steuern, dass auf der Seite **[!UICONTROL Eigenschaften]** eines Assets nur die gewünschten Informationen angezeigt werden. Um die auf der Seite **[!UICONTROL Eigenschaften]** angezeigten Metadaten zu steuern, entfernen Sie die erforderlichen Metadaten aus dem Metadatenschema-Formular und wenden Sie sie auf den spezifischen Ordner an.
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwenden:
 
@@ -155,13 +151,13 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwe
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Auf Ordner anwenden]**.
 
-1. Wählen Sie auf der Seite **[!UICONTROL Ordner auswählen]** den Ordner aus, auf den das Metadatenschema **[!UICONTROL Kleidung]** angewendet werden soll, z. B. **[!UICONTROL Handschuhe]**.
+1. Navigieren Sie auf der Seite **[!UICONTROL Ordner auswählen]** zu dem Ordner, auf den Sie das Metadatenschema **[!UICONTROL Kleidung]** anwenden möchten, z. B. **[!UICONTROL Handschuhe]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. Klicken Sie auf **[!UICONTROL Anwenden]**, um das Metadatenschema-Formular auf den Ordner anzuwenden.
 
-   Die im Metadatenschema-Formular **[!UICONTROL Kleidung]** verfügbaren Metadaten werden auf den Ordner **[!UICONTROL Handschuhe]** angewendet und auf der Seite **[!UICONTROL Eigenschaften]** des Ordners angezeigt.
+   Die im Metadatenschema-Formular **[!UICONTROL Kleidung]** verfügbaren Metadaten werden auf den Ordner **[!UICONTROL Handschuhe]** angewendet und sind auf der Seite **[!UICONTROL Eigenschaften]** des Ordners sichtbar.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -185,7 +181,7 @@ Um ein Formular zu löschen, wählen Sie das Formular aus und klicken Sie auf da
 
 ### Hinzufügen neuer Formulare für MIME-Typen {#adding-new-forms-for-mime-types}
 
-Zusätzlich zu den Standardformularen können Sie auch benutzerdefinierte Formulare für Assets mit verschiedenen MIME-Typen hinzufügen oder ein neues Formular unter dem entsprechenden Formulartyp erstellen. Beispiel: Um eine neue Vorlage für den Untertyp **[!UICONTROL image/png]** hinzuzufügen, erstellen Sie das Formular unter den „image“-Formularen. Der Titel für das Schemaformular ist der Name des Untertyps. In diesem Fall ist der Titel „png“.
+Zusätzlich zu den Standardformularen können Sie auch benutzerdefinierte Formulare für Assets mit verschiedenen MIME-Typen hinzufügen oder ein neues Formular unter dem entsprechenden Formulartyp erstellen. Beispiel: Um eine neue Vorlage für den Untertyp **[!UICONTROL image/png]** hinzuzufügen, erstellen Sie das Formular unter den „image“-Formularen. Der Titel für das Schemaformular ist der Name des Untertyps. In diesem Fall lautet der Titel &quot;png&quot;.
 
 #### Verwenden einer vorhandenen Schemavorlage für verschiedene MIME-Typen {#using-an-existing-schema-template-for-various-mime-types}
 
@@ -196,10 +192,10 @@ Erstellen Sie in diesem Fall einen neuen Knoten unter [!UICONTROL `/etc/dam/met
 | **Name** | **Typ** | **Wert** |
 |---|---|---|
 | exposedmimetype | Zeichenfolge | image/jpeg |
-| mimetypes | Zeichenfolge[] | image/png |
+| MIME-Typen | Zeichenfolge[] | image/png |
 
 * **exposedmimetype**: Name des vorhandenen Formulars, das zugeordnet werden soll
-* **mimetypes**: Liste der MIME-Typen, die das im Attribut **exposedmimetype** definierte Formular verwenden
+* **MIME-Typen**: Liste der MIME-Typen, die das im Attribut **exposedmimetype** definierte Formular verwenden
 
 Brand Portal ordnet die folgenden MIME-Typen und Schemaformulare zu:
 
@@ -214,29 +210,29 @@ Brand Portal ordnet die folgenden MIME-Typen und Schemaformulare zu:
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 Im Folgenden finden Sie eine Liste der standardmäßigen Metadateneigenschaften:
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

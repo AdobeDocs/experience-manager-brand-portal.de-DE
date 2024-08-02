@@ -1,25 +1,21 @@
 ---
 title: Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten
-seo-title: Customize wallpaper, header, and email message
-description: Brand Portal-Administratoren können eingeschränkte Anpassungen an der Benutzeroberfläche vornehmen, die Benutzern angezeigt wird. Sie können ein bestimmtes Hintergrundbild (Wallpaper) für die Brand Portal-Anmeldeseite auswählen. Sie können ein Kopfzeilenbild hinzufügen und die Asset-Freigabe-E-Mails an die Marke des Kunden anpassen.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
+description: Brand Portal-Administratoren können eingeschränkte Anpassungen an der Benutzeroberfläche vornehmen, die Benutzern angezeigt wird. Sie können ein bestimmtes Hintergrundbild (Wallpaper) für die Brand Portal-Anmeldeseite auswählen. Sie können auch ein Kopfzeilenbild hinzufügen und E-Mails zur Asset-Freigabe so anpassen, dass sie mit der Marke des Kunden übereinstimmen.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 87%
+source-wordcount: '761'
+ht-degree: 70%
 
 ---
 
 # Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten {#customize-wallpaper-header-and-email-message}
 
-Brand Portal-Administratoren können eingeschränkte Anpassungen an der Benutzeroberfläche vornehmen, die Benutzern angezeigt wird. Sie können ein bestimmtes Hintergrundbild (Wallpaper) für die Brand Portal-Anmeldeseite auswählen. Sie können ein Kopfzeilenbild hinzufügen und die Asset-Freigabe-E-Mails an die Marke des Kunden anpassen.
+Brand Portal-Administratoren können eingeschränkte Anpassungen an der Benutzeroberfläche vornehmen, die Benutzern angezeigt wird. Sie können ein bestimmtes Hintergrundbild (Wallpaper) für die Brand Portal-Anmeldeseite auswählen. Sie können auch ein Kopfzeilenbild hinzufügen und E-Mails zur Asset-Freigabe so anpassen, dass sie mit der Marke des Kunden übereinstimmen.
 
 ## Anpassen des Hintergrundbilds für den Anmeldebildschirm {#customize-the-login-screen-wallpaper}
 
@@ -30,7 +26,6 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
    ![](assets/aemlogo.png)
 
 1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Branding]**.
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ Der Header erscheint auf verschiedenen Brand Portal-Seiten, nachdem Sie sich bei
 
 1. Um ein Kopfzeilenbild hochzuladen, klicken Sie auf das Symbol **[!UICONTROL Bild auswählen]** und wählen Sie **[!UICONTROL Hochladen]** aus.
 
-   Um ein vorhandenes Brand Portal-Bild zu verwenden, wählen Sie **[!UICONTROL Vorhandene wählen]** aus.
+   Um ein vorhandenes Brand Portal-Bild zu verwenden, wählen Sie &quot;**[!UICONTROL Vorhandenes auswählen]**&quot;.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -102,18 +97,18 @@ Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UI
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Vorschau]**, um eine Vorschau der Brand Portal-Benutzeroberfläche mit dem Kopfzeilenbild zu erzeugen.
+1. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Vorschau]** , um eine Vorschau der Brand Portal-Benutzeroberfläche mit dem Kopfzeilenbild zu erzeugen.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. Um das Standard-Kopfzeilenbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **[!UICONTROL Branding konfigurieren > Kopfzeilenbild]** wie folgt vor:
 
-   * Um zu verhindern, dass ein Kopfzeilenbild auf den Brand Portal-Seiten angezeigt wird, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile deaktivieren]**. Eine Meldung bestätigt, dass das Bild deaktiviert wurde.
+   * Um zu verhindern, dass ein Kopfzeilenbild auf den Brand Portal-Seiten erscheint, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile deaktivieren]** . Eine Meldung bestätigt, dass das Bild deaktiviert wurde.
 
    ![](assets/chlimage_1-4.png)
 
-   * Um das Kopfzeilenbild wieder auf den Brand Portal-Seiten anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile aktivieren]**. Eine Meldung bestätigt, dass das Bild aktiviert wurde.
+   * Um das Kopfzeilenbild wieder auf den Brand Portal-Seiten anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile aktivieren]** . Eine Meldung bestätigt, dass das Bild aktiviert wurde.
 
    ![](assets/chlimage_1-5.png)
 
@@ -131,7 +126,7 @@ Wenn Assets als Link freigegeben werden, erhalten Benutzer eine E-Mail mit dem L
 
    ![](assets/admin-tools-panel-12.png)
 
-1. Wenn Assets als Link freigegeben oder über E-Mails heruntergeladen und **[!UICONTROL Sammlungen]** freigegeben werden, werden E-Mail-Benachrichtigungen an Benutzer gesendet. Um die E-Mail-Nachricht anzupassen, wählen Sie auf der Seite **[!UICONTROL Branding konfigurieren]** in der linken Leiste die Option **[!UICONTROL E-Mail-Nachricht]** aus.
+1. Wenn Assets als Links freigegeben oder über E-Mails heruntergeladen werden und **[!UICONTROL Sammlungen]** freigegeben werden, werden E-Mail-Benachrichtigungen an Benutzer gesendet. Um die E-Mail-Nachricht anzupassen, wählen Sie auf der Seite **[!UICONTROL Branding konfigurieren]** in der linken Leiste die Option **[!UICONTROL E-Mail-Nachricht]** aus.
 
    ![](assets/configure-branding-page-email.png)
 

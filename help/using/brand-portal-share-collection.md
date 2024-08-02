@@ -1,19 +1,15 @@
 ---
 title: Freigeben von Sammlungen
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal-Administratoren können Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben oder deren Freigabe aufheben. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Erfahren Sie, wie Experience Manager Assets Brand Portal-Administratoren Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben und deren Freigabe aufheben können. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 77%
 
 ---
 
@@ -23,17 +19,17 @@ Eine Sammlung stellt eine Gruppe verwandter Assets dar, die zusammen in Adobe Ex
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Sammlungen werden per E-Mail als Link freigegeben. Jede Person mit Zugriff auf den Freigabe-Link kann die Sammlung öffnen, während freigegebene E-Mails an jeden weitergeleitet werden können. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=de) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
+Sammlungen werden per E-Mail als Link freigegeben. Jeder, der Zugriff auf den Freigabe-Link hat, kann die Sammlung öffnen. Freigegebene E-Mails können jedoch an jeden weitergeleitet werden. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
 
-* **Admins** können eine Sammlung für die autorisierten Benutzenden von Brand Portal freigeben oder die Freigabe aufheben. Sie können andere Benutzende zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können Admins öffentliche Sammlungen erstellen.
+* **Admins** können eine Sammlung für die autorisierten Benutzenden von Brand Portal freigeben oder die Freigabe aufheben. Sie können andere Benutzer zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können Admins öffentliche Sammlungen erstellen.
 
-* **Editorinnen und Editoren** können Sammlungen erstellen und freigeben. Sie können andere Benutzende zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können sie Sammlungen auch freigeben, wenn sie als Editorinnen bzw. Editoren oder Inhaberinnen bzw. Inhaber zur Sammlung eingeladen wurden.
+* **Editorinnen und Editoren** können Sammlungen erstellen und freigeben. Sie können andere Benutzer zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können sie Sammlungen auch freigeben, wenn sie als Editorinnen bzw. Editoren oder Inhaberinnen bzw. Inhaber zur Sammlung eingeladen wurden.
 
-* **Betrachterinnen und Betrachter** können nur private Sammlungen erstellen. Sie können eine Sammlung nicht freigeben, selbst wenn sie als Inhaberin bzw. Inhaber eingeladen wurden.
+* **Betrachterinnen und Betrachter** können nur private Sammlungen erstellen. Sie können eine Sammlung nicht freigeben, selbst wenn sie als Eigentümer eingeladen wurden.
 
 >[!NOTE]
 >
->Editorinnen und Editoren können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht für sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** nicht zur Verfügung.
+>Bearbeiter können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht für sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** nicht zur Verfügung.
 
 ## Freigeben von Sammlungen {#share-collection}
 
@@ -63,7 +59,7 @@ Im Folgenden finden Sie die Schritte zum Freigeben einer Sammlung für die autor
 
    ![](assets/collection_sharingadduser.png)
 
-   Bearbeiter können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht für sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** nicht zur Verfügung.
+   Die Editoren können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht für sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** nicht zur Verfügung.
 
    ![](assets/collection-setting-editor.png)
 

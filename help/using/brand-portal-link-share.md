@@ -1,19 +1,16 @@
 ---
 title: Freigeben von Assets als Link
-seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Entitäten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Erfahren Sie, wie Adobe Experience Manager Assets Brand Portal-Administratoren Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben können. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 94%
+source-wordcount: '1063'
+ht-degree: 75%
 
 ---
 
@@ -33,7 +30,7 @@ Im Folgenden werden die Schritte zum Freigeben von Assets als Link beschrieben:
 
 1. Melden Sie sich bei Ihrem Brand Portal-Mandanten an. Standardmäßig wird die Ansicht **[!UICONTROL Dateien]** geöffnet, die alle veröffentlichten Assets und Ordner enthält.
 
-1. Wählen Sie die Assets oder Ordner aus, die Sie freigeben möchten, oder navigieren Sie zur Ansicht **[!UICONTROL Sammlungen]**, um die erstellten Sammlungen freizugeben.
+1. Wählen Sie die freizugebenden Assets oder Ordner aus oder navigieren Sie zur Ansicht **[!UICONTROL Sammlungen]** , um die von Ihnen erstellten Sammlungen freizugeben.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
@@ -50,9 +47,9 @@ Im Folgenden werden die Schritte zum Freigeben von Assets als Link beschrieben:
    * Geben Sie in das Feld **[!UICONTROL Betreff]** einen Betreff für das freizugebende Asset ein.
    * Geben Sie bei Bedarf eine Nachricht in das Feld **[!UICONTROL Nachricht]** ein.
    * Verwenden Sie im Feld **[!UICONTROL Ablauf]** die Datumsauswahl, um Ablaufdatum und -uhrzeit für den Link festzulegen. Standardmäßig ist das Ablaufdatum auf 7 Tage nach dem Datum der Linkfreigabe gesetzt.
-   * Aktivieren Sie das Kontrollkästchen **[!UICONTROL Download der Originaldatei zulassen]**, damit die Empfänger die ursprüngliche Ausgabedarstellung herunterladen können.
+   * Aktivieren Sie das Kontrollkästchen **[!UICONTROL Download der Originaldatei zulassen]**, damit die Empfängerinnen und Empfänger die ursprüngliche Ausgabedarstellung herunterladen können.
 
-   Die über den Link freigegebenen Assets laufen nach dem Datum und der Uhrzeit ab, die im Feld **[!UICONTROL Ablauf]** angegeben sind. Informationen zum Verhalten abgelaufener Assets und Änderungen bei den zulässigen Aktivitäten basierend auf den Benutzerrollen in Brand Portal finden Sie unter [Digital Rights Management für Assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Die über den Link freigegebenen Assets laufen nach dem Datum und der Uhrzeit ab, die im Feld **[!UICONTROL Ablauf]** angegeben sind. Weitere Informationen zum abgelaufenen Asset-Verhalten und zu rollenbasierten Aktivitätsänderungen in Brand Portal finden Sie unter [Verwalten digitaler Rechte von Assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -84,7 +81,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
    ![download-dialogfeld](assets/download-dialog-box-new.png)
 
-1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, in dem der Download mit IBM Aspera Connect fortgesetzt werden kann.
+1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher erscheint ein Bestätigungsfeld, das den Download mit IBM® Aspera Connect fortsetzt.
 
    Um **[!UICONTROL Schneller Download]** weiterhin zu verwenden, klicken Sie auf **[!UICONTROL Erlauben]**.
 
@@ -94,16 +91,16 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
    >
    >Beim Herunterladen der Assets von einem freigegebenen Link wird für jedes Asset ein separater Ordner erstellt.
    >
-   >Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer zugreifen kann (mit Ausnahme der dynamischen Ausgabedarstellungen), werden in einen ZIP-Ordner heruntergeladen, der separate Ordner für jedes Asset enthält.
+   >Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets ausgewählt sind, wird das Dialogfeld **[!UICONTROL Download]** übersprungen. Außerdem werden alle verfügbaren Asset-Ausgabedarstellungen (außer dynamischen) in einen ZIP-Ordner mit separaten Ordnern für jedes Asset heruntergeladen.
 
    >[!NOTE]
    >
-   >Original-Ausgabedarstellungen werden nicht über den freigegebenen Link heruntergeladen, wenn der Benutzer, der die Assets als Link freigegeben hat, nicht [vom Administrator autorisiert wurde, auf die Original-Ausgabedarstellungen zuzugreifen](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Wenn der Administrator den Benutzer, der die Assets freigegeben hat, nicht autorisiert hat, lädt der freigegebene Link die Original-Ausgabeformate nicht herunter. Siehe auch [vom Administrator autorisiert, auf die Original-Ausgabeformate zuzugreifen](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
 >
->Brand Portal beschränkt den Download von Ordnern oder Dateien mit einer Größe von mehr als 5 GB, wenn diese über einen Link freigegeben werden.
+>Brand Portal beschränkt den Download von Ordnern oder Assets mit einer Größe von mehr als 5 GB mithilfe von Linkfreigabe.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -202,9 +199,9 @@ In der folgenden Legende werden die in der Matrix verwendeten Symbole erläutert
 
 Gehen Sie wie folgt vor, um die Freigabe eines Assets als Link aufzuheben:
 
-1. Wenn Sie sich bei Brand Portal anmelden, wird standardmäßig die **[!UICONTROL Dateiansicht]** geöffnet. Um die Assets anzuzeigen, die Sie als Links freigegeben haben, navigieren Sie zur Ansicht **[!UICONTROL Freigegebene Links]**.
+1. Wenn Sie sich bei Brand Portal anmelden, wird standardmäßig die Ansicht **[!UICONTROL Datei]** geöffnet. Um die Assets anzuzeigen, die Sie als Links freigegeben haben, navigieren Sie zur Ansicht **[!UICONTROL Freigegebene Links]**.
 
-1. Überprüfen Sie die freigegebenen Links, die in der Liste angezeigt werden.
+1. Überprüfen Sie die Links, die Sie über die angezeigte Liste freigegeben haben.
 
    ![](assets/shared-links.png)
 

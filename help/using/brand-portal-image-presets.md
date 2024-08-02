@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 61%
 
 ---
@@ -38,7 +38,7 @@ Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die au
 >
 >Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media-Hybridmodus** ausgeführt wird, werden die Pyramid-TIFF-Ausgabeformate von Bild-Assets im Experience Manager Assets-Repository erstellt und gespeichert.
 >
->Wenn die Experience Manager Assets-Autoreninstanz hingegen im **Dynamic Media Scene7-Modus** ausgeführt wird, sind die Pyramid-TIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
+>Wenn jedoch eine Experience Manager Assets-Autoreninstanz im **Dynamic Media Scene7-Modus** ausgeführt wird, sind PTIMD-TIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
 >
 >Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
 

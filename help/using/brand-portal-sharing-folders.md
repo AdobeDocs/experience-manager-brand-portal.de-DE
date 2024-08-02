@@ -1,18 +1,14 @@
 ---
 title: Freigeben von Ordnern
-seo-title: Share folders
-description: Brand Portal unterstützt keine Asset-Aufnahme, sodass Assets aus einer vorkonfigurierten Experience Manager Assets-Autoreninstanz in Brand Portal veröffentlicht werden müssen. Brand Portal-Benutzer ohne Administratorrechte können nicht auf veröffentlichte Assets zugreifen, sofern sie nicht bei der Konfiguration der Replikation mit der Experience Manager-Instanz konfiguriert wurden. Stattdessen müssen sie für diese Benutzer freigegeben werden.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal erfordert, dass Assets von einer vorkonfigurierten Experience Manager Assets-Autoreninstanz veröffentlicht werden. Benutzer ohne Administratorrechte können nur dann auf veröffentlichte Assets zugreifen, wenn sie während der Replikationseinrichtung mit Experience Manager konfiguriert wurden. Assets müssen dann für sie freigegeben werden.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 80%
+source-wordcount: '1090'
+ht-degree: 50%
 
 ---
 
@@ -32,17 +28,17 @@ Nachfolgend werden der Ordnerfreigabe-Workflow und der Benutzerzugriff beschrieb
 
 ### Freigeben von Ordnern für Benutzergruppen in Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. Dieses Verhalten wird in AEM durch [ACLs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=de) gesteuert, da untergeordnete Ordner die ACLs von den jeweiligen übergeordneten Ordnern erben. Wenn beispielsweise Ordner A den Ordner B enthält und dieser wiederum den Ordner C, haben Benutzergruppen (oder Benutzer), die Zugriffsrechte für Ordner A haben, auch dieselben Zugriffsrechte für Ordner B und Ordner C. Da Ordner B dem Ordner A untergeordnet ist, erbt er die ACLs von Ordner A. Und da Ordner C dem Ordner B untergeordnet ist, erbt er die ACLs von Ordner B.
+Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. Dieses Verhalten wird von [ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) in AEM gesteuert, wobei untergeordnete Ordner ACLs von ihren übergeordneten Ordnern übernehmen. Angenommen, Ordner A enthält Ordner B, der den Ordner C enthält. Dann haben auch eine Benutzergruppe (oder Benutzer) mit Zugriffsrechten für Ordner A dieselben Zugriffsrechte für Ordner B und Ordner C. Da Ordner B der untergeordnete Ordner von A ist, erbt er seine ACLs, und der Ordner C, der dem Ordner B untergeordnet ist, erbt seine ACLs.
 
-Entsprechend haben Benutzergruppen (oder Benutzer), die nur Zugriffsberechtigungen für den Ordner B haben, dieselben Berechtigungen für den Ordner C, aber nicht für Ordner A. Daher wird empfohlen, dass Unternehmen ihre Inhalte so anordnen, dass die am meisten exponierten Assets in die untergeordneten Ordner eingefügt werden. Der Zugriff vom untergeordneten Ordner auf den Stammordner kann eingeschränkt werden.
+Ebenso haben Benutzergruppen (oder Benutzer), die nur Zugriff auf Ordner B haben, dieselben Zugriffsberechtigungen für Ordner C, jedoch nicht für Ordner A. Adobe empfiehlt, Inhalte so zu organisieren, dass die am häufigsten angezeigten Assets in untergeordneten Ordnern platziert werden, sodass der Zugriff von den untergeordneten Ordnern bis zum Stammordner beschränkt werden kann.
 
 ### Veröffentlichen von öffentlichen Ordnern {#public-folder-publish}
 
-Sofern die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Brand Portal-Replikation nicht aktiviert wurde, haben Benutzer ohne Administratorrechte (z. B. Bearbeiter und Betrachter) keinen Zugriff auf Assets, die aus AEM Assets in Brand Portal veröffentlicht wurden.
+Benutzer ohne Administratorrechte (z. B. Bearbeiter und Betrachter) können nur dann auf Assets zugreifen, die aus AEM Assets in Brand Portal veröffentlicht wurden, wenn während der Brand Portal-Replikationskonfiguration die Option **[!UICONTROL Öffentlicher Ordner - Publish]** ausgewählt wurde.
 
 ![](assets/assetbpreplication.png)
 
-Wenn die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** deaktiviert ist, müssen Administratoren diese Assets mithilfe der Freigabefunktion speziell für Benutzer ohne Administratorrechte freigeben.
+Wenn die Option **[!UICONTROL Öffentlicher Ordner - Publish]** deaktiviert ist, müssen Administratoren diese Assets mithilfe der Freigabefunktion speziell für Benutzer ohne Administratorrechte freigeben.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Wenn die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** deaktivie
 
 ## Zugriff auf freigegebene Ordner {#access-to-shared-folders}
 
-In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen für Freigabe/Aufheben der Freigabe für verschiedene Benutzerrollen dargestellt:
+In der folgenden Matrix werden die Zugriffsberechtigungen und Berechtigungen zum Freigeben oder Aufheben der Freigabe von Assets für verschiedene Benutzerrollen dargestellt:
 
-|               | Zugriff auf alle Ordner, die aus AEM Assets in Brand Portal veröffentlicht wurden | Zugriff auf freigegebene Ordner | Freigeben/Aufheben der Freigabe von Ordnerberechtigungen |
+|               | Zugriff auf alle Ordner, die aus AEM Assets in Brand Portal veröffentlicht wurden | Zugriff auf freigegebene Ordner | Freigeben oder Aufheben der Freigabe von Ordnerberechtigungen |
 |---------------|-----------|-----------|------------|
 | Administrator | Ja | Ja | Ja |
 | Bearbeiter | Nein* | Ja nur, wenn es für sie oder die Gruppe freigegeben wurde, zu der sie gehören | Ja, nur für die Ordner, die für die Benutzer oder deren Gruppe freigegeben wurden |
@@ -65,11 +61,11 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 
 ### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner {#non-admin-user-access-to-shared-folders}
 
-Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch im Portal angezeigt werden, wenn sich die Benutzer anmelden, hängt von den Einstellungen der Konfiguration **[!UICONTROL Ordnerhierarchie aktivieren]**.
+Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch beim Anmelden im Portal angezeigt werden, hängt von den Einstellungen der Konfiguration **[!UICONTROL Ordnerhierarchie aktivieren]** ab.
 
 **Wenn die Konfiguration deaktiviert ist**
 
-Benutzer ohne Administratorrechte sehen bei der Anmeldung bei der Brand Portal alle Ordner, die für sie auf der Landingpage freigegeben wurden.
+Benutzer ohne Administratorrechte können bei der Anmeldung bei der Brand Portal alle Ordner sehen, die für sie auf der Landingpage freigegeben wurden.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,9 +73,9 @@ Benutzer ohne Administratorrechte sehen bei der Anmeldung bei der Brand Portal a
 
 Benutzer ohne Administratorrechte sehen bei der Anmeldung bei Brand Portal die Ordnerstruktur (angefangen beim Stammordner) und die freigegebenen Ordner, die in den jeweiligen übergeordneten Ordnern angeordnet sind.
 
-Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
+Bei diesen übergeordneten Ordnern handelt es sich um virtuelle Ordner, für die keine Aktionen ausgeführt werden können. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
 
-Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird angezeigt, wenn Sie einen virtuellen Ordner in der **[!UICONTROL Spaltenansicht]** und **[!UICONTROL Listenansicht]** auswählen.
+Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird angezeigt, wenn Sie einen virtuellen Ordner in der **[!UICONTROL Spaltenansicht]** und in der **[!UICONTROL Listenansicht]** auswählen.
 
 >[!NOTE]
 >
