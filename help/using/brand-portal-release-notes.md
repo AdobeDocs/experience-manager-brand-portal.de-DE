@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1533'
 ht-degree: 76%
 
 ---
@@ -37,7 +37,7 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 Diese Version enthält die folgenden Fehlerbehebungen:
 
 * Die E-Mail-Benachrichtigungen für die Beschaffung von Importereignissen werden nicht gesendet.
-* Bei Verwendung des Suchfilters zeigt Brand Portal doppelte Ordner im Suchfilterfenster an.
+* Bei Verwendung des Suchfilters zeigt [!DNL Brand Portal] doppelte Ordner im Suchfilterfenster an.
 * Der Download von Sammlungen, die nicht lizenzierte Assets mit Sonderzeichen in ihrem Namen enthalten, funktioniert nicht.
 * Beim Navigieren zum [!UICONTROL Suchformular-Editor] werden Beschriftungen nicht lokalisiert.
 * Beschriftungen werden im Fenster zur Linkfreigabe nicht lokalisiert.
