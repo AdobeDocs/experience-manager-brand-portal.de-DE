@@ -1,14 +1,14 @@
 ---
 title: Neue Funktionen in Experience Manager Assets Brand Portal
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Experience Manager Assets Brand Portal-Version 2024.02.0.
+description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Experience Manager Assets Brand Portal-Version 2024.10.0.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 436ade72b12e66f2b2015874c0115ee3cfd709e6
+source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
 workflow-type: tm+mt
-source-wordcount: '6555'
+source-wordcount: '6582'
 ht-degree: 57%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 57%
 # Neue Funktionen in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet daran, das Brand Portal-Gesamterlebnis zu verbessern. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2024.10.0 {#what-changed-in-October-2024}
+
+Brand Portal 2024.10.0 ist eine interne Version, mit der die kritischen Probleme behoben werden. Siehe die neuesten [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2024.02.0 {#what-changed-in-February-2024}
 
