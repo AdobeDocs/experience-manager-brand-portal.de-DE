@@ -1,6 +1,6 @@
 ---
 title: Schritte bei der ersten Anmeldung
-description: Alle neuen Experience Manager Assets Brand Portal-Benutzer, einschließlich Administratoren, haben dieselbe erste Anmeldeerfahrung. Nachdem ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, werden Sie automatisch einbezogen, ohne dass Sie eine Einladung annehmen müssen. Sie erhalten eine Begrüßungs-E-Mail mit einem Link, um auf das Brand Portal-Konto Ihres Unternehmens zuzugreifen.
+description: Alle neuen Experience Manager Assets Brand Portal-Benutzenden, einschließlich Administratoren, haben dieselbe erstmalige Anmeldung. Nachdem Sie vom Administrator zum Brand Portal-Konto Ihres Unternehmens hinzugefügt wurden, werden Sie automatisch einbezogen, ohne eine Einladung annehmen zu müssen. Sie erhalten eine Begrüßungs-E-Mail mit einem Link für den Zugriff auf das Brand Portal-Konto Ihres Unternehmens.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # Schritte bei der ersten Anmeldung {#first-time-login-experience}
 
-Alle neuen Experience Manager Assets Brand Portal-Benutzer, einschließlich Administratoren, haben dieselbe erste Anmeldeerfahrung. Nachdem ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, werden Sie automatisch einbezogen, ohne dass Sie eine Einladung annehmen müssen. Sie erhalten eine Begrüßungs-E-Mail mit einem Link, um auf das Brand Portal-Konto Ihres Unternehmens zuzugreifen.
+Alle neuen Experience Manager Assets Brand Portal-Benutzenden, einschließlich Administratoren, haben dieselbe erstmalige Anmeldung. Nachdem Sie vom Administrator zum Brand Portal-Konto Ihres Unternehmens hinzugefügt wurden, werden Sie automatisch einbezogen, ohne eine Einladung annehmen zu müssen. Sie erhalten eine Begrüßungs-E-Mail mit einem Link für den Zugriff auf das Brand Portal-Konto Ihres Unternehmens.
 
 Die folgenden Schritte müssen für Benutzer durchgeführt werden, die sich zum ersten Mal bei Brand Portal anmelden:
 
@@ -24,11 +24,11 @@ Die folgenden Schritte müssen für Benutzer durchgeführt werden, die sich zum 
 
    >[!NOTE]
    >
-   >Wenn Sie bereits Adobe Experience Cloud-Benutzer sind, wird anstelle der Anmeldeseite eine Anmeldeseite angezeigt. Um sich bei Adobe Experience Cloud anzumelden, geben Sie Ihren Adobe ID und Ihr Kennwort ein.
+   >Wenn Sie bereits ein Adobe Experience Cloud-Benutzer sind, wird anstelle der Anmeldeseite eine Anmeldeseite angezeigt. Um sich bei Adobe Experience Cloud anzumelden, geben Sie Ihre Adobe ID und Ihr Kennwort ein.
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Enterprise ID, Anmeldung und Kontohilfe](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html).
+   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Enterprise ID, Anmelden und Konto-Hilfe](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html).
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**, um zur Brand Portal-Seite Ihres Unternehmens zu wechseln.
 1. Klicken Sie auf der Brand Portal-Anmeldeseite auf **[!UICONTROL Anmelden]**, um sich bei Brand Portal anzumelden.
@@ -37,4 +37,4 @@ Die folgenden Schritte müssen für Benutzer durchgeführt werden, die sich zum 
 
    >[!NOTE]
    >
-   >Um sich bei Brand Portal anzumelden, müssen Sie über eine Berechtigung für mindestens ein Experience Manager Assets-Produktprofil verfügen.
+   >Um sich bei Brand Portal anzumelden, müssen Sie mindestens einem Experience Manager Assets-Produktprofil zugewiesen sein.

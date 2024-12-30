@@ -17,8 +17,8 @@ ht-degree: 55%
 
 Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzende in einer Gastsitzung können für die Dauer ihrer Sitzung Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen, es sei denn, Gastbenutzende wählen die Option [[!UICONTROL Sitzung beenden]](#exit-guest-session) aus. Eine Gastbenutzersitzung bleibt für 15 Minuten aktiv.
 
-Mit der Gastzugangsfunktion können Unternehmen genehmigte Assets schnell für die gewünschte Zielgruppe freigeben, ohne sie einbinden zu müssen. [](../using/brand-portal-sharing-folders.md#how-to-share-folders) Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
-Unternehmen können den Gastzugriff im Brand Portal-Konto der Organisation mithilfe der Option **[!UICONTROL Gastzugang zulassen]** in den Einstellungen **[!UICONTROL Zugriff]** im Admin Tools-Bereich aktivieren (oder deaktivieren).
+Mit der Funktion „Gastzugriff“ können [ genehmigte Assets schnell für ](../using/brand-portal-sharing-folders.md#how-to-share-folders) vorgesehene Zielgruppe freigeben, ohne sie integrieren zu müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
+Unternehmen können den Gastzugriff im Brand Portal-Konto des Unternehmens über die Option **[!UICONTROL Gastzugang zulassen]** in den Einstellungen **[!UICONTROL Zugriff]** im Admin-Tools-Bereich aktivieren bzw. deaktivieren.
 
 <!--
 Comment Type: annotation
@@ -31,20 +31,20 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Starten einer Gastsitzung {#begin-guest-session}
 
-Um anonym in Brand Portal einzutreten, wählen Sie auf dem Willkommensbildschirm von Brand Portal die Option **[!UICONTROL Hier klicken]**, die **[!UICONTROL `Guest Access?`]** entspricht. Geben Sie die Captcha-Sicherheitsprüfung ein, um Zugriff auf Brand Portal zu gewähren.
+Um anonym in Brand Portal einzutreten, wählen Sie **[!UICONTROL Hier klicken]** entsprechend der **[!UICONTROL `Guest Access?`]** auf dem Brand Portal-Willkommensbildschirm aus. Geben Sie die Captcha-Sicherheitsprüfung ein, um Zugriff auf Brand Portal zu gewähren.
 
 ![](assets/bp-login-screen.png)
 
 ## Dauer der Gastsitzung {#guest-session-duration}
 
-Eine Gastbenutzersitzung bleibt 15 Minuten lang aktiv.
-Durch diesen Prozess wird der Status der **[!UICONTROL Lightbox]** 15 Minuten ab der Startzeit der Sitzung beibehalten. Danach wird die aktuelle Gastsitzung neu gestartet, wodurch der Lightbox-Status verloren geht.
+Eine Gastbenutzersitzung bleibt 15 Minuten aktiv.
+Durch diesen Prozess wird der Status der **[!UICONTROL Lightbox]** für 15 Minuten ab der Startzeit der Sitzung beibehalten. Danach wird die aktuelle Gastsitzung neu gestartet, wodurch der Status der Lightbox verloren geht.
 
-Beispiel: Ein Gastbenutzer meldet sich um 15:00 Uhr bei Brand Portal an und fügt der **[!UICONTROL Lightbox]** um 15:05 Uhr Assets zum Herunterladen hinzu. Wenn der Benutzer die **[!UICONTROL Lightbox]** -Sammlung (oder deren Assets) nicht vor 15:15 Uhr (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss der Benutzer die Sitzung neu starten. Die **[!UICONTROL Lightbox]** ist leer. Das bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren gegangen ist.
+Beispiel: Ein Gastbenutzer meldet sich um 15:00 Uhr bei Brand Portal an und fügt der **[!UICONTROL Lightbox]** um 15:05 Uhr Assets zum Herunterladen hinzu. Wenn der Benutzer die Sammlung **[!UICONTROL Lightbox]** (oder ihre Assets) nicht vor 15:15 Stunden (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss er die Sitzung neu starten. Die **[!UICONTROL Lightbox]** ist leer, was bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren gegangen ist.
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
-Die Zahl der gleichzeitigen Gastsitzungen ist auf 10 % des Gesamtbenutzerkontingents pro Organisation beschränkt. Das bedeutet, dass für eine Organisation mit einem Benutzerkontingent von 200 Gastbenutzern gleichzeitig arbeiten können. Dem 21. Benutzer wird der Zugriff verweigert und er kann nur einen Gastzugriff erhalten, wenn die Sitzung von einem der 20 aktiven Gastbenutzer abläuft.
+Die Zahl der gleichzeitigen Gastsitzungen ist auf 10 % des Gesamtbenutzerkontingents pro Organisation beschränkt. Das bedeutet, dass für eine Organisation mit einem Benutzerkontingent von 200 maximal 20 Gastbenutzer gleichzeitig arbeiten können. Dem 21. Benutzer wird der Zugriff verweigert und er kann nur einen Gastzugriff erhalten, wenn die Sitzung von einem der 20 aktiven Gastbenutzer abläuft.
 
 >[!NOTE]
 >
@@ -59,11 +59,11 @@ Nach dem Aufruf von Brand Portal als Gastbenutzer können Benutzer alle [Assets 
 ![](assets/disabled-folder-hierarchy1.png)
 
 
-Wenn Administratoren [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md#main-pars-header-1621071021), sehen Gastbenutzer die Ordnerstruktur aus dem Stammordner und den freigegebenen Ordnern in ihren übergeordneten Ordnern, nachdem sie sich bei Brand Portal angemeldet haben.
+Wenn Administratoren [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) sehen Gastbenutzer die Ordnerstruktur im Stammverzeichnis und in freigegebenen Ordnern innerhalb ihrer übergeordneten Ordner, wenn sie sich bei der Brand Portal anmelden.
 
-Bei diesen übergeordneten Ordnern handelt es sich um virtuelle Ordner, für die keine Aktionen ausgeführt werden können. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
+Diese übergeordneten Ordner sind virtuelle Ordner, für die keine Aktionen ausgeführt werden können. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
 
-Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird angezeigt, wenn Sie einen virtuellen Ordner in der **[!UICONTROL Spaltenansicht]** und in der **[!UICONTROL Listenansicht]** auswählen.
+Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird bei der Auswahl eines virtuellen Ordners in **[!UICONTROL Spaltenansicht]** und **[!UICONTROL Listenansicht]** angezeigt.
 
 >[!NOTE]
 >
@@ -71,28 +71,28 @@ Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn 
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-Mit der Option **[!UICONTROL Anzeigeeinstellungen]** können Gastbenutzer die Kartengrößen in der **[!UICONTROL Kartenansicht]** oder die Spalten, die in der **[!UICONTROL Listenansicht]** angezeigt werden sollen, anpassen.
+Mit **[!UICONTROL Option]** Ansichtseinstellungen“ können Gastbenutzer Kartengrößen in der **[!UICONTROL Kartenansicht“ oder]** Spalten anpassen, die in der **[!UICONTROL angezeigt werden]**.
 
 ![](assets/nav-guest-user.png)
 
-Mit der **[!UICONTROL Inhaltsstruktur]** können Sie durch die Asset-Hierarchie navigieren.
+Mit **[!UICONTROL Inhaltsstruktur]** können Sie durch die Asset-Hierarchie navigieren.
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal bietet eine Option **[!UICONTROL Überblick]** , mit der Gastbenutzer die **[!UICONTROL Asset-Eigenschaften]** der ausgewählten Assets/Ordner anzeigen können. Die Option **[!UICONTROL Überblick]** finden Sie an folgenden Stellen:
+Brand Portal bietet eine **[!UICONTROL Überblick]**-Option für Gastbenutzer zum Anzeigen **[!UICONTROL Asset-Eigenschaften]** ausgewählter Assets/Ordner. Die Option **[!UICONTROL Überblick]** finden Sie an folgenden Stellen:
 
-* In der Symbolleiste oben bei Auswahl eines Assets oder Ordners.
+* Klicken Sie in der Symbolleiste oben auf ein Asset oder einen Ordner.
 * In der Dropdown-Liste des ausgewählten Leistenselektors.
 
-Wenn Sie die Option **[!UICONTROL Überblick]** auswählen, während ein Asset oder ein Ordner ausgewählt ist, können Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Auf der Asset-Detailseite hingegen können Benutzer durch Auswahl der Option **[!UICONTROL Überblick]** die Metadaten des Assets sehen.
+Wenn Sie die Option **[!UICONTROL Überblick]** auswählen, während ein Asset oder Ordner ausgewählt ist, können Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option **[!UICONTROL Übersicht]** auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)
 
-Die Option **[!UICONTROL Navigation]** in der linken Leiste ermöglicht die Navigation von Dateien zu Sammlungen und zurück zur Gastsitzung, damit Benutzer durch Assets in Dateien oder Sammlungen navigieren können.
+Die **[!UICONTROL Navigation]** in der linken Leiste ermöglicht das Navigieren von Dateien zu Sammlungen und zurück in der Gastsitzung, sodass Benutzer Assets in Dateien oder Sammlungen durchsuchen können.
 
-Mit der Option **[!UICONTROL Filter]** können Gastbenutzer Asset-Dateien und Ordner anhand von vom Administrator festgelegten Sucheigenschaften filtern.
+Mit **[!UICONTROL Option]** Filter) können Gastbenutzer Asset-Dateien und Ordner mithilfe von vom Administrator festgelegten Sucheigenschaften filtern.
 
 ### Funktionen der Gastbenutzer
 
@@ -101,7 +101,7 @@ Gastbenutzer können auf öffentliche Assets in Brand Portal zugreifen und haben
 **Gastbenutzer können Folgendes tun**:
 
 * Auf alle öffentlichen Ordner und Sammlungen zugreifen, die für alle Brand Portal-Benutzer gedacht sind.
-* Mitglieder und Detailseiten durchsuchen und eine vollständige Asset-Ansicht der Mitglieder aller öffentlichen Ordner und Sammlungen haben.
+* Durchsuchen Sie Mitglieder und die Detailseite und verfügen Sie über eine vollständige Asset-Ansicht der Mitglieder aller öffentlichen Ordner und Sammlungen.
 * Assets in allen öffentlichen Ordnern und Sammlungen durchsuchen.
 * Assets zur Lightbox-Sammlung hinzufügen. Diese Änderungen an der Sammlung bleiben für die Dauer der Sitzung bestehen.
 * Assets direkt oder über die Lightbox-Sammlung herunterladen.
@@ -123,7 +123,7 @@ Verwenden Sie zum Herunterladen von Assets und Sammlungen das Symbol „Download
 
 ![](assets/download-on-guest.png)
 
-Durch Auswahl von **[!UICONTROL Downloadbeschleunigung aktivieren]** im Dialogfeld [!UICONTROL Download] können Sie [die Download-Performance verbessern](../using/accelerated-download.md).
+Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL  im Dialogfeld ]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
 
 ## Beenden einer Gastsitzung {#exit-guest-session}
 
@@ -133,4 +133,4 @@ Beenden Sie die Gastsitzung durch Auswahl von **[!UICONTROL Sitzung beenden]** a
 
 ## Überwachen von Gastbenutzeraktivitäten {#monitoring-guest-user-activities}
 
-Admins können die Gastbenutzerinteraktion mit dem Brand Portal überwachen. Die in Brand Portal erstellten Berichte können wichtige Einblicke in die Gastbenutzeraktivitäten liefern. Beispielsweise kann der Bericht **[!UICONTROL Download]** verwendet werden, um die Anzahl der vom Gastbenutzer heruntergeladenen Assets zu verfolgen. Der Bericht **[!UICONTROL Benutzeranmeldungen]** kann darüber informieren, wann sich der Gastbenutzer zuletzt beim Portal angemeldet hat und wie oft er sich in einer bestimmten Dauer angemeldet hat.
+Admins können die Gastbenutzerinteraktion mit dem Brand Portal überwachen. Die in Brand Portal erstellten Berichte können wichtige Einblicke in die Gastbenutzeraktivitäten liefern. Beispielsweise kann der Bericht **[!UICONTROL Herunterladen]** verwendet werden, um die Anzahl der von einem Gastbenutzer heruntergeladenen Assets zu verfolgen. **[!UICONTROL Benutzeranmeldungen]** -Bericht kann darüber informieren, wann sich der Gastbenutzer zuletzt beim Portal angemeldet hat und wie oft sich ein bestimmter Zeitraum angemeldet hat.

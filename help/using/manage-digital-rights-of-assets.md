@@ -16,9 +16,9 @@ ht-degree: 60%
 
 # Verwalten der digitalen Rechte von Assets {#manage-digital-rights-of-assets}
 
-Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dieser Prozess kann erzwungen werden, indem ein Ablaufdatum (und eine Ablaufzeit) mit genehmigten Assets verknüpft wird, die aus AEM in Brand Portal veröffentlicht werden, oder indem diese Assets für die bedingte Verwendung lizenziert werden. Außerdem können Sie mit Brand Portal ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
+Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dieser Prozess kann erzwungen werden, indem ein Ablaufdatum (und eine Ablaufzeit) mit genehmigten Assets verknüpft wird, die aus AEM in Brand Portal veröffentlicht wurden, oder indem diese Assets für die bedingte Verwendung lizenziert werden. Mit Brand Portal können Sie auch ein Ablaufdatum für Links zu den von Brand Portal freigegebenen Assets angeben.
 
-Lesen Sie weiter, um zu erfahren, wie die Assets in Brand Portal gesichert werden, und lernen Sie die zugehörigen Nutzungsberechtigungen kennen.
+Lesen Sie weiter, um zu erfahren, wie die Assets auf Brand Portal gesichert werden, und um die damit verbundenen Nutzungsberechtigungen zu verstehen.
 
 ## Asset-Ablauf {#asset-expiration}
 
@@ -28,7 +28,7 @@ Der Asset-Ablauf ist eine effektive Möglichkeit, die Nutzung der genehmigten As
 
 In Brand Portal können Administratoren abgelaufene Assets anzeigen, herunterladen und zu Sammlungen hinzufügen. Bearbeiter und Betrachter können jedoch nur abgelaufene Assets anzeigen und zu Sammlungen hinzufügen.
 
-Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]** nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen [!UICONTROL Freigeben] und **[!UICONTROL Link freigeben]** verfügbar.
+Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link von Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]** nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen [!UICONTROL Freigeben] und **[!UICONTROL Link freigeben]** verfügbar.
 
 >[!NOTE]
 >
@@ -55,23 +55,23 @@ Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht
 
 >[!NOTE]
 >
->In Listen- und Spaltenansichten wird der Ablaufstatus von Assets nicht angezeigt.
+>Listen- und Spaltenansichten zeigen nicht den Ablaufstatus von Assets an.
 
 ## Ablauf des Asset-Links {#asset-link-expiration}
 
-Beim Teilen von Assets über Links können Administratoren und Bearbeiter über das Feld **[!UICONTROL Ablauf]** im Dialogfeld **[!UICONTROL Linkfreigabe]** ein Ablaufdatum und eine Ablaufuhrzeit einstellen. Der standardmäßige Ablauf eines Links beträgt sieben Tage ab dem Datum, an dem der Link freigegeben wird.
+Beim Teilen von Assets über Links können Administratoren und Bearbeiter über das Feld **[!UICONTROL Ablauf]** im Dialogfeld **[!UICONTROL Linkfreigabe]** ein Ablaufdatum und eine Ablaufuhrzeit einstellen. Die Standardgültigkeit eines Links beträgt sieben Tage ab dem Datum, an dem der Link freigegeben wird.
 
 ![](assets/asset-link-sharing.png)
 
-Dadurch wird sichergestellt, dass Assets, die als Links freigegeben werden, an dem Tag und zu der Uhrzeit ablaufen, die von Brand Portal-Administratoren und -Editoren festgelegt wurden. Außerdem können die Assets nach dem Ablaufdatum nicht mehr angezeigt und heruntergeladen werden. Um Ihre genehmigten Assets vor externen Benutzern zu schützen, legen Sie ein Ablaufdatum für freigegebene Links fest, um sicherzustellen, dass sie nicht mehr als einen bestimmten Zeitraum unbekannten Entitäten ausgesetzt sind.
+Dadurch wird sichergestellt, dass als Links freigegebene Assets zu dem von Brand Portal-Administratoren und -Bearbeitern festgelegten Zeitpunkt ablaufen. Außerdem können die Assets nach dem Ablaufdatum nicht mehr angezeigt und heruntergeladen werden. Um Ihre genehmigten Assets vor externen Benutzern zu schützen, legen Sie ein Ablaufdatum für freigegebene Links fest, um sicherzustellen, dass diese nicht über einen bestimmten Zeitraum hinaus für unbekannte Entitäten verfügbar sind.
 
 Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freigeben](../using/brand-portal-link-share.md).
 
 ## Lizenzierte Assets {#licensed-assets}
 
-Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Diese Vereinbarung für lizenzierte Assets wird angezeigt, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Unabhängig davon, ob die Assets abgelaufen sind oder nicht, können alle Benutzer urheberrechtlich geschützte Assets anzeigen. Das Herunterladen und Verwenden abgelaufener lizenzierter Assets ist jedoch eingeschränkt. Informationen zum Verhalten abgelaufener lizenzierter Assets und zulässiger Aktivitäten basierend auf Benutzerrollen finden Sie unter [Nutzungsberechtigungen abgelaufener Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Dieser Vertrag für lizenzierte Assets kommt zustande, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Unabhängig davon, ob es abgelaufen ist oder nicht, können alle Benutzer lizenzgeschützte Assets anzeigen. Der Download und die Verwendung abgelaufener lizenzierter Assets sind jedoch begrenzt. Informationen zum Verhalten abgelaufener lizenzierter Assets und zulässiger Aktivitäten basierend auf Benutzerrollen finden Sie [Nutzungsberechtigungen abgelaufener Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), die durch Festlegen der Metadateneigenschaft des Assets in [!DNL Experience Manager Assets] festgelegt wird.
+Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die Metadateneigenschaft des Assets in [!DNL Experience Manager Assets] festgelegt wird.
 
 Ein Asset gilt als geschützt, wenn es eine der folgenden (oder beide) Metadateneigenschaften enthält:
 
@@ -79,14 +79,14 @@ Ein Asset gilt als geschützt, wenn es eine der folgenden (oder beide) Metadaten
 * `adobe_dam:restrictions`: Beim Wert dieser Eigenschaft handelt es sich um unformatierten HTML-Code, der die Lizenzvereinbarung angibt.
 
 
-Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie abhängig von den Metadateneigenschaften zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet.
+Wenn Sie sich für das Herunterladen von lizenzgeschützten Assets entschieden haben, werden Sie je nach den Eigenschaften der Metadaten auf **[!UICONTROL Seite]** Copyright-Management“ umgeleitet.
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | Copyright-Management |
 | --- | --- | --- |
 | Ja | - | Die Benutzeroberfläche wird sowohl in Assets als auch in Brand Portal angezeigt |
 | - | Ja (ungültiger Pfad) | Keine Schnittstelle |
 | Ja | Ja (ungültiger Pfad) | Keine Schnittstelle |
-| Ja | Ja (gültiger Pfad) | Die Benutzeroberfläche wird in Assets oder Brand Portal</br>angezeigt, je nachdem, ob der Pfad für Assets oder Brand Portal (oder beides) gültig ist. |
+| Ja | Ja (gültiger Pfad) | Die Benutzeroberfläche wird in Assets oder Brand Portal angezeigt</br> je nachdem, ob der Pfad für Assets oder Brand Portal (oder beides) gültig ist. |
 
 ![](assets/asset-copyright-mgmt.png)
 

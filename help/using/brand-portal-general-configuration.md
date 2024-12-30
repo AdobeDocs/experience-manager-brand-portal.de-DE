@@ -21,30 +21,30 @@ In Experience Manager Assetss Brand Portal können Unternehmen die folgenden Fun
 * das Löschen von Assets durch Administratoren
 * die Erstellung öffentlicher Sammlungen von Benutzern ohne Administratorrechte
 * die Erstellung öffentlicher Smart-Sammlungen von Benutzern ohne Administratorrechte
-* Die übergeordnete Hierarchie freigegebener Ordner ist für Benutzer ohne Administratorrechte sichtbar.
+* Die übergeordnete Hierarchie freigegebener Ordner ist für Benutzende ohne Administratorrechte sichtbar
 
-Diese Konfigurationen wurden als Konfigurationen für **[!UICONTROL Allgemeine Einstellungen]** im Admin Tools-Bereich bereitgestellt.
+Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Einstellungen]** im Admin-Tools-Bereich möglich.
 
 ![](assets/general-config.png)
 
-**A** - Konfiguration, die es Administratoren gestattet, Assets aus Brand Portal zu löschen. (Die Option ist standardmäßig aktiviert.)
+**A** - Konfiguration, mit der Administratoren Assets aus Brand Portal löschen können. (Die Option ist standardmäßig aktiviert.)
 
-**B** - Konfiguration, die es Benutzern ohne Administratorrechte gestattet, öffentliche Sammlungen zu erstellen. (Die Option ist standardmäßig aktiviert.)
+**B** - Konfiguration, mit der Benutzende ohne Administratorrechte öffentliche Sammlungen erstellen können. (Die Option ist standardmäßig aktiviert.)
 
-**C** - Konfiguration, die es Benutzern ohne Administratorrechte gestattet, öffentliche Smart-Sammlungen zu erstellen. (Die Option ist standardmäßig aktiviert.)
+**C** - Konfiguration, mit der Benutzende ohne Administratorrechte öffentliche Smart-Sammlungen erstellen können. (Die Option ist standardmäßig aktiviert.)
 
-**D** - Konfiguration zum Anzeigen der Ordnerhierarchie (vom Stamm) freigegebener Ordner für Benutzer ohne Administratorrechte (Bearbeiter, Betrachter, Gastbenutzer). (Die Option ist standardmäßig deaktiviert.)
+**D** - Konfiguration zur Anzeige der Ordnerhierarchie (aus dem Stammverzeichnis) freigegebener Ordner für Benutzer ohne Administratorrechte (Bearbeiter, Betrachter, Gastbenutzer). (Die Option ist standardmäßig deaktiviert.)
 
-## Aktivieren oder Deaktivieren der allgemeinen Konfigurationen {#enable-disable-general-configurations}
+## Aktivieren oder Deaktivieren von allgemeinen Konfigurationen {#enable-disable-general-configurations}
 
 So aktivieren oder deaktivieren Sie jede dieser Konfigurationen:
 
 1. Melden Sie sich mit Administratorrechten an.
-1. Wählen Sie das Experience Manager-Logo aus, um in der Symbolleiste am oberen Rand auf die Admin Tools zuzugreifen.
+1. Wählen Sie oben in der Symbolleiste das Experience Manager-Logo aus, um die Admin-Tools aufzurufen.
 1. Wählen Sie im Admin-Tools-Bereich die Option **[!UICONTROL Allgemein]** aus, um die Seite **[!UICONTROL Allgemeine Einstellungen]** zu öffnen.
 1. Verwenden Sie den entsprechenden Umschalter, um eine der allgemeinen Konfigurationen zu aktivieren oder zu deaktivieren.
 1. **[!UICONTROL Speichern]** Sie die Änderungen.
-1. Melden Sie sich ab, damit die Änderungen wirksam werden können.
+1. Melden Sie sich ab, damit die Änderungen wirksam werden.
 
 ## Löschen von Assets in Brand Portal durch Administratoren zulassen {#allow-admin-users-to-delete-assets-from-brand-portal}
 
@@ -52,11 +52,11 @@ Mit der Konfiguration **[!UICONTROL Löschen von Assets in Brand Portal durch Ad
 
 ## Zulassen der Erstellung öffentlicher Sammlungen durch Benutzer ohne Administratorrechte {#allow-public-collections-creation-by-non-admins}
 
-Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Sammlungen durch Benutzer ohne Administratorrechte]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) wird gesteuert, ob Benutzer ohne Administratorrechte öffentliche Sammlungen in Brand Portal erstellen können. Die Konfiguration ist standardmäßig aktiviert. Unternehmen können die Konfiguration deaktivieren, um zu verhindern, dass sich in ihrem Portal zahlreiche öffentliche Sammlungen befinden, sodass Systemspeicherplatz eingespart werden kann.
+Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Sammlungen durch Benutzer ohne Administratorrechte]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) wird gesteuert, ob Benutzer ohne Administratorrechte öffentliche Sammlungen in Brand Portal erstellen können. Die Konfiguration ist standardmäßig aktiviert. Durch Deaktivieren der Konfiguration können Unternehmen verhindern, dass zahlreiche öffentliche Sammlungen auf ihrem Portal vorhanden sind, sodass Systemspeicher eingespart werden kann.
 
 ## Zulassen der Erstellung öffentlicher Smart-Sammlungen durch Benutzer ohne Administratorrechte {#allow-public-smart-collections-creation-by-non-admins}
 
-Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Smart-Sammlungen durch Benutzer ohne Administratorrechte]](../using/brand-portal-searching.md#main-pars-header-500620467) wird gesteuert, ob Benutzer ohne Administratorrechte Suchen als Smart-Sammlungen speichern und sie für diesen Mandanten öffentlich machen können. Die Konfiguration ist standardmäßig aktiviert. Unternehmen können die Konfiguration deaktivieren, um zu verhindern, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Brand Portal des Unternehmens erstellen.
+Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Smart-Sammlungen durch Benutzer ohne Administratorrechte]](../using/brand-portal-searching.md#main-pars-header-500620467) wird gesteuert, ob Benutzer ohne Administratorrechte Suchen als Smart-Sammlungen speichern und sie für diesen Mandanten öffentlich machen können. Die Konfiguration ist standardmäßig aktiviert. Durch Deaktivieren der Konfiguration können Unternehmen verhindern, dass im Brand Portal des Unternehmens eine große Anzahl öffentlicher Smart-Sammlungen von Benutzenden ohne Administratorrechte erstellt wird.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}

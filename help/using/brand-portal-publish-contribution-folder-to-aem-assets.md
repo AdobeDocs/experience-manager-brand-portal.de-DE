@@ -15,7 +15,7 @@ ht-degree: 73%
 
 # Veröffentlichen des Beitragsordners in Experience Manager Assets {#using-asset-souring-in-bp}
 
-Brand Portal-Benutzer mit entsprechender Berechtigung können mehrere Assets oder Ordner mit mehreren Assets in den Beitragsordner hochladen. Brand Portal-Benutzer können jedoch nur Assets in den Ordner **NEU** hochladen. Der Ordner **SHARED** ist für die Verteilung von Grundlinien-Assets (Referenzinhalt) vorgesehen, die von den Brand Portal-Benutzern beim Erstellen neuer Assets für Beiträge verwendet werden.
+Brand Portal-Benutzer mit entsprechender Berechtigung können mehrere Assets oder Ordner mit mehreren Assets in den Beitragsordner hochladen. Brand Portal-Benutzer können jedoch nur Assets in den Ordner **NEU** hochladen. Der **FREIGEGEBEN**-Ordner ist für die Verteilung von Grundlinien-Assets (Referenzinhalten) vorgesehen, die von den Brand Portal-Benutzern beim Erstellen neuer Assets für den Beitrag verwendet werden.
 
 Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner können die folgenden Aktivitäten ausführen:
 
@@ -25,14 +25,14 @@ Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner können di
 
 ## Herunterladen von Asset-Anforderungen {#download-asset-requirements}
 
-Brand Portal-Benutzer erhalten automatisch E-Mail- und Pulsbenachrichtigungen, wenn ein Experience Manager Assets-Benutzer einen Beitragsordner teilt. Mit diesem Workflow können sie das kurze Dokument (Asset-Anforderungsdokument) und die Grundlinien-Assets (Referenzinhalt) aus dem Ordner **SHARED** herunterladen, um die Asset-Anforderungen zu verstehen.
+Brand Portal-Benutzer erhalten automatisch E-Mail- und Push-Benachrichtigungen, wenn ein Experience Manager Assets-Benutzer einen Beitragsordner freigibt. Dieser Workflow ermöglicht das Herunterladen der Zusammenfassung (Asset-Anforderungsdokument) und der Grundlinien-Assets (Referenzinhalte) aus dem Ordner **FREIGEGEBEN**, um die Asset-Anforderungen zu verstehen.
 
 Der Brand Portal-Benutzer führt die folgenden Aktivitäten aus, um Asset-Anforderungen herunterzuladen:
 
-* **Kurzbeschreibung herunterladen** - Laden Sie die Kurzbeschreibung (Asset-Anforderungsdokument) herunter, die dem Beitragsordner angehängt ist. Sie enthält Asset-bezogene Informationen wie den Typ der Assets, den Zweck, die unterstützten Formate, die maximale Asset-Größe und mehr.
-* **Grundlinien-Assets herunterladen** - Laden Sie die Grundlinien-Assets herunter, mit denen Sie die erforderlichen Asset-Typen verstehen können. Brand Portal-Benutzer können diese Assets als Referenz verwenden, um neue Assets für Beiträge zu erstellen.
+* **Zusammenfassung herunterladen** - Zum Herunterladen der Zusammenfassung (Dokument mit den Asset-Anforderungen), die dem Beitragsordner angehängt ist. Es enthält Asset-bezogene Informationen wie den Typ der Assets, den Zweck, unterstützte Formate, die maximale Asset-Größe und mehr.
+* **Herunterladen von Grundlinien-Assets** - Laden Sie die Grundlinien-Assets herunter, die zum Verständnis der erforderlichen Asset-Typen verwendet werden können. Brand Portal-Benutzer können diese Assets als Referenz verwenden, um neue Assets für Beiträge zu erstellen.
 
-Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Portal-Benutzer zur Verfügung stehen, sowie den neu freigegebenen Beitragsordner. In diesem Beispiel hat der Brand Portal-Benutzer nur Zugriff auf den neu erstellten Beitragsordner. Es wird kein anderer bestehender Ordner für den Benutzer freigegeben.
+Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Portal-Benutzer zur Verfügung stehen, sowie den neu freigegebenen Beitragsordner. In diesem Beispiel hat der Brand Portal-Benutzer nur Zugriff auf den neu erstellten Beitragsordner. Es wird kein anderer vorhandener Ordner für den Benutzer freigegeben.
 
 **Herunterladen von Asset-Anforderungen:**
 
@@ -49,15 +49,15 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
    ![](assets/download.png)
 
 1. Gehen Sie zurück zum Brand Portal-Dashboard.
-1. Klicken Sie auf den Beitragsordner, um ihn zu öffnen. Im Beitragsordner werden zwei Unterordner angezeigt: **[!UICONTROL SHARED]** und **[!UICONTROL NEW]**. Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
+1. Klicken Sie auf den Beitragsordner, um ihn zu öffnen. Sie können zwei Unterordner sehen: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]** im Beitragsordner. Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
 1. Sie können den Ordner **[!UICONTROL FREIGEGEBEN]** mit allen Grundlinien-Assets auf Ihren lokalen Computer herunterladen.
-Alternativ können Sie den Ordner **[!UICONTROL SHARED]** öffnen und auf das Symbol **Download** klicken, um einzelne Dateien/Ordner herunterzuladen.
+Alternativ können Sie den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Symbol **Herunterladen** klicken, um einzelne Dateien/Ordner herunterzuladen.
 
    ![](assets/download.png)
 
    ![](assets/download-asset-requirement5.png)
 
-Sehen sie sich die Zusammenfassung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen.
+Sehen sie sich die Zusammenfassung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für den Beitrag erstellen und sie in den Beitragsordner hochladen.
 
 ## Hochladen von Assets in den Beitragsordner {#upload-new-assets-to-contribution-folder}
 
@@ -65,11 +65,11 @@ Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-
 
 >[!NOTE]
 >
->Brand Portal-Benutzer können Assets (maximal zwei Gigabyte pro Dateigröße) in den Ordner NEU hochladen.
+>Brand Portal-Benutzer können Assets (maximal zwei Gigabyte pro Dateigröße) in den Ordner „NEU“ hochladen.
 >
->Das maximale Upload-Limit für einen Brand Portal-Mandanten beträgt zehn Gigabyte, was kumulativ auf alle Beitragsordner angewendet wird.
+>Der Upload-Grenzwert für jeden Brand Portal-Mandanten beträgt 10 Gigabyte. Dies ist der kumulative Wert für alle Beitragsordner.
 >
->Die in Brand Portal hochgeladenen Assets werden nicht für Ausgabedarstellungen verarbeitet und enthalten keine Vorschau.
+>Die in Brand Portal hochgeladenen Assets werden nicht für Ausgabedarstellungen verarbeitet und enthalten keine Vorschauen.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, v
 
 Brand Portal-Benutzer können den Beitragsordner in Experience Manager Assets veröffentlichen, ohne Zugriff auf die Experience Manager Assets-Autoreninstanz zu benötigen.
 
-Stellen Sie sicher, dass Sie die Asset-Anforderungen erfüllt haben, und laden Sie die neu erstellten Assets in den Ordner **NEU** im Beitragsordner hoch.
+Stellen Sie sicher, dass Sie die Asset-Anforderungen durchlaufen haben und die neu erstellten Assets in den Ordner **NEU** im Beitragsordner hochladen.
 
 **So veröffentlichen Sie einen Beitragsordner:**
 
@@ -123,7 +123,7 @@ In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsb
 
 1. **Abgeschlossen** – Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn der Beitragsordner erfolgreich in Experience Manager Assets veröffentlicht wurde.
 
-Nachdem die neu erstellten Assets in Experience Manager Assets veröffentlicht wurden, können Brand Portal-Benutzer sie aus dem Ordner „NEU“ löschen. Der Brand Portal-Administrator kann die Assets jedoch sowohl aus dem Ordner NEU als auch aus dem Ordner FREIGEGEBEN löschen.
+Nachdem die neu erstellten Assets in Experience Manager Assets veröffentlicht wurden, können Brand Portal-Benutzer sie aus dem Ordner „NEU“ löschen. Der Brand Portal-Administrator kann die Assets jedoch sowohl aus dem Ordner „NEU“ als auch aus dem Ordner „FREIGEGEBEN“ löschen.
 
 Sobald die Erstellung eines Beitragsordners erreicht ist, kann der Brand Portal-Administrator den Beitragsordner löschen, um den Upload-Speicherplatz für andere Benutzer freizugeben.
 
@@ -166,7 +166,7 @@ Brand Portal führt jetzt alle zwölf Stunden automatische Aufträge aus, um all
 
   ![Löschbericht](assets/deletion-reports.png)
 
-Sie können auch einen Drilldown durchführen, um die Details der einzelnen Assets anzuzeigen, die in einem Löschauftrag enthalten sind. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
+Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
 
 ![Löschbericht detailliert](assets/deletion-reports-detailed.png)
 
@@ -197,7 +197,7 @@ So zeigen Sie Berichte für einen Löschauftrag an und laden diese herunter:
 
 ### Löschen eines Berichts
 
-In Brand Portal können Sie auch einen oder mehrere Berichte auswählen und diese manuell löschen.
+In Brand Portal können Sie auch einen oder mehrere Berichte auswählen und manuell löschen.
 
 So löschen Sie einen Bericht:
 

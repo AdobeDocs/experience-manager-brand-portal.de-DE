@@ -7,7 +7,7 @@ ht-degree: 87%
 ---
 # Adobe Experience Manager Brand Portal-Dokumentation
 
-Das Repository für die Dokumentation zu Adobe Experience Manager Brand Portal.
+Das Repository für die Adobe Experience Manager Brand Portal-Dokumentation.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
 

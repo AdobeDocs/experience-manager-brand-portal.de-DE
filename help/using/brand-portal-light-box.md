@@ -25,7 +25,7 @@ Gehen Sie wie folgt vor, um Assets zu **[!UICONTROL Lightbox]** hinzuzufügen:
 
    ![](assets/link_sharing_assetselection.png)
 
-1. Klicken Sie oben in der Symbolleiste auf das Symbol **Zu Sammlung hinzufügen** .
+1. Klicken Sie oben in der Symbolleiste auf das Symbol **Zu Sammlung hinzufügen**.
 
    ![](assets/add_to_collection.png)
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um Assets zu **[!UICONTROL Lightbox]** hinzuzufügen:
 
    ![](assets/collections_lightbox-1.png)
 
-1. Wählen Sie den Ordner aus, den Sie aus der Sammlung entfernen möchten, und klicken Sie oben in der Symbolleiste auf **[!UICONTROL Entfernen]** .
+1. Wählen Sie den Ordner aus, den Sie aus der Sammlung entfernen möchten, und klicken Sie dann oben in **[!UICONTROL Symbolleiste auf]** Entfernen“.
 
    ![](assets/collections_lightboxdelete.png)
 

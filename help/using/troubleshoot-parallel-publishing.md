@@ -15,13 +15,13 @@ ht-degree: 49%
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-In Brand Portal wird die Konfiguration mit Experience Manager Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die Experience Manager Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden können. Sobald [ konfiguriert wurde](../using/configure-aem-assets-with-brand-portal.md), verwendet die Experience Manager-Autoreninstanz einen Replikationsagenten, um ein oder mehrere ausgewählte Assets im Brand Portal-Cloud-Service zu replizieren, damit Brand Portal-Benutzer genehmigte Assets verwenden. In Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
+In Brand Portal wird die Konfiguration mit Experience Manager Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die Experience Manager Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden können. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) repliziert die Benutzerin bzw. der Experience Manager-Autor mithilfe eines Replikationsagenten ein oder mehrere ausgewählte Assets zur genehmigten Verwendung durch Brand Portal-Benutzende in Brand Portal Cloud Service. In Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
 
 >[!NOTE]
 >
->Um eine erfolgreiche Konfiguration von Experience Manager Assets Brand Portal mit Experience Manager Assets sicherzustellen, empfiehlt Adobe ein Upgrade auf Experience Manager 6.4.1.0. Aufgrund der Einschränkungen in Experience Manager 6.4 tritt beim Konfigurieren von Experience Manager Assets mit Brand Portal ein Fehler auf, und die Replikation schlägt fehl.
+>Um eine erfolgreiche Konfiguration von Experience Manager Assets Brand Portal mit Experience Manager Assets sicherzustellen, empfiehlt Adobe ein Upgrade auf Experience Manager 6.4.1.0. Aufgrund einer Einschränkung in Experience Manager 6.4 tritt beim Konfigurieren von Experience Manager Assets mit Brand Portal ein Fehler auf und die Replikation schlägt fehl.
 
-Beim Konfigurieren eines Cloud-Service für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Service-Benutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus Experience Manager in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
+Beim Konfigurieren eines Cloud Service für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzenden und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Service-Benutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus Experience Manager in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
 
 Jedoch kann das Veröffentlichen zwischenzeitlich aufgrund zu großer Sling-Aufträge, erhöhter Netzwerk- und **[!UICONTROL Datenträger-E/A]** in der Experience Manager-Autoreninstanz oder geringer Leistung der Experience Manager-Autoreninstanz scheitern. Adobe empfiehlt, die Verbindung mit einem oder mehreren Replikationsagenten zu testen, bevor Sie mit der Veröffentlichung beginnen.
 
@@ -29,21 +29,21 @@ Jedoch kann das Veröffentlichen zwischenzeitlich aufgrund zu großer Sling-Auft
 
 ## Beheben von Problemen bei der ersten Veröffentlichung: Überprüfen der Veröffentlichungskonfiguration {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-Überprüfen der Veröffentlichungskonfigurationen:
+So validieren Sie Ihre Veröffentlichungskonfigurationen:
 
-1. Überprüfen der Fehlerprotokolle
+1. Fehlerprotokolle überprüfen
 1. Überprüfen, ob der Replikationsagent erstellt wurde
 1. Testen Sie die Verbindung.
 
 **Prüfen der Protokollfragmente beim Erstellen des Cloud Service**
 
-Überprüfen Sie die Tail-Logs. Überprüfen Sie, ob der Replikationsagent erstellt wurde. Wenn die Erstellung des Replikationsagenten fehlschlägt, bearbeiten Sie den Cloud-Dienst, indem Sie geringfügige Änderungen am Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
+Überprüfen Sie die Tail-Protokolle. Überprüfen Sie, ob der Replikationsagent erstellt wurde oder nicht. Wenn die Erstellung des Replikationsagenten fehlschlägt, bearbeiten Sie den Cloud-Service, indem Sie kleinere Änderungen im Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
 
-Wenn der Cloud-Dienst nach wiederholter Bearbeitung nicht ordnungsgemäß konfiguriert ist, melden Sie ein Daycare-Ticket.
+Wenn der Cloud Service beim wiederholten Bearbeiten nicht ordnungsgemäß konfiguriert ist, melden Sie ein Daycare-Ticket.
 
-**Verbindung mit Replikationsagenten testen**
+**Testen der Verbindung mit Replikationsagenten**
 
-Zeigen Sie das Protokoll an, wenn im Replikationsprotokoll Fehler gefunden werden:
+Protokoll anzeigen, wenn im Replikationsprotokoll Fehler gefunden werden:
 
 1. Wenden Sie sich an den Adobe-Support.
 
@@ -59,17 +59,17 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ## Vorhandene Veröffentlichungskonfigurationen in Brand Portal bereinigen {#clean-up-existing-config}
 
-Die Veröffentlichung schlägt oft mit dem Fehler &quot;401 unauthorized&quot;fehl, da dem Benutzer (z. B. &quot;`mac-<tenantid>-replication`&quot;) der neueste private Schlüssel fehlt und in den Replikationsagenten-Protokollen kein anderer Fehler gemeldet wird. Wenn Sie keine Problembehebung vornehmen möchten, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration richtig funktioniert, sollten Sie bei der Einrichtung der Experience Manager-Autoreninstanz Folgendes bereinigen:
+Die Veröffentlichung schlägt oft mit dem Fehler „401 unauthorized“ fehl, da dem Benutzer (z. B. `mac-<tenantid>-replication`) der neueste private Schlüssel fehlt und in den Replikationsagenten-Protokollen kein anderer Fehler gemeldet wird. Wenn Sie keine Problembehebung vornehmen möchten, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration richtig funktioniert, sollten Sie bei der Einrichtung der Experience Manager-Autoreninstanz Folgendes bereinigen:
 
-1. Navigieren Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf `localhost:4502:` ausführen).
-i. Löschen Sie `/etc/replication/agents.author/mp_replication`
-ii. Löschen von `/etc/cloudservices/mediaportal/<config_name>`
+1. Navigieren Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf `localhost:4502:` ausführen)
+i. `/etc/replication/agents.author/mp_replication` löschen
+II. Löschen von `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gehen Sie zu localhost:4502/useradmin:\
-   i. Suchen Sie nach Benutzer `mac-<tenantid>replication`
-ii. Diesen Benutzer löschen
+   i. Nach `mac-<tenantid>replication` suchen
+II. Diesen Benutzer löschen
 
-Jetzt wird das System vollständig bereinigt. Jetzt können Sie versuchen, eine Cloud Service-Konfiguration zu erstellen und weiterhin die vorhandene JWT-Anwendung zu verwenden. Es ist nicht erforderlich, eine Anwendung zu erstellen. Aktualisieren Sie stattdessen den öffentlichen Schlüssel aus der neu erstellten Cloud-Konfiguration.
+Jetzt ist das System bereinigt. Jetzt können Sie versuchen, eine Cloud Service-Konfiguration zu erstellen und weiterhin die vorhandene JWT-Anwendung zu verwenden. Es ist nicht erforderlich, eine Anwendung zu erstellen. Aktualisieren Sie stattdessen den öffentlichen Schlüssel aus der neu erstellten Cloud-Konfiguration.
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ Jetzt wird das System vollständig bereinigt. Jetzt können Sie versuchen, eine 
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Wenn auf `https://legacy-oauth.cloud.adobe.io/`, werden alle Organisationen (Mandanten) aufgelistet, für die die aktuellen Benutzer Systemadministrator sind. Wenn Sie den Organisationsnamen hier nicht finden oder Sie eine Anwendung für einen erforderlichen Mandanten hier nicht erstellen können, überprüfen Sie, ob Sie über ausreichende (Systemadministrator-)Berechtigungen verfügen.
+Wenn auf `https://legacy-oauth.cloud.adobe.io/`, werden alle Organisationen (Mandanten) aufgelistet, für die die aktuellen Benutzer Systemadministrator sind. Wenn Sie den Organisationsnamen hier nicht finden oder Sie hier keine Anwendung für einen erforderlichen Mandanten erstellen können, überprüfen Sie, ob Sie über ausreichende (Systemadministrator-)Rechte verfügen.
 
-Auf dieser Benutzeroberfläche gibt es ein bekanntes Problem, dass für jeden Mandanten nur die zehn Top-Anwendungen sichtbar sind. Wenn Sie die Anwendung erstellen, bleiben Sie auf dieser Seite und erstellen Sie ein Lesezeichen für die URL. Gehen Sie nicht zur Listenseite der Anwendung und suchen Sie nach der von Ihnen erstellten Anwendung. Sie können diese mit Lesezeichen versehene URL direkt aufrufen und die Anwendung bei Bedarf aktualisieren oder löschen.
+Auf dieser Benutzeroberfläche gibt es ein bekanntes Problem, nämlich dass für jeden Mandanten nur die zehn wichtigsten Anwendungen sichtbar sind. Wenn Sie die Anwendung erstellen, bleiben Sie auf dieser Seite und erstellen Sie ein Lesezeichen für die URL. Navigieren Sie nicht zur Auflistungsseite des Programms und finden Sie das von Ihnen erstellte Programm. Sie können diese URL mit Lesezeichen direkt aufrufen und die Anwendung bei Bedarf aktualisieren oder löschen.
 
-Die JWT-Anwendung wird unter Umständen nicht korrekt aufgelistet. Es wird daher empfohlen, die URL beim Erstellen einer JWT-Anwendung zu notieren oder mit einem Lesezeichen zu versehen.
+Die JWT-Anwendung wird unter Umständen nicht korrekt aufgelistet. Daher wird empfohlen, die URL beim Erstellen einer JWT-Anwendung zu notieren oder mit einem Lesezeichen zu versehen.
 
 ## Laufende Konfiguration funktioniert nicht mehr {#running-configuration-stops-working}
 
@@ -111,11 +111,11 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Wenn ein Replikationsagent, mit dem das Veröffentlichen in Brand Portal bisher korrekt funktionierte, keine Veröffentlichungsaufträge mehr verarbeitet, prüfen Sie die Replikationsprotokolle. In Experience Manager ist eine Funktion zur automatischen Wiederholung integriert. Wenn das Veröffentlichen eines bestimmten Assets scheitert, wird automatisch ein Wiederholungsversuch gestartet. Wenn es ein zeitweiliges Problem gibt, z. B. einen Netzwerkfehler, kann es bei einem erneuten Versuch erfolgreich sein.
+Wenn ein Replikationsagent, mit dem das Veröffentlichen in Brand Portal bisher korrekt funktionierte, keine Veröffentlichungsaufträge mehr verarbeitet, prüfen Sie die Replikationsprotokolle. In Experience Manager ist eine Funktion zur automatischen Wiederholung integriert. Wenn das Veröffentlichen eines bestimmten Assets scheitert, wird automatisch ein Wiederholungsversuch gestartet. Wenn ein temporäres Problem auftritt, z. B. ein Netzwerkfehler, kann es während eines erneuten Versuchs erfolgreich sein.
 
-Wenn kontinuierliche Fehler beim Veröffentlichen auftreten und die Warteschlange blockiert ist, überprüfen Sie die **[!UICONTROL Testverbindung]**. Versuchen Sie, die gemeldeten Fehler zu beheben.
+Wenn es kontinuierliche Veröffentlichungsfehler gibt und die Warteschlange blockiert ist, überprüfen Sie die **[!UICONTROL Testverbindung]**. Versuchen Sie, die gemeldeten Fehler zu beheben.
 
-Basierend auf den Fehlern wird Ihnen empfohlen, ein Support-Ticket zu erstellen, damit das Brand Portal-Technikerteam Ihnen bei der Fehlerbehebung helfen kann.
+Basierend auf den Fehlern wird empfohlen, ein Support-Ticket zu erstellen, damit das Entwicklungsteam von Brand Portal Ihnen bei der Lösung der Probleme helfen kann.
 
 ## Brand Portal-IMS-Konfigurations-Token abgelaufen {#token-expired}
 

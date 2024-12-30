@@ -1,6 +1,6 @@
 ---
 title: Suchen von Assets in Brand Portal
-description: Mit der Suchfunktion von Brand Portal können Sie mithilfe von Omnisearch schnell nach relevanten Assets suchen. Mit Suchfiltern können Sie die Suche weiter eingrenzen. Speichern Sie Ihre Suchen als Smart-Sammlungen für die Zukunft.
+description: Mit der Brand Portal-Suchfunktion können Sie mithilfe von Omnisearch schnell nach relevanten Assets suchen. Suchfilter helfen Ihnen dabei, Ihre Suche weiter einzugrenzen. Speichern Sie Ihre Suchvorgänge als Smart-Sammlungen für die Zukunft.
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
-Mit der Suchfunktion von Brand Portal können Sie mithilfe von Omnisearch schnell nach relevanten Assets suchen. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Elemente auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern.
+Mit der Brand Portal-Suchfunktion können Sie relevante Assets schnell mit der Omnisearch- und Facettensuche suchen, die Filter verwendet, um Ihre Suche weiter einzugrenzen. Sie können Elemente auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Mit der Suchfunktion von Brand Portal können Sie mithilfe von Omnisearch schnel
 
 Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
-1. Klicken Sie in der Symbolleiste auf das Symbol **[!UICONTROL Suchen]** oder drücken Sie die Taste **[!UICONTROL /]** (Schrägstrich), um Omnisearch zu starten.
+1. Klicken Sie auf der Symbolleiste auf **[!UICONTROL Suchen]** oder drücken Sie die **[!UICONTROL /]**-Taste (Schrägstrich), um Omnisearch zu starten.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -38,9 +38,9 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
    >[!NOTE]
    >
    >* In Omnisearch sind mindestens 3 Zeichen erforderlich, damit Suchvorschläge angezeigt werden.
-   >* Wenn Sie nach `mountain biking` suchen, gibt Omnisearch alle Assets in den Suchergebnissen zurück, für die sowohl `mountain` als auch `biking` in den Metadatenfeldern verfügbar sind. Zum Beispiel `mountain` im Feld `Title` und `biking` im Feld `Description`. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt jedoch das Asset in den Suchergebnissen zurück, selbst wenn im Metadatenfeld Smart-Tags nur einer der beiden Begriffe verfügbar ist. Angenommen, ein Asset hat `mountain` als Smart-Tag, aber nicht `biking` in einem anderen Metadatenfeld. Dann suchen Sie nach `mountain biking`. Omnisearch gibt das Asset weiterhin in den Suchergebnissen zurück. Dieser Workflow stellt sicher, dass Assets mit relevanten Tags nicht fehlen.
+   >* Wenn Sie nach `mountain biking` suchen, gibt Omnisearch alle Assets in den Suchergebnissen zurück, für die sowohl `mountain` als auch `biking` in den Metadatenfeldern verfügbar sind. Zum Beispiel `mountain` im Feld `Title` und `biking` im Feld `Description`. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt das Asset jedoch in den Suchergebnissen selbst dann zurück, wenn im Metadatenfeld der Smart-Tags nur einer der beiden Begriffe verfügbar ist. Angenommen, ein Asset wurde als Smart-Tag `mountain`, in einem anderen Metadatenfeld fehlt jedoch `biking`. Dann suchen Sie nach `mountain biking`. Omnisearch gibt das Asset weiterhin in den Suchergebnissen zurück. Dieser Workflow stellt sicher, dass Assets mit relevanten Tags nicht übersehen werden.
 
-1. Wählen Sie aus den entsprechenden Vorschlägen aus, die in der Dropdownliste angezeigt werden, um schnell auf relevante Assets zuzugreifen.
+1. Wählen Sie aus den entsprechenden Vorschlägen in der Dropdown-Liste aus, um schnell auf relevante Assets zuzugreifen.
 
    ![](assets/assets-search-result.png)
 
@@ -50,13 +50,13 @@ Weitere Informationen zum Suchverhalten bei mit Smart-Tags versehenen Assets fin
 
 ## Suche mithilfe von Facetten im Bereich „Filter“ {#search-using-facets-in-filters-panel}
 
-Suchfacetten im Bereich &quot;Filter&quot;fügen Granularität zu Ihrem Sucherlebnis hinzu und machen die Suchfunktion effizienter. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können für eine zielgerichtetere Suche einfach einen Drilldown zur gewünschten Detailtiefe durchführen.
+Suchfacetten im Bedienfeld „Filter“ erhöhen die Granularität Ihres Sucherlebnisses und verbessern die Suchfunktion. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können für eine zielgerichtetere Suche einfach einen Drilldown zur gewünschten Detailtiefe durchführen.
 
-Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Suchbereich weiter eingrenzen, indem Sie in der Suchfacette Dateityp den MIME-Typ des Bildes angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, zum Beispiel PDF oder MS® Word.
+Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Suchbereich weiter eingrenzen, indem Sie den MIME-Typ des Bildes in der Suchfacette Dateityp angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, zum Beispiel PDF oder MS® Word.
 
 ![Bereich „Filter“ in Brand Portal](assets/file-type-search.png "Bereich „Filter“ in Brand Portal")
 
-Der Bereich **[!UICONTROL Filter]** enthält einige Standardfacetten, wie z. B. **[!UICONTROL Pfadbrowser]**, **[!UICONTROL Dateityp]**, **[!UICONTROL Dateigröße]**, **[!UICONTROL Status]** und **[!UICONTROL Ausrichtung]**.
+Das Bedienfeld **[!UICONTROL Filter]** enthält einige Standardfacetten, z. B. **[!UICONTROL Pfad-Browser]**, **[!UICONTROL Dateityp]**, **[!UICONTROL Dateigröße]**, **[!UICONTROL Status]** und **[!UICONTROL Ausrichtung]**.
 Sie können jedoch [benutzerdefinierte Suchfacetten hinzufügen](../using/brand-portal-search-facets.md) oder bestimmte aus dem Bedienfeld **[!UICONTROL Filter]** entfernen. Bearbeiten Sie einfach die Eigenschaften im zugrunde liegenden Suchformular. Siehe die Liste aller verfügbaren und verwendbaren [Suchprädikate in Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 So können Sie mit den verfügbaren [Suchfacetten](../using/brand-portal-search-facets.md) die Filter auf Ihre Suche anwenden:
@@ -68,11 +68,11 @@ So können Sie mit den verfügbaren [Suchfacetten](../using/brand-portal-search
 1. Wählen Sie im Bereich **[!UICONTROL Filter]** auf der linken Seite die entsprechenden Optionen aus, um die relevanten Filter anzuwenden.
 Verwenden Sie beispielsweise die folgenden Standardfilter:
 
-   * Nutzen Sie den **[!UICONTROL Pfadbrowser]** um Assets in einem bestimmten Verzeichnis zu suchen. Der Standardsuchpfad der Eigenschaft für den Pfadbrowser ist `/content/dam/mac/<tenant-id>/`, der durch Bearbeiten des Standardsuchformulars konfiguriert werden kann.
+   * Nutzen Sie den **[!UICONTROL Pfadbrowser]** um Assets in einem bestimmten Verzeichnis zu suchen. Der Standardsuchpfad des Prädikats für Pfad-Browser lautet `/content/dam/mac/<tenant-id>/`. Dieser kann durch Bearbeiten des Standard-Suchformulars konfiguriert werden.
 
    >[!NOTE]
    >
-   >Für Benutzer ohne Administratorrechte zeigt der [!UICONTROL Pfadbrowser] im Bedienfeld [!UICONTROL Filter] nur die Inhaltsstruktur der Ordner (und der Vorgängerordner) an, die für sie freigegeben sind.\
+   >Für Benutzer ohne Administratorrechte zeigt der [!UICONTROL Pfad-Browser] im Bedienfeld [!UICONTROL Filter] nur die Inhaltsstruktur der Ordner (und der ihnen übergeordneten Ordner) an, die für sie freigegeben sind.\
    >Administratoren können über den Pfadbrowser zu einem beliebigen Ordner in Brand Portal navigieren.
 
    * **[!UICONTROL Dateityp]**, um den Typ (Bild, Dokument, Multimedia, Archiv) der gesuchten Asset-Datei anzugeben. Darüber hinaus können Sie den Umfang Ihrer Suche einschränken. Geben Sie zum Beispiel den MIME-Typ (TIFF, Bitmap, GIMP-Bilder) für Bilder oder das Format (PDF oder MS® Word) für die Dokumente an.
@@ -85,12 +85,12 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
 
    Sie können im Bedienfeld „Filter“ [benutzerdefinierte Suchfacetten](../using/brand-portal-search-facets.md) verwenden, indem Sie das zugrunde liegende Suchformular bearbeiten.
 
-   * **[!UICONTROL Eigenschaftsprädikat]** können Sie bei Verwendung im Suchformular nach Assets suchen, die mit einer Metadateneigenschaft übereinstimmen, der das Prädikat zugeordnet ist.\
+   * **[!UICONTROL Eigenschaftsprädikat]** ermöglicht es Ihnen, bei Verwendung im Suchformular nach Assets zu suchen, die mit einer Metadateneigenschaft übereinstimmen, der das Prädikat zugeordnet ist.\
      Wenn beispielsweise das Eigenschaftsprädikat `jcr:content/metadata/dc:title` zugeordnet ist, können Sie Assets auf Grundlage ihres Titels suchen.\
      Das [!UICONTROL Eigenschaftsprädikat] unterstützt die Textsuche nach Folgendem:
 
-     **Teilausdrücke**
-Um die Asset-Suche mit Teilsätzen im Eigenschaftsprädikat zu ermöglichen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Teilsuche]** im Suchformular. Mit dieser Methode können Sie nach den gewünschten Assets suchen, selbst wenn Sie nicht die genauen Wörter oder Ausdrücke angeben, die in den Asset-Metadaten verwendet werden.
+     **Teilsätze**
+Um die Asset-Suche mithilfe teilweiser Sätze im Eigenschaftsprädikat zuzulassen, aktivieren Sie im Suchformular **[!UICONTROL Kontrollkästchen]** Teilsuche“. Mit dieser Methode können Sie nach den gewünschten Assets suchen, auch wenn Sie nicht die genauen Wörter oder Ausdrücke angeben, die in den Asset-Metadaten verwendet werden.
 
      >[!NOTE]
      >
@@ -101,19 +101,19 @@ Um die Asset-Suche mit Teilsätzen im Eigenschaftsprädikat zu ermöglichen, akt
      >* `jcr:content/metadata/dc:format`
 
      Sie haben folgende Möglichkeiten:
-      * Geben Sie im Bedienfeld Filter ein Wort an, das im gesuchten Satz in der Facette vorkommt. Wenn Sie beispielsweise nach dem Begriff **klettern** suchen (und das Eigenschaftsprädikat der Eigenschaft `dc:title` zugeordnet ist), werden alle Assets mit dem Wort **klettern** in ihrer Titelphrase zurückgegeben.
-      * Geben Sie einen Teil des Wortes an, das im gesuchten Satz vorkommt, sowie ein Platzhalterzeichen (&#42;), um die Lücken zu füllen.
+      * Geben Sie ein Wort im Suchbegriff in der Facette im Bedienfeld Filter an. Wenn Sie beispielsweise nach dem Begriff **klettern** suchen (und das Eigenschaftsprädikat der `dc:title` Eigenschaft zugeordnet ist), werden alle Assets mit dem Wort **klettern** im Titelsatz zurückgegeben.
+      * Geben Sie einen Teil des Wortes ein, das im Suchbegriff vorkommt, und füllen Sie die Lücken mit einem Platzhalterzeichen (&#42;).
 Zum Beispiel gibt die Suche nach:
          * **klettern&#42;** alle Elemente zurück, deren Titelphrase Wörter enthält, die mit der Zeichenfolge „klettern“ beginnen.
          * **&#42;klettern** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
          * **&#42;klettern&#42;** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die die Zeichenfolge „klettern“ enthalten.
 
-     **Text, der nicht zwischen Groß- und Kleinschreibung unterscheidet**
-Sie können die Suche in der Eigenschaftsprädikat zulassen, bei der nicht zwischen Groß- und Kleinschreibung unterschieden wird. Aktivieren Sie einfach das Kontrollkästchen **[!UICONTROL Groß-/Kleinschreibung ignorieren]** im Suchformular. Bei der Textsuche im Eigenschaftsprädikat wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden.
+     **Text ohne Unterscheidung von Groß- und Kleinschreibung**
+Sie können die Suche ohne Unterscheidung von Groß- und Kleinschreibung im Eigenschaftsprädikat zulassen. Aktivieren Sie einfach das **[!UICONTROL Groß-/Kleinschreibung ignorieren]** im Suchformular. Standardmäßig wird bei der Textsuche im Eigenschaftsprädikat zwischen Groß- und Kleinschreibung unterschieden.
 
    >[!NOTE]
    >
-   >Wenn Sie das Kontrollkästchen **[!UICONTROL Teilsuche]** aktivieren, wird standardmäßig **[!UICONTROL Groß-/Kleinschreibung ignorieren]** ausgewählt.
+   >Wenn Sie das Kontrollkästchen **[!UICONTROL Teilsuche]** aktivieren, wird **[!UICONTROL Groß-/Kleinschreibung ignorieren]** standardmäßig aktiviert.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -121,7 +121,7 @@ Sie können die Suche in der Eigenschaftsprädikat zulassen, bei der nicht zwisc
 
    ![](assets/omnisearch-with-filters.png)
 
-   Asset-Suchergebnis mit Zählung der Suchergebnisse.
+   Asset-Suchergebnis mit der Anzahl der Suchergebnisse.
 
 1. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
 
@@ -131,13 +131,13 @@ Sie können die Sucheinstellungen als Smart-Sammlung speichern, um dieselbe Such
 
 So speichern Sie die Sucheinstellungen als Smart-Sammlung:
 
-1. Klicken Sie auf **[!UICONTROL Smart-Sammlung speichern]** und geben Sie einen Namen für die Smart-Sammlung ein.
+1. Klicken Sie **[!UICONTROL Smart-Sammlung speichern]** und geben Sie einen Namen für die Smart-Sammlung ein.
 
    Damit die Smart-Sammlung von allen Benutzern verwendet werden kann, aktivieren Sie die Option **[!UICONTROL Öffentlich]**. Eine Meldung bestätigt, dass die Smart-Sammlung erstellt und zur Liste der gespeicherten Suchen hinzugefügt wurde.
 
    >[!NOTE]
    >
-   >Sie können Benutzer ohne Administratorrechte daran hindern, Smart-Sammlungen öffentlich zu machen, um zu verhindern, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen in der Brand Portal des Unternehmens erstellen. Unternehmen können die Konfiguration **[!UICONTROL Erstellung öffentlicher Smart-Sammlungen zulassen]** in den Einstellungen **[!UICONTROL Allgemein]** im Admin Tools-Bereich deaktivieren.
+   >Sie können Benutzerinnen und Benutzer ohne Administratorrechte daran hindern, Smart-Sammlungen öffentlich zu machen, um zu vermeiden, dass im Brand Portal des Unternehmens eine große Anzahl öffentlicher Smart-Sammlungen von Benutzerinnen und Benutzern ohne Administratorrechte erstellt wird. Unternehmen können die Konfiguration **[!UICONTROL Erstellung öffentlicher Smart-Sammlungen zulassen]** in den **[!UICONTROL Allgemein]** Einstellungen im Admin-Tools-Bereich deaktivieren.
 
    ![](assets/save_smartcollectionui.png)
 

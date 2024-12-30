@@ -1,6 +1,6 @@
 ---
 title: Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen
-description: Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Anhand von Bildvorgaben kann Experience Manager Assets Brand Portal Bilder unterschiedlicher Größe, Formate und Eigenschaften dynamisch bereitstellen.
+description: Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mit Bildvorgaben kann Experience Manager Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch bereitstellen.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -15,15 +15,15 @@ ht-degree: 61%
 
 # Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen {#apply-image-presets-or-dynamic-renditions}
 
-Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Anhand von Bildvorgaben kann Experience Manager Assets Brand Portal Bilder unterschiedlicher Größe, Formate und Eigenschaften dynamisch bereitstellen.
+Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mit Bildvorgaben kann Experience Manager Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch bereitstellen.
 
 Bildvorgaben werden verwendet, um dynamische Ausgabedarstellungen von Bildern zu generieren, die als Vorschau angezeigt oder heruntergeladen werden können. Wenn Sie eine Vorschau von Bildern und deren Ausgabedarstellungen anzeigen, können Sie eine Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-(*Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media-Hybridmodus*** ausgeführt wird). Um dynamische Ausgabedarstellungen eines Assets in Brand Portal anzuzeigen, stellen Sie sicher, dass die Pyramid TIFF-Ausgabedarstellung in der Experience Manager Assets-Autoreninstanz vorhanden ist, von der aus Sie in Brand Portal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabedarstellung in Brand Portal veröffentlicht.
+(*Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus ausgeführt wird***) Um dynamische Ausgabedarstellungen eines Assets in Brand Portal anzuzeigen, stellen Sie sicher, dass seine Pyramid TIFF-Ausgabedarstellung in der Experience Manager Assets-Autoreninstanz, von der aus Sie in Brand Portal veröffentlichen, vorhanden ist. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabedarstellung in Brand Portal veröffentlicht.
 
 >[!NOTE]
 >
->Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
+>Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter &quot;[ von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
 Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben erforderlich sind, finden Sie unter [Verwalten von Bildvorgaben](../using/brand-portal-image-presets.md).
@@ -34,13 +34,13 @@ Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die au
 
 >[!NOTE]
 >
->Dynamische Ausgabedarstellungen werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn die Pyramid-TIFF für kein Asset verfügbar ist, können dynamische Ausgabeformate für dieses Asset nicht in Brand Portal abgerufen werden.
+>Dynamische Ausgabedarstellungen werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn die Pyramid-TIFF für kein Asset verfügbar ist, können keine dynamischen Ausgabedarstellungen für dieses Asset in Brand Portal abgerufen werden.
 >
->Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media-Hybridmodus** ausgeführt wird, werden die Pyramid-TIFF-Ausgabeformate von Bild-Assets im Experience Manager Assets-Repository erstellt und gespeichert.
+>Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid-TIFF-Ausgabedarstellungen von Bild-Assets im Experience Manager Assets-Repository erstellt und gespeichert.
 >
->Wenn jedoch eine Experience Manager Assets-Autoreninstanz im **Dynamic Media Scene7-Modus** ausgeführt wird, sind PTIMD-TIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
+>Wenn jedoch eine Experience Manager Assets-Autoreninstanz im **Dynamic Media Scene7-Modus** ausgeführt wird, sind Pyramid-TIFF-Ausgabedarstellungen von Bild-Assets auf dem Scene7-Server vorhanden.
 >
->Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
+>Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabedarstellungen angezeigt.
 
 
 1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
@@ -62,7 +62,7 @@ Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die au
    >Auf der Seite **[!UICONTROL Bildvorgabe bearbeiten]** können Sie auch Eigenschaften einer vorhandenen Bildvorgabe bearbeiten. Um eine Bildvorgabe zu bearbeiten, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
-1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird von der Seite &quot;Bildvorgaben&quot;entfernt.
+1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird aus der Seite „Bildvorgaben“ entfernt.
 
 ## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau {#apply-image-presets-when-previewing-images}
 
@@ -95,9 +95,9 @@ Beim Herunterladen von Bildern und deren Ausgabedarstellungen aus Brand Portal g
 
    ![](assets/donload-assets-dialog.png)
 
-1. Um dynamische Ausgabeformate des Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabeformate]** aus.
-1. Passen Sie die Eigenschaften der Bildvorgabe an, um das Bild und seine Ausgabeformate während des Downloads dynamisch neu zu formatieren. Geben Sie Größe, Format, Farbraum, Auflösung und Bild-Modifikator an.
+1. Um dynamische Ausgabedarstellungen des Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabedarstellungen]** aus.
+1. Passen Sie die Eigenschaften der Bildvorgaben an, um das Bild und seine Ausgabedarstellungen während des Herunterladens dynamisch neu zu formatieren. Geben Sie Größe, Format, Farbraum, Auflösung und Bildmodifikator an.
 
    ![](assets/dynamicrenditions.png)
 
-1. Klicken Sie auf **[!UICONTROL Herunterladen]**. Die dynamischen Ausgaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Ausgabedarstellungen, die Sie herunterladen möchten, heruntergeladen. Es wird jedoch keine ZIP-Datei erstellt, wenn ein einzelnes Asset heruntergeladen wird, was einen schnellen Download gewährleistet.
+1. Klicken Sie auf **[!UICONTROL Herunterladen]**. Die dynamischen Ausgaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Ausgabedarstellungen, die Sie herunterladen möchten, heruntergeladen. Beim Herunterladen eines einzelnen Assets wird jedoch keine ZIP-Datei erstellt, was einen schnellen Download gewährleistet.

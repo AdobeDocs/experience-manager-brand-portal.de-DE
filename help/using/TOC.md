@@ -59,7 +59,7 @@ ht-degree: 97%
    + [Schritte bei der ersten Anmeldung](/help/using/brand-portal-onboarding.md)
    + [Verwalten von Benutzern, Gruppen und Benutzerrollen](/help/using/brand-portal-adding-users.md)
    + [Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten](/help/using/brand-portal-branding.md)
-   + [Verwenden des Metadatenschemas](/help/using/brand-portal-metadata-schemas.md)
+   + [Verwenden eines Metadatenschemas](/help/using/brand-portal-metadata-schemas.md)
    + [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](/help/using/brand-portal-image-presets.md)
    + [Arbeiten mit Berichten](/help/using/brand-portal-reports.md)
 

@@ -76,7 +76,7 @@ Jedes Experience Manager Assets Brand Portal unterstützt die in der Matrix aufg
 | TAR | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
 | ZIP | ✓ | ✓ | ✓ | ✓ | nicht vorhanden | ✓ | ✓ | ✕ |
 
-In der folgenden Legende werden die in der Matrix verwendeten Symbole erläutert:
+Die folgende Legende erklärt die in der Matrix verwendeten Symbole:
 
 | Symbol | Bedeutung |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -15,9 +15,9 @@ ht-degree: 60%
 
 # Konfigurieren des Beitragsordners in Experience Manager Assets {#configure-contribution-folder}
 
-Bei der gemeinsamen Asset-Beschaffung können Experience Manager Assets-Benutzer (Administratoren und Benutzer ohne Administratorrechte) Ordner des Typs **Asset-Beitrag** erstellen, um sicherzustellen, dass der erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist.  Bei dieser Methode wird automatisch ein Workflow Trigger, der zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten Ordner **Contribution** erstellt.
+Bei der gemeinsamen Asset-Beschaffung können Experience Manager Assets-Benutzer (Administratoren und Benutzer ohne Administratorrechte) Ordner des Typs **Asset-Beitrag** erstellen, um sicherzustellen, dass die erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind.  Auf diese Weise wird automatisch ein Workflow Trigger, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten Ordner **Contribution** erstellt werden.
 
-Der Experience Manager Assets-Benutzer definiert die Asset-Anforderungen, indem er eine Kurzbeschreibung der Asset-Typen hochlädt, die zum Beitragsordner hinzugefügt werden sollen. Außerdem laden sie eine Reihe von Grundlinien-Assets in den Ordner SHARED hoch, um sicherzustellen, dass Benutzer von Brand Portal über die benötigten Informationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
+Der Experience Manager Assets-Benutzer definiert die Asset-Anforderungen, indem er eine Zusammenfassung der Asset-Typen hochlädt, die zum Beitragsordner hinzugefügt werden sollen. Außerdem laden sie eine Reihe von Grundlinien-Assets in den Ordner FREIGEGEBEN hoch, um sicherzustellen, dass Benutzende von Brand Portal über die benötigten Informationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
 
 Das folgende Video zeigt, wie Sie einen Beitragsordner in Experience Manager Assets konfigurieren:
 
@@ -25,15 +25,15 @@ Das folgende Video zeigt, wie Sie einen Beitragsordner in Experience Manager Ass
 
 Der Experience Manager Assets-Benutzer führt beim Konfigurieren eines Beitragsordners die folgenden Aktivitäten aus:
 
-* [Erstellen eines Beitragsordners](#create-contribution-folder)
+* [Erstellen von Beitragsordnern](#create-contribution-folder)
 * [Hochladen von Asset-Anforderungen und Zuweisen von Beitragenden](#configure-contribution-folder-properties)
 * [Hochladen von Grundlinien-Assets](#uplad-new-assets-to-contribution-folder)
 * [Veröffentlichen des Beitragsordners aus Experience Manager Assets in Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Erstellen von Beitragsordnern {#create-contribution-folder}
 
-Experience Manager Assets-Administratoren und Benutzer ohne Administratorrechte, die zum Erstellen eines neuen Ordners berechtigt sind, können in Experience Manager Assets einen Beitragsordner erstellen.
-Erstellen Sie zum Erstellen eines Beitragsordners einen Ordner vom Typ Asset-Beitrag, um sicherzustellen, dass der erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist. Bei dieser Methode wird automatisch ein Workflow Trigger, mit dem zwei weitere Unterordner namens SHARED und NEW im Beitragsordner erstellt werden.
+Experience Manager Assets-Administratoren und Benutzer ohne Administratorrechte, die zum Erstellen eines neuen Ordners berechtigt sind, können einen Beitragsordner in Experience Manager Assets erstellen.
+Um einen Beitragsordner zu erstellen, erstellen Sie einen Ordner des Typs Asset-Beitrag, um sicherzustellen, dass der erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist. Auf diese Weise wird automatisch ein Workflow Trigger, mit dem zwei weitere Unterordner namens FREIGEGEBEN und NEU im Beitragsordner erstellt werden.
 
 >[!NOTE]
 >
@@ -52,8 +52,8 @@ Sie können die Eigenschaften des Beitragsordners sowohl separat als auch beim E
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um einen neuen Ordner zu erstellen. Das Dialogfeld **[!UICONTROL Ordner erstellen]** wird geöffnet.
 
-1. Geben Sie den **[!UICONTROL Titel]** und den **[!UICONTROL Namen]** des Ordners ein und aktivieren Sie das Kontrollkästchen **[!UICONTROL Asset-Beitrag]** .
-Adobe empfiehlt, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu benennen.
+1. Geben Sie **[!UICONTROL Titel]** und **[!UICONTROL Name]** des Ordners ein und aktivieren Sie das Kontrollkästchen **[!UICONTROL Asset-]**.
+Adobe empfiehlt die Verwendung von Kleinbuchstaben ohne Leerzeichen zum Benennen des Ordners.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Beitragsordner wird im Experience Manager Assets-Repository aufgelistet.
 
@@ -64,7 +64,7 @@ Adobe empfiehlt, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu
 
    ![](assets/create-contribution-folder.png)
 
-1. Öffnen Sie den Beitragsordner. Es werden zwei Unterordner angezeigt: **[!UICONTROL SHARED]** und **[!UICONTROL NEW]**. Diese werden automatisch im Beitragsordner erstellt.
+1. Öffnen Sie den Beitragsordner. Es werden zwei Unterordner **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]** angezeigt, die automatisch im Beitragsordner erstellt werden.
 
    ![](assets/contribution-folder.png)
 
@@ -74,10 +74,10 @@ Adobe empfiehlt, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu
 Der Experience Manager Assets-Administrator führt beim Konfigurieren der Eigenschaften eines Beitragsordners die folgenden Aktivitäten aus.
 
 * **Beschreibung hinzufügen**: Geben Sie eine allgemeine Beschreibung des Beitragsordners ein.
-* **Kurzbeschreibung hochladen**: Laden Sie ein Asset-Anforderungsdokument hoch, das Asset-bezogene Informationen enthält.
+* **Zusammenfassung hochladen**: Laden Sie ein Asset-Anforderungsdokument hoch, das Asset-bezogene Informationen enthält.
 * **Beitragende hinzufügen**: Fügen Sie Brand Portal-Benutzer hinzu, um ihnen Zugriff auf den Beitragsordner zu gewähren.
 
-Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bereitgestellt werden, um Beitragende (Brand Portal-Benutzer) dabei zu unterstützen, die Notwendigkeit und Anforderungen des Beitragsordners zu verstehen. Der Administrator lädt ein Asset-Anforderungsdokument hoch, in dem die Asset-Typen für den Beitragsordner detailliert beschrieben werden, einschließlich Zweck, Bildtypen und Maximalgröße.
+Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bereitgestellt werden, um Beitragende (Brand Portal-Benutzer) dabei zu unterstützen, die Notwendigkeit und Anforderungen des Beitragsordners zu verstehen. Der Administrator lädt ein Asset-Anforderungsdokument hoch, in dem die Asset-Typen für den Beitragsordner detailliert beschrieben sind, einschließlich Zweck, Bildtypen und Maximalgröße.
 
 **Konfigurieren von Eigenschaften von Beitragsordnern:**
 
@@ -111,7 +111,7 @@ Administratoren können die Datei `user.csv` aus der [!DNL Admin Console] nutzen
 
 ## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
 
-Experience Manager Assets-Benutzer lädt einen Satz von Grundlinien-Assets in den Ordner **SHARED** hoch, um sicherzustellen, dass Benutzer von Brand Portal über die benötigten Informationen verfügen.
+Ein Experience Manager Assets-Benutzer lädt eine Reihe von Grundlinien-Assets in den Ordner **SHARED** hoch, um sicherzustellen, dass die Benutzer von Brand Portal über die benötigten Informationen verfügen.
 
 **Hochladen von Grundlinien-Assets:**
 
@@ -138,7 +138,7 @@ Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, v
 
 ## Veröffentlichen von Beitragsordnern in Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Sobald der Beitragsordner konfiguriert ist, kann der Experience Manager Assets-Benutzer (Administratoren/Benutzer ohne Administratorrechte) den Beitragsordner aus Experience Manager Assets in Brand Portal veröffentlichen. Brand Portal-Benutzer, die zum Zugriff auf den Beitragsordner berechtigt sind, erhalten nach Abschluss der Veröffentlichungsaktion eine E-Mail- oder Pulsbenachrichtigung.
+Sobald der Beitragsordner konfiguriert ist, kann der Experience Manager Assets-Benutzer (Administratoren/Benutzer ohne Administratorrechte) den Beitragsordner aus Experience Manager Assets in Brand Portal veröffentlichen. Brand Portal-Benutzende, die berechtigt sind, auf den Beitragsordner zuzugreifen, erhalten nach Abschluss der Veröffentlichungsaktion eine E-Mail- oder Push-Benachrichtigung.
 
 
 **So veröffentlichen Sie einen Beitragsordner:**
