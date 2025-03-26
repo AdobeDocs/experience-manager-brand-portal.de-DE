@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 58%
@@ -122,7 +122,6 @@ Durchsuchen Sie den lokalen Computer und laden Sie eine **Konfigurationsdatei (.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/upload-user-list2.png)
-
 
 Administratoren können beim Konfigurieren eines Beitragsordners bestimmten Benutzern aus dieser Benutzerliste Zugriff gewähren. Nur die Benutzenden, die einem Beitragsordner zugewiesen sind, haben Zugriff auf den Beitragsordner und können Assets aus Brand Portal in Experience Manager Assets veröffentlichen.
 
