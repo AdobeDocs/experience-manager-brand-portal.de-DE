@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -97,7 +97,7 @@ In der [!DNL Admin Console] definierter Brand Portal-Benutzer, der Zugriff auf B
 
 ### Bearbeiter {#editor}
 
-Benutzende mit der Rolle „Bearbeiter“ können alle Aufgaben ausführen, die der Rolle „Betrachter“ zur Verfügung stehen. Zusätzlich kann eine Person mit der Rolle „Bearbeiter“ die Dateien und Ordner anzeigen, die von der oder dem Admin freigegeben wurden. Benutzende mit der Rolle „Bearbeiter“ können außerdem Inhalte (Dateien, Ordner und Sammlungen) für andere Benutzende freigeben.
+Benutzende mit der Rolle „Bearbeiter“ können alle Aufgaben ausführen, die der Rolle „Betrachter“ zur Verfügung stehen. Darüber hinaus kann ein Editor die Dateien und Ordner anzeigen, die ein Administrator freigibt. Benutzende mit der Rolle „Bearbeiter“ können außerdem Inhalte (Dateien, Ordner und Sammlungen) für andere Benutzende freigeben.
 
 Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter folgende Aufgaben zur Verfügung:
 
@@ -109,11 +109,11 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 ### Administrator {#administrator}
 
-Zu den Administratoren gehören Benutzer, die in der [!UICONTROL -Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert ]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
+Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert ]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
 >[!NOTE]
 >
->In Brand Portal hat ein Benutzer mit der Rolle „Support-Administrator“ in der [!UICONTROL Admin Console ] dieselben Berechtigungen wie ein Systemadministrator.
+>In Brand Portal hat ein Benutzer mit der Rolle „Support-Administrator“ in der [!UICONTROL Admin Console] dieselben Berechtigungen wie ein Systemadministrator.
 
 Ein Administrator kann alle Aufgaben ausführen, die ein Bearbeiter ausführen kann. Im Folgenden finden Sie die zusätzlichen Aufgaben, die ein Administrator ausführen kann:
 
@@ -197,13 +197,13 @@ Brand Portal-Produkt-Administratoren erhalten die Zugriffsanforderungen im Brand
 ![Benachrichtigung zu Zugriffsanforderungen](assets/bplogin_request_access_7.png)
 
 Um den Zugriff zu gewähren, müssen Produktadministratoren auf die entsprechende Benachrichtigung im Brand Portal-Benachrichtigungsbereich und dann auf **[!UICONTROL Zugriff gewähren]** klicken.
-Alternativ können Produkt-Administratoren dem in der E-Mail mit der Zugriffsanfrage angegebenen Link folgen, um die Adobe-[!UICONTROL Admin Console ] besuchen und den Benutzer zur entsprechenden Produktkonfiguration hinzuzufügen.
+Alternativ können Produkt-Administratoren dem in der E-Mail mit der Zugriffsanfrage angegebenen Link folgen, um die Adobe [!UICONTROL Admin Console] aufzurufen und den Benutzer zur entsprechenden Produktkonfiguration hinzuzufügen.
 
-Sie werden zur Homepage der [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) weitergeleitet. Verwenden Sie die Adobe Admin Console, um Benutzende zu erstellen und diese Produktprofilen (ehemals „Produktkonfigurationen„) zuzuweisen, die in Brand Portal als Gruppen angezeigt werden. Weitere Informationen zum Hinzufügen von Benutzenden in der [!UICONTROL Admin Console ] finden Sie unter [Hinzufügen von Benutzenden](brand-portal-adding-users.md#add-a-user) (befolgen Sie Schritte 4 bis 7, um einen Benutzenden hinzuzufügen).
+Sie werden zur Homepage der [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) weitergeleitet. Verwenden Sie die Adobe [!UICONTROL Admin Console], um Benutzende zu erstellen und diese Produktprofilen (ehemals „Produktkonfigurationen„) zuzuweisen, die in Brand Portal als Gruppen angezeigt werden. Weitere Informationen zum Hinzufügen von Benutzern in der [!UICONTROL Admin Console] finden Sie unter [Hinzufügen von Benutzern](brand-portal-adding-users.md#add-a-user) (befolgen Sie Schritte 4 bis 7, um einen Benutzer hinzuzufügen).
 
 ## Brand Portal-Sprachen {#brand-portal-language}
 
-Sie können die Brand Portal-Sprache in den Adobe-[!UICONTROL Experience Cloud-Einstellungen ändern].
+Sie können die Brand Portal-Sprache in den Adobe [!UICONTROL Experience Cloud-Einstellungen ändern].
 
 ![Benachrichtigung zu Zugriffsanforderungen](assets/BPLang.png)
 
@@ -213,7 +213,7 @@ Gehen Sie wie folgt vor, um die Sprache zu ändern:
 
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
-1. Wählen Sie auf der Seite {0]Experience Cloud-Einstellungen} eine Sprache aus dem Dropdown[!UICONTROL Menü ]Sprache“ aus.[!UICONTROL 
+1. Experience Cloud Wählen Sie auf der Seite ]0} eine Sprache aus dem Dropdown[!UICONTROL Menü ]Sprache“ aus.[!UICONTROL 
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
