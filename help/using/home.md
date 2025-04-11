@@ -3,9 +3,9 @@ title: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
 description: Nutzen Sie Experience Manager Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Das Fehlen einer sicheren Lösung für die Asset-Freigabe kann zu folgenden Prob
 * Duplizierung von Inhalten über geografische Standorte und Organisationen hinweg
 * Ungesicherte Speicherung von Assets vor der Veröffentlichung
 
-Brand Portal stellt die Markenkonformität sicher, indem es Marketing-Experten die Möglichkeit gibt, mit Partnern und internen Anwendern zusammenzuarbeiten, um Design-Richtlinien, Logos und Kampagnen-Assets zu erstellen, zu verwalten und an Stakeholder zu senden.
+Brand Portal hilft, die Marken-Compliance sicherstellen, indem es Marketing-Fachleuten ermöglicht, mit Partnern und internen Benutzenden zusammenzuarbeiten, um Design-Richtlinien, Logos und Kampagnenressourcen zu erstellen, zu verwalten und an die Projektbeteiligten weiterzuleiten.
 
 Brand Portal ist ein Cloud-basiertes SaaS-Angebot. Es ist als Add-on für Adobe Experience Manager Assets (on-premise oder als verwalteter Dienst) verfügbar. Sie können Brand Portal mit [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] nutzen. Nach der [Konfiguration](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) können genehmigte Assets aus einer Instanz von [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] in [!DNL Brand Portal] veröffentlicht werden und an Benutzerinnen und Benutzer von Brand Portal verteilt werden.
 
@@ -44,9 +44,9 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 | [Fehlerbehebung bei Problemen in paralleler Veröffentlichung](troubleshoot-parallel-publishing.md) | Fehlerbehebung bei der Replikation zwischen Brand Portal und Experience Manager Assets. |
 | [Unterstützte Dateiformate](brand-portal-supported-formats.md) | Unterstützte Dateiformate in Brand Portal für Vorschau und Download. |
 | [Veröffentlichen von Assets in Brand Portal](brand-portal-sharing-folders.md) | Veröffentlichen von Ordnern, Sammlungen, Links, Vorgaben, Schemas, Facetten und Tags in Brand Portal. |
-| [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md) | Konfigurieren der Asset-Beschaffung in AEM Assets, Hochladen von Assets in Brand Portal und erneutes Veröffentlichen des Beitragsordners in AEM Assets |
+| [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md) | Konfigurieren der Asset-Beschaffung in AEM Assets, Hochladen von Assets in Brand Portal und erneutes Veröffentlichen des Beitragsordners in AEM Assets. |
 | [Videos zu Brand Portal-Funktionen](https://experienceleague.adobe.com/?lang=de&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Erfahren Sie in Video-Tutorials, wie Sie Experience Manager Assets Brand Portal verwenden. |
 
 ### Hilfreiche Ressourcen
 
-* [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)

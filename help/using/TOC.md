@@ -9,9 +9,9 @@ user-guide-description: Nutzen Sie Experience Manager Assets Brand Portal, um Ma
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 97%
    + [Häufig gestellte Fragen](/help/using/brand-portal-faqs.md)
    + [Unterstützte Dateiformate](/help/using/brand-portal-supported-formats.md)
    + [Gastzugang für Brand Portal](/help/using/guest-access.md)
-   + [Grundlegendes zu Brand Portal mit Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+   + [Grundlegendes zu Brand Portal mit Experience Manager Assets](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)
    + [Durchsuchen von Assets in Brand Portal](/help/using/browse-assets-brand-portal.md)
 + Veröffentlichen aus Experience Manager Assets in Brand Portal {#publish}
    + [Konfigurieren von Experience Manager Assets mit Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Veröffentlichen von Assets in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
-   + [Veröffentlichen von Ordnern in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-   + [Veröffentlichen von Sammlungen in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+   + [Veröffentlichen von Ordnern in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [Veröffentlichen von Sammlungen in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal](/help/using/troubleshoot-parallel-publishing.md)
    + [Veröffentlichen von Tags in Brand Portal](/help/using/brand-portal-publish-tags.md)
    + [Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal](/help/using/publish-schema-search-facets-presets.md)

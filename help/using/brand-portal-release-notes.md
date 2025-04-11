@@ -7,9 +7,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1533'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 ## Übersicht {#overview}
 
-Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzende auf allen Geräten verteilen. Es hilft, die Effizienz der gemeinsamen Nutzung von Assets zu verbessern, die Markteinführung von Assets zu beschleunigen und das Risiko der Nichteinhaltung von Vorschriften und des unbefugten Zugriffs zu verringern. Mit Brand Portal können Benutzer jederzeit und überall Assets durchsuchen, suchen, in der Vorschau anzeigen, herunterladen und in Formate exportieren, die vom Unternehmen genehmigt wurden.
+Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzende auf allen Geräten verteilen. Es hilft, die Effizienz der gemeinsamen Nutzung von Assets zu verbessern, die Markteinführung von Assets zu beschleunigen und das Risiko der Nichteinhaltung von Vorschriften und des unbefugten Zugriffs zu verringern. Brand Portal bietet Benutzenden die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
 ## Neue Funktionen in Version 2024.10.0 {#whats-new-in-2024.10.0}
 
@@ -38,12 +38,12 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
 * Die E-Mail-Benachrichtigungen für die Beschaffung von Importereignissen werden nicht gesendet.
 * Bei Verwendung des Suchfilters zeigt [!DNL Brand Portal] doppelte Ordner im Suchfilterfenster an.
-* Der Download von Sammlungen mit nicht lizenzierten Assets mit Sonderzeichen in ihren Namen funktioniert nicht.
-* Beim Navigieren zum [!UICONTROL Suchformular-Editor] werden Kennzeichnungen nicht lokalisiert.
-* Kennzeichnungen werden im Fenster „Link-Freigabe“ nicht lokalisiert.
-* Video mit Sonderzeichen im Namen kann nicht heruntergeladen werden.
+* Der Download von Sammlungen mit nicht lizenzierten Assets, deren Namen Sonderzeichen enthalten, funktioniert nicht.
+* Beim Navigieren zum [!UICONTROL Suchformular-Editor] werden Labels nicht lokalisiert.
+* Labels werden im Fenster zur Link-Freigabe nicht lokalisiert.
+* Ein Video mit Sonderzeichen im Namen kann nicht heruntergeladen werden.
 * Das Veröffentlichen und Rückgängigmachen der Veröffentlichung von Assets aus [!DNL Adobe Experience Manager Assets] in Brand Portal funktioniert nicht ordnungsgemäß.
-* Aus der Brand Portal heruntergeladene Videos können nicht wiedergegeben werden.
+* Aus Brand Portal heruntergeladene Videos können nicht wiedergegeben werden.
 
 ## Frühere Versionen
 
@@ -53,10 +53,10 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Mit DRM geschützte digitale Assets im türkischen Gebietsschema können nicht heruntergeladen werden.
-* Die vorhandenen Berichte mit Assets mit mehrzeiligem Titel können nicht geöffnet und heruntergeladen werden.
-* Wenn Sie Assets über die Schaltfläche [!UICONTROL Herunterladen] in der Aktionsleiste herunterladen, werden maximal 1.000 Assets heruntergeladen.
-* Falscher Name von Assets vom Typ PSD bei der Anzeige in der Inhaltsstruktur.
+* Digitale Assets, die durch DRM geschützt sind, können im türkischen Gebietsschema nicht heruntergeladen werden.
+* Die vorhandenen Berichte, die Assets mit mehrzeiligen Titeln enthalten, können nicht geöffnet und heruntergeladen werden.
+* Beim Herunterladen von Assets mit der Schaltfläche [!UICONTROL Herunterladen] in der Aktionsleiste werden maximal 1.000 Assets heruntergeladen.
+* Der Name von Assets vom Typ PSD ist bei der Anzeige in der Inhaltsstruktur falsch.
 * Die Option [!UICONTROL Ausgabedarstellung löschen] auf der Asset-Detailseite funktioniert nicht.
 * Titel und Größe der Assets sind im Download-Popup-Fenster falsch ausgerichtet.
 * Beim Erstellen eines Berichts sind Beschriftungen nicht lokalisiert.
@@ -77,7 +77,7 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
 * Das Format für [!UICONTROL Datum und Uhrzeit] ist bei der Arbeit mit einem anderen Gebietsschema als Englisch inkonsistent.
 
-* Bei der Suche nach Assets [!UICONTROL  die Schaltfläche ]Löschen“.
+* Bei der Suche nach Assets fehlt die Schaltfläche [!UICONTROL Löschen].
 
 * Wenn das Feld [!UICONTROL Titel] mehrere Multibyte-Symbole in der [!UICONTROL Link-Freigabe] enthält, kann der Bericht nicht heruntergeladen werden.
 
@@ -93,8 +93,8 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Bei Suchfiltern werden lange Beschriftungen oder Tags nicht richtig angezeigt.
-* Lange Ausgabedarstellungsnamen können nicht im Dialogfeld „Herunterladen“ angezeigt werden.
+* Bei Suchfiltern werden sehr lange Beschriftungen oder Tags nicht richtig angezeigt.
+* Die Namen langer Ausgabedarstellungen können im Dialogfeld „Herunterladen“ nicht angezeigt werden.
 * Die Vorschau von Video-Assets in der Kartenansicht ist nicht möglich.
 
 ### Version Mai 2023 {#may-2023}
@@ -109,7 +109,7 @@ Diese Version enthält Fehlerbehebungen für die folgenden kritischen Probleme:
 Diese Version enthält die folgenden bekannten Probleme:
 
 * Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
-* Nur wenige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
+* Einige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
 
 ### Version Februar 2023 {#feb-2023}
 
@@ -139,7 +139,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 Diese Version weist die folgenden bekannten Probleme auf:
 
 * Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
-* Nur wenige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
+* Einige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
 
 ### Version Oktober 2022 {#oct-2022}
 
@@ -153,7 +153,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 >[!IMPORTANT]
 >
->Pulse-Benachrichtigungen in der AEM Assets Brand Portal werden ab dem 1. Dezember 2022 eingestellt. Anstelle von Pulse-Benachrichtigungen erhalten Sie weiterhin E-Mail-Benachrichtigungen für die folgenden Ereignisse:
+>Pulse-Benachrichtigungen in AEM Assets Brand Portal werden ab dem 1. Dezember 2022 eingestellt. Anstelle von Pulse-Benachrichtigungen erhalten Sie weiterhin E-Mail-Benachrichtigungen für die folgenden Ereignisse:
 >
 >* Freigeben von Assets über einen Link
 >* Workflow zum Anfordern von Zugriff
@@ -170,7 +170,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn NUI ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
 * Wenn die Vorschauaktion fehlschlägt, gibt es keine Benachrichtigung, um den Fehler zu melden.
-* Der ungenaue Wert für die `totalUploadedSize`-Eigenschaft für jedes Asset wird behoben.
+* Es wurde ein ungenauer Wert für die Eigenschaft `totalUploadedSize` für jedes Asset korrigiert.
 * Wenn Sie auf **Alle Elemente herunterladen** klicken und eine große Anzahl von Ausgabedarstellungen für ein Asset verfügbar ist, lädt Brand Portal eine ungültige ZIP-Datei herunter.
 * Die Übersetzung einiger Zeichenfolgen wird auf der Benutzeroberfläche von Brand Portal abgeschnitten.
 
@@ -186,7 +186,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn Sie einen Ordner oder eine Sammlung herunterladen, der bzw. die Assets mit farbigen Tags enthält, wird auch eine XML-Datei heruntergeladen.
 * Wenn Sie ein Video mit Ausgabeformaten herunterladen, erstellt Brand Portal eine ungültige ZIP-Datei.
-* Wenn Sie Vorgaben und Assets in der AEM-Autoreninstanz erstellen und dann in Brand Portal veröffentlichen, können Sie beim Herunterladen der Assets dynamische Ausgabedarstellungen auswählen. Sie können die heruntergeladene ZIP-Datei jedoch nicht extrahieren. Dieses Problem verhindert den Zugriff auf den heruntergeladenen Inhalt.
+* Wenn Sie Vorgaben und Assets in der AEM-Autoreninstanz erstellen und in Brand Portal veröffentlichen, können Sie beim Herunterladen der Assets dynamische Ausgabedarstellungen auswählen. Sie können allerdings nicht die heruntergeladene ZIP-Datei extrahieren. Aufgrund dieses Problems ist kein Zugriff auf die heruntergeladenen Inhalte möglich.
 * Probleme beim Herunterladen von Video-Assets aus bestimmten in Brand Portal verfügbaren Ordnern.
 * Wenn Sie die URL des Beitragsordners per E-Mail versenden, haben die Rollen „Betrachter“ und „Bearbeiter“ Probleme, über den Breadcrumb auf den übergeordneten Ordner zuzugreifen.
 * Bei der Beschaffung eines veröffentlichten Berichts wird eine falsche Auftragsstartzeit angezeigt.
@@ -386,12 +386,12 @@ Die Benutzeroberfläche von Brand Portal ist in den folgenden Sprachen verfügba
 
 ## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Brand Portal-Version zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch** optimierte Benutzeroberfläche) im Abschnitt **Unterstützte Browser für die Authoring-** von [Technische Anforderungen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
+Informationen dazu, welche Plattformen für die Ausführung mit dieser Brand Portal-Version zertifiziert sind, finden Sie in der Tabellenspalte **Unterstützung für die Touch-basierte Benutzeroberfläche** im Abschnitt **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Links {#links}
 
 * [Adobe Experience Manager-Produktseite unter adobe.com](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Assets Brand Portal-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
