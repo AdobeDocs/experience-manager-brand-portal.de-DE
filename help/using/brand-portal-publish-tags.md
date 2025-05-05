@@ -31,7 +31,7 @@ Sie können bereits vorhandene Tags über die AEM-Tags-Konsole (Tools) an ein As
 Führen Sie die folgenden Schritte aus, um Tags in AEM zu erstellen, in Brand Portal zu veröffentlichen und mit den entsprechenden Assets (oder Sammlungen) zu verknüpfen:
 
 1. **Tags erstellen**
-Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und greifen Sie über die globale Navigation auf die Konsole {2]**AEM-Tags} zu:**[!UICONTROL 
+Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und greifen Sie über die globale Navigation auf die Konsole {2&#x200B;**AEM-Tags} zu:**
 
    1. Wählen Sie **[!UICONTROL Tools]**
 
@@ -43,10 +43,13 @@ Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und gre
 1. Geben Sie Folgendes an:
 
    * **[!UICONTROL Titel]**
+
      *(erforderlich)* Ein Anzeigetitel für das Tag.
    * **[!UICONTROL Name]**
+
      *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. Siehe [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beschreibung**
+
      *(optional)* Eine Beschreibung des Tags.
    * **Tag-Pfad** JCR-Pfad des Tags.
 
@@ -56,7 +59,7 @@ Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und gre
 
 1. **Veröffentlichen Sie das Tag in Brand Portal**.
 
-   Wechseln Sie zur Konsole **[!UICONTROL AEM]** Tags[!UICONTROL  (Tools | Tagging | AEM-Tags]), wählen Sie das gewünschte Tag aus und wechseln Sie von Publish zu Brand Portal.
+   Wechseln Sie zur Konsole **[!UICONTROL AEM]** Tags[!UICONTROL &#x200B; (Tools | Tagging | AEM-Tags]), wählen Sie das gewünschte Tag aus und wechseln Sie von Publish zu Brand Portal.
 
 1. **Hängen Sie das Tag an ein Asset (oder eine Sammlung)**.
 
@@ -75,7 +78,7 @@ Gehen Sie wie folgt vor, um ein Asset für einen Suchbegriff zu priorisieren:
 
 1. Öffnen Sie die Seite **[!UICONTROL Eigenschaften]** eines Assets in der AEM-Autoreninstanz.
 1. Wechseln Sie zur Registerkarte **[!UICONTROL Erweitert]**.
-1. Wählen **[!UICONTROL im Abschnitt]** Suche nach Keywords erhöhen **** die Option **[!UICONTROL Hinzufügen]** aus, um die Suchbegriffe oder Tags hinzuzufügen.
+1. Wählen **[!UICONTROL im Abschnitt]** Suche nach Keywords erhöhen **&#x200B;**&#x200B;die Option **[!UICONTROL Hinzufügen]** aus, um die Suchbegriffe oder Tags hinzuzufügen.
 
    ![](assets/search-promote.png)
 

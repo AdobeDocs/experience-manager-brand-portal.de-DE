@@ -123,7 +123,7 @@ Verwenden Sie zum Herunterladen von Assets und Sammlungen das Symbol „Download
 
 ![](assets/download-on-guest.png)
 
-Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL  im Dialogfeld ]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
+Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL &#x200B; im Dialogfeld &#x200B;]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
 
 ## Beenden einer Gastsitzung {#exit-guest-session}
 

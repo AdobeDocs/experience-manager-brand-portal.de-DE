@@ -115,7 +115,7 @@ Administratoren können neue Benutzer in der Admin Console hinzufügen. Unter [B
 **So laden Sie die Brand Portal-Benutzerliste hoch:**
 
 1. Melden Sie sich bei Ihrer Experience Manager Assets-Instanz an.
-1. Navigieren Sie [!UICONTROL  Bedienfeld ]Tools“ zu **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+1. Navigieren Sie [!UICONTROL &#x200B; Bedienfeld &#x200B;]Tools“ zu **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 
 1. Das Fenster zum Hochladen von Beitragenden zu Brand Portal wird geöffnet.
 Durchsuchen Sie den lokalen Computer und laden Sie eine **Konfigurationsdatei (.csv) hoch** die die Liste der aktiven Brand Portal-Benutzer enthält.

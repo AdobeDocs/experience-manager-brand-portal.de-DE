@@ -149,7 +149,7 @@ Führen Sie einen der folgenden Schritte aus, um einen Bericht als CSV-Datei zu 
 
 ## Löschen von Berichten {#delete-reports}
 
-Um einen vorhandenen Bericht zu löschen, wählen Sie den Bericht auf der Seite **[!UICONTROL Asset-Berichte]** aus und klicken Sie oben in ]**Symbolleiste auf**[!UICONTROL  Löschen“.
+Um einen vorhandenen Bericht zu löschen, wählen Sie den Bericht auf der Seite **[!UICONTROL Asset-Berichte]** aus und klicken Sie oben in **Symbolleiste auf** Löschen“.
 
 >[!NOTE]
 >

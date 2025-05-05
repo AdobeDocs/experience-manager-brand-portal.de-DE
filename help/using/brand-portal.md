@@ -109,7 +109,7 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 ### Administrator {#administrator}
 
-Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert ]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
+Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert &#x200B;]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Gehen Sie wie folgt vor, um die Sprache zu ändern:
 
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
-1. Experience Cloud Wählen Sie auf der Seite ]0} eine Sprache aus dem Dropdown[!UICONTROL Menü ]Sprache“ aus.[!UICONTROL 
+1. Experience Cloud Wählen Sie auf der Seite 0&rbrace; eine Sprache aus dem Dropdown[!UICONTROL Menü &#x200B;]Sprache“ aus.
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
