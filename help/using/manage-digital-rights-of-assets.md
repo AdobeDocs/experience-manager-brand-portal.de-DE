@@ -71,7 +71,7 @@ Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freige
 
 Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Dieser Vertrag für lizenzierte Assets kommt zustande, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Unabhängig davon, ob es abgelaufen ist oder nicht, können alle Benutzer lizenzgeschützte Assets anzeigen. Der Download und die Verwendung abgelaufener lizenzierter Assets sind jedoch begrenzt. Informationen zum Verhalten abgelaufener lizenzierter Assets und zulässiger Aktivitäten basierend auf Benutzerrollen finden Sie [Nutzungsberechtigungen abgelaufener Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die Metadateneigenschaft des Assets in [!DNL Experience Manager Assets] festgelegt wird.
+Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die Metadateneigenschaft des Assets in [!DNL Experience Manager Assets] festgelegt wird.
 
 Ein Asset gilt als geschützt, wenn es eine der folgenden (oder beide) Metadateneigenschaften enthält:
 

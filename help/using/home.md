@@ -45,7 +45,7 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 | [Unterstützte Dateiformate](brand-portal-supported-formats.md) | Unterstützte Dateiformate in Brand Portal für Vorschau und Download. |
 | [Veröffentlichen von Assets in Brand Portal](brand-portal-sharing-folders.md) | Veröffentlichen von Ordnern, Sammlungen, Links, Vorgaben, Schemas, Facetten und Tags in Brand Portal. |
 | [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md) | Konfigurieren der Asset-Beschaffung in AEM Assets, Hochladen von Assets in Brand Portal und erneutes Veröffentlichen des Beitragsordners in AEM Assets. |
-| [Videos zu Brand Portal-Funktionen](https://experienceleague.adobe.com/?lang=de&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Erfahren Sie in Video-Tutorials, wie Sie Experience Manager Assets Brand Portal verwenden. |
+| [Videos zu Brand Portal-Funktionen](https://experienceleague.adobe.com/de?lang=de&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Erfahren Sie in Video-Tutorials, wie Sie Experience Manager Assets Brand Portal verwenden. |
 
 ### Hilfreiche Ressourcen
 

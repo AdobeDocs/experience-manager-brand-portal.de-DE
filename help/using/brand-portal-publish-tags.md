@@ -16,7 +16,7 @@ ht-degree: 40%
 
 Erfahren Sie, wie Sie Tags aus Experience Manager Assets in Brand Portal veröffentlichen.
 
-Tags sind beim Organisieren von Assets nützlich und verbessern die Durchsuchbarkeit von Assets, mit denen sie verknüpft sind. Tags können als Keywords oder Beschriftungen (Metadaten) betrachtet werden, die mit Assets verbunden sind und es ermöglichen, Assets als Ergebnis einer Suche schnell zu finden. Informationen dazu, wie Tags den Assets in Experience Manager Assets zugewiesen werden, finden Sie im Artikel [Verwenden von Tags zum Organisieren von Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+Tags sind beim Organisieren von Assets nützlich und verbessern die Durchsuchbarkeit von Assets, mit denen sie verknüpft sind. Tags können als Keywords oder Beschriftungen (Metadaten) betrachtet werden, die mit Assets verbunden sind und es ermöglichen, Assets als Ergebnis einer Suche schnell zu finden. Informationen dazu, wie Tags den Assets in Experience Manager Assets zugewiesen werden, finden Sie im Artikel [Verwenden von Tags zum Organisieren von Assets](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 Tags (die mit Assets und Sammlungen in AEM verknüpft sind) werden automatisch in Brand Portal veröffentlicht, wenn die Assets (und Sammlungen) mit verknüpften Tags in Brand Portal veröffentlicht werden. Die veröffentlichten Tags sind hilfreich bei der Suche nach verknüpften Assets.
 
@@ -47,7 +47,7 @@ Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und gre
      *(erforderlich)* Ein Anzeigetitel für das Tag.
    * **[!UICONTROL Name]**
 
-     *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. Siehe [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. Siehe [TagID](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beschreibung**
 
      *(optional)* Eine Beschreibung des Tags.
@@ -63,7 +63,7 @@ Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und gre
 
 1. **Hängen Sie das Tag an ein Asset (oder eine Sammlung)**.
 
-   Wählen Sie ein Asset (oder eine Sammlung) aus und fügen Sie das gewünschte Tag über den Bereich Eigenschaften oder den Abschnitt Tags verwalten dieses Assets hinzu. Weitere Informationen zum Zuweisen von Tags zu Assets in AEM Assets finden Sie unter [Verwenden von Tags zum Organisieren von Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+   Wählen Sie ein Asset (oder eine Sammlung) aus und fügen Sie das gewünschte Tag über den Bereich Eigenschaften oder den Abschnitt Tags verwalten dieses Assets hinzu. Weitere Informationen zum Zuweisen von Tags zu Assets in AEM Assets finden Sie unter [Verwenden von Tags zum Organisieren von Assets](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 1. **Veröffentlichen Sie die Assets (oder Sammlungen) in Brand Portal**.\
    Wenn Sie ein Asset (oder eine Sammlung) in Brand Portal veröffentlichen, ist das beigefügte Tag auch in Brand Portal verfügbar.

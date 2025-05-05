@@ -19,7 +19,7 @@ Eine Sammlung stellt eine Gruppe verwandter Assets dar, die zusammen in Adobe Ex
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Sammlungen werden per E-Mail als Link freigegeben. Jeder Benutzer mit Zugriff auf den Freigabe-Link kann die Sammlung öffnen. Freigegebene E-Mails können jedoch an jeden weitergeleitet werden. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
+Sammlungen werden per E-Mail als Link freigegeben. Jeder Benutzer mit Zugriff auf den Freigabe-Link kann die Sammlung öffnen. Freigegebene E-Mails können jedoch an jeden weitergeleitet werden. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
 
 * **Admins** können eine Sammlung für die autorisierten Benutzenden von Brand Portal freigeben oder die Freigabe aufheben. Sie können andere Benutzer zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können Admins öffentliche Sammlungen erstellen.
 

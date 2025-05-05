@@ -81,7 +81,7 @@ So heben Sie die Veröffentlichung eines Metadatenschemas in Brand Portal auf:
 
 ## Veröffentlichen von Suchfacetten in Brand Portal {#publish-search-facets-to-brand-portal}
 
-Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../using/brand-portal-search-facets.md) bereit. Die Suchfacetten ermöglichen detailliertere Suchen in Brand Portal. Alle dem Suchformular [hinzugefügten Eigenschaften](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) sind für Benutzer als Suchfacetten in Suchfiltern verfügbar.
+Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../using/brand-portal-search-facets.md) bereit. Die Suchfacetten ermöglichen detailliertere Suchen in Brand Portal. Alle dem Suchformular [hinzugefügten Eigenschaften](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/search-facets) sind für Benutzer als Suchfacetten in Suchfiltern verfügbar.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

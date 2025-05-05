@@ -127,8 +127,8 @@ Ein Administrator kann alle Aufgaben ausführen, die ein Bearbeiter ausführen k
 Zusätzlich zu den oben genannten Aufgaben stehen AEM Assets-Autoren folgende Aufgaben zur Verfügung:
 
 * [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Veröffentlichen von Ordnern in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Veröffentlichen von Sammlungen in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Veröffentlichen von Ordnern in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Veröffentlichen von Sammlungen in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternativer Alias für Brand Portal-URL {#tenant-alias-for-portal-url}
 
@@ -235,4 +235,4 @@ Sie können diese Benachrichtigung schließen und Brand Portal weiterhin verwend
 * [Adobe Customer Support]()
 -->
 
-* [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=de)
