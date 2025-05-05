@@ -28,7 +28,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 ![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32999/?quality=12&captions=ger)
 
 ## Voraussetzungen {#prerequisites}
 
