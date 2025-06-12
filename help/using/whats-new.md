@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6373'
+ht-degree: 98%
 
 ---
 
@@ -165,9 +165,9 @@ Mit Brand Portal 2021.02.0 wurde AEM Assets as a Cloud Service um den Aktivierun
 
 >[!IMPORTANT]
 >
-> * Brand Portal wird derzeit gewartet.
-> * Sie können sich mit Details zu Ihrem Anwendungsfall und den spezifischen Anforderungen zur Aktivierung von Brand Portal mithilfe von Cloud Manager an Ihren Adobe-Support-Mitarbeiter wenden.
-> * Brand Portal ist nicht mit Assets Prime oder Assets Ultimate verfügbar. Bestehende Kunden von Assets Cloud Services, die bereits Zugriff auf Brand Portal haben, können diese jedoch beibehalten, wenn sie zu Assets Ultimate wechseln.
+> * Brand Portal befindet sich im Wartungsmodus. Alle neuen Produktinnovationen sind auf [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) verfügbar.
+> * Wenn Sie Brand Portal noch aktivieren müssen, wenden Sie sich mit Details zu Ihrem Anwendungsfall und anderen spezifischen Anforderungen an Ihren Adobe-Support-Mitarbeiter.
+> * Brand Portal ist nicht verfügbar mit [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) oder [Assets Ultimate](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Bestehende Assets as a Cloud Service-Kunden, die bereits Zugriff auf Brand Portal haben, können diese jedoch auch weiterhin verwenden, wenn sie zu Assets Ultimate wechseln.
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Asset-Download {#asset-download-setting}
@@ -245,7 +245,7 @@ Das neue Dialogfeld **[!UICONTROL Download]** verallgemeinert die Auswahl und da
 
 >[!NOTE]
 >
->Für alle Benutzenden ist jetzt standardmäßig der **[!UICONTROL schnelle Download]** aktiviert. Vor dem Herunterladen der Assets aus Brand Portal muss außerdem IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) in der Browser-Erweiterung installiert sein.
+>Für alle Benutzenden ist jetzt standardmäßig der **[!UICONTROL schnelle Download]** aktiviert. Vor dem Herunterladen der Assets aus Brand Portal muss außerdem IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) in der Browser-Erweiterung installiert sein.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
