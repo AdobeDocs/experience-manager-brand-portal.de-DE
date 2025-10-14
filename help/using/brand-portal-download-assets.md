@@ -156,7 +156,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
      >
      >Wenn die heruntergeladenen Assets auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
      > 
-     >Experience Manager Assets Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die -Metadateneigenschaft [ Assets in ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm) festgelegt wird.
+     >Experience Manager Assets Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die -Metadateneigenschaft [&#x200B; Assets in &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm) festgelegt wird.
 
 
      ![licensed-asset](assets/licensed-asset-new.png)

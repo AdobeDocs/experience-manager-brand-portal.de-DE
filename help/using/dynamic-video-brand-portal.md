@@ -57,7 +57,7 @@ Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherst
 
 * **Starten Sie die Autoreninstanz des Experience Managers im Dynamic Media-Modus**
 
-  Starten Sie die Experience Manager-Autoreninstanz (mit der Brand Portal konfiguriert wird) entweder im Modus [Dynamic Media - [!DNL Scene7] ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) oder im Modus [Dynamic Media - Hybrid](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dynamic) oder
+  Starten Sie die Experience Manager-Autoreninstanz (mit der Brand Portal konfiguriert wird) entweder im Modus [Dynamic Media - [!DNL Scene7] &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) oder im Modus [Dynamic Media - Hybrid](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dynamic) oder
 
 * **Konfigurieren von Dynamic Media Cloud Service in der Experience Manager-Autoreninstanz**
 
@@ -75,7 +75,7 @@ Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherst
 
 * **Zulassungsliste der Egress-IPs in SPS, wenn die sichere Vorschau aktiviert ist**
 
-  Wenn Sie Dynamic Media-**[!DNL Scene7]** verwenden (mit [sicherer Vorschau](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) für ein Unternehmen), wird empfohlen, dass **[!DNL Scene7]** Unternehmensadministrator [die öffentlichen Ausgangs-IPs ](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) die entsprechenden Regionen mithilfe der SPS-Flash-Benutzeroberfläche (**[!UICONTROL Scene7]** Publishing System) auf die Zulassungsliste setzt.
+  Wenn Sie Dynamic Media-**[!DNL Scene7]** verwenden (mit [sicherer Vorschau](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) für ein Unternehmen), wird empfohlen, dass **[!DNL Scene7]** Unternehmensadministrator [die öffentlichen Ausgangs-IPs &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) die entsprechenden Regionen mithilfe der SPS-Flash-Benutzeroberfläche (**[!UICONTROL Scene7]** Publishing System) auf die Zulassungsliste setzt.
 
   Die Egress-IPs lauten wie folgt:
 

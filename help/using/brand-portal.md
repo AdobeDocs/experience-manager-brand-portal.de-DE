@@ -142,7 +142,7 @@ Ab Brand Portal 6.4.3 können Unternehmen für jede vorhandene URL ihres Brand P
 Wenn der Mandantenname mehr als 32 Zeichen umfasst, muss ein Mandantenalias erstellt werden.
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domain `geomettrix.brand-portal.adobe.com` kann beispielsweise auf Anfrage die Domain `geomettrixinc.brand-portal.adobe.com` erstellt werden.
 
-Die AEM-Autoreninstanz kann jedoch nur mit [ Mandanten-ID-URL ](../using/configure-aem-assets-with-brand-portal.md) nicht mit der (alternativen) Mandantenalias-URL konfiguriert werden.
+Die AEM-Autoreninstanz kann jedoch nur mit [&#x200B; Mandanten-ID-URL &#x200B;](../using/configure-aem-assets-with-brand-portal.md) nicht mit der (alternativen) Mandantenalias-URL konfiguriert werden.
 
 >[!NOTE]
 >

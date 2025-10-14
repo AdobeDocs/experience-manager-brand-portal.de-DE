@@ -23,7 +23,7 @@ Bildvorgaben werden verwendet, um dynamische Ausgabedarstellungen von Bildern zu
 
 >[!NOTE]
 >
->Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter &quot;[ von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
+>Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter &quot;[&#x200B; von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
 Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben erforderlich sind, finden Sie unter [Verwalten von Bildvorgaben](../using/brand-portal-image-presets.md).

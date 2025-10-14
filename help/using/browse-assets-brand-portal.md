@@ -56,7 +56,7 @@ In der Kartenansicht werden Informationskarten für jedes Element auf der aktuel
 * Größe
 * Dimensionen
 
-Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten klicken (vermeiden Sie dabei die Schnellaktionen), und über die Breadcrumbs [ der Kopfzeile wieder nach oben ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten klicken (vermeiden Sie dabei die Schnellaktionen), und über die Breadcrumbs [&#x200B; der Kopfzeile wieder nach oben &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 

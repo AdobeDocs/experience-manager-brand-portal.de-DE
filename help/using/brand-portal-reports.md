@@ -80,7 +80,7 @@ Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informati
 
 ## Erzeugen von Berichten {#generate-reports}
 
-Administratoren können die folgenden Standardberichte erstellen und verwalten. Nach der Generierung werden die Berichte für den [ Zugriff gespeichert](../using/brand-portal-reports.md#main-pars-header).
+Administratoren können die folgenden Standardberichte erstellen und verwalten. Nach der Generierung werden die Berichte für den [&#x200B; Zugriff gespeichert](../using/brand-portal-reports.md#main-pars-header).
 
 * Benutzeranmeldungen
 * Download
