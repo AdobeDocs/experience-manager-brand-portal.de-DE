@@ -9,9 +9,9 @@ user-guide-description: Nutzen Sie Experience Manager Assets Brand Portal, um Ma
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 + [Brand Portal-Benutzerhandbuch](/help/using/home.md)
 + Einführung {#introduction}
-   + [Übersicht](/help/using/brand-portal.md)
+   + [Überblick](/help/using/brand-portal.md)
    + [Neue Funktionen in Experience Manager Assets Brand Portal](/help/using/whats-new.md)
    + [Versionshinweise](/help/using/brand-portal-release-notes.md)
    + [Häufig gestellte Fragen](/help/using/brand-portal-faqs.md)
@@ -47,13 +47,13 @@ ht-degree: 100%
 + Verwenden der Suchfunktionen {#search-capabilities}
    + [Suchen von Assets in Brand Portal](/help/using/brand-portal-searching.md)
    + [Verwenden benutzerdefinierter Suchfacetten](/help/using/brand-portal-search-facets.md)
-+ Verwenden der Download-Funktionen {#download}
++ Download-Funktionen verwenden {#download}
    + [Herunterladen von Assets](/help/using/brand-portal-download-assets.md)
    + [Unterstützung für Dynamic Video in Brand Portal](/help/using/dynamic-video-brand-portal.md)
    + [Verwalten der Lightbox-Sammlung](/help/using/brand-portal-light-box.md)
    + [Verwalten der digitalen Rechte von Assets](/help/using/manage-digital-rights-of-assets.md)
    + [Anleitung zum Beschleunigen von Downloads von Brand Portal](/help/using/accelerated-download.md)
-+ Verwenden der Admin-Tools {#admin-tools}
++ Verwenden der Admin Tools {#admin-tools}
    + [Verwalten des Benutzerzugriffs auf Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Verwalten allgemeiner Mandantenkonfigurationen](/help/using/brand-portal-general-configuration.md)
    + [Schritte bei der ersten Anmeldung](/help/using/brand-portal-onboarding.md)
