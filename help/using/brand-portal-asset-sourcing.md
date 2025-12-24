@@ -2,7 +2,6 @@
 title: Asset-Beschaffung in Brand Portal
 description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion, die in Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
 content-type: reference
-contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 sub-product: assets
@@ -13,10 +12,10 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
+source-git-commit: c61dbef33b87d643e6b8942d56e2771716a2ae30
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 58%
+ht-degree: 56%
 
 ---
 
@@ -28,7 +27,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 ![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/32999/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Voraussetzungen {#prerequisites}
 
@@ -115,7 +114,7 @@ Administratoren können neue Benutzer in der Admin Console hinzufügen. Unter [B
 **So laden Sie die Brand Portal-Benutzerliste hoch:**
 
 1. Melden Sie sich bei Ihrer Experience Manager Assets-Instanz an.
-1. Navigieren Sie [!UICONTROL &#x200B; Bedienfeld &#x200B;]Tools“ zu **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+1. Navigieren Sie [!UICONTROL  Bedienfeld ]Tools“ zu **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 
 1. Das Fenster zum Hochladen von Beitragenden zu Brand Portal wird geöffnet.
 Durchsuchen Sie den lokalen Computer und laden Sie eine **Konfigurationsdatei (.csv) hoch** die die Liste der aktiven Brand Portal-Benutzer enthält.
