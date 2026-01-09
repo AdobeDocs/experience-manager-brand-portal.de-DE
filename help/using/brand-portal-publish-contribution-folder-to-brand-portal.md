@@ -6,10 +6,10 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 60%
+source-wordcount: '1057'
+ht-degree: 59%
 
 ---
 
@@ -53,13 +53,14 @@ Sie können die Eigenschaften des Beitragsordners sowohl separat als auch beim E
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um einen neuen Ordner zu erstellen. Das Dialogfeld **[!UICONTROL Ordner erstellen]** wird geöffnet.
 
 1. Geben Sie **[!UICONTROL Titel]** und **[!UICONTROL Name]** des Ordners ein und aktivieren Sie das Kontrollkästchen **[!UICONTROL Asset-]**.
-Adobe empfiehlt die Verwendung von Kleinbuchstaben ohne Leerzeichen zum Benennen des Ordners.
+Adobe empfiehlt, zum Benennen des Ordners Kleinbuchstaben ohne Leerzeichen zu verwenden.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Beitragsordner wird im Experience Manager Assets-Repository aufgelistet.
 
    >[!NOTE]
    >
-   >Ein Benutzer ohne Administratorrechte kann einen Asset-Beitragsordner erstellen und freigeben, ihn jedoch nicht ändern oder löschen.
+   > * Ein Quellordner darf nicht leer sein und muss mindestens ein Asset enthalten, da leere Ordner nicht aus Brand Portal in AEM veröffentlicht werden können.
+   > * Ein Benutzer ohne Administratorrechte kann einen Asset-Beitragsordner erstellen und freigeben, ihn jedoch nicht ändern oder löschen.
 
 
    ![](assets/create-contribution-folder.png)
@@ -146,7 +147,7 @@ Sobald der Beitragsordner konfiguriert ist, kann der Experience Manager Assets-B
 1. Melden Sie sich bei Ihrer Experience Manager Assets-Instanz an.
 
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner, in dem Sie in Brand Portal veröffentlichen möchten.
-1. Wählen Sie einen Beitragsordner aus und klicken Sie auf **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
+1. Wählen Sie einen Beitragsordner aus und klicken Sie auf **[!UICONTROL Quick Publish]** > **[!UICONTROL In Brand Portal veröffentlichen]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 

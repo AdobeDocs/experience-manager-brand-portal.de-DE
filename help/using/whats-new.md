@@ -1,14 +1,13 @@
 ---
 title: Neue Funktionen in Experience Manager Assets Brand Portal
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in Experience Manager Assets Brand Portal Version 2024.10.0.
+description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in Experience Manager Assets Brand Portal Version 2026.01.01.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: ht
-source-wordcount: '6373'
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '6400'
 ht-degree: 100%
 
 ---
@@ -16,6 +15,10 @@ ht-degree: 100%
 # Neue Funktionen in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet daran, das Brand Portal-Gesamterlebnis zu verbessern. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2026.01.01 {#what-changed-in-January-2026}
+
+Brand Portal 2026.01.01 ist eine interne Version, mit der die kritischen Probleme behoben werden. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2024.10.0 {#what-changed-in-October-2024}
 
@@ -187,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Asset-Download {#asset-download-setting}
@@ -483,7 +486,7 @@ Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für T
 
 #### Suche mit Platzhalter {#wildcard-search}
 
-In Brand Portal können Sie das Sternchen (&#42;) mit einem Teil eines Worts in Ihrer Suchanfrage verwenden.
+In Brand Portal können Sie das Sternchen (&#42;) mit einem Teil eines Worts in Ihrer Suchabfrage verwenden.
 
 Wenn Sie sich nicht sicher sind, welche Wörter im gesuchten Satz enthalten sind, können Sie eine Suche mit Platzhalter verwenden, um die Lücken in der Suchabfrage zu füllen.
 
@@ -612,7 +615,7 @@ Brand Portal 6.4.2 bietet Funktionen für die Asset-Verteilung in Organisationen
 
 ![](assets/bp-login-screen-1.png)
 
-AEM Brand Portal gestattet den Gastzugang für das Portal. Gastbenutzende benötigen keine Anmeldeinformationen, um das Portal aufzurufen, und können auf sämtliche öffentliche Ordner und Sammlungen zugreifen und diese herunterladen. Gastbenutzer können Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen. Sie können auch die Smart Tag-Suche und die von Admins festgelegten Sucheigenschaften anzeigen. In der Gastsitzung können Benutzerinnen und Benutzer keine Sammlungen und gespeicherten Suchen erstellen oder diese weitergeben, nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Links teilen.
+AEM Brand Portal gestattet den Gastzugang für das Portal. Gastbenutzende benötigen keine Anmeldeinformationen, um das Portal aufzurufen, und können auf sämtliche öffentliche Ordner und Sammlungen zugreifen und diese herunterladen. Gastbenutzer können Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen. Sie können auch die Smart-Tag-Suche und die von Admins festgelegten Sucheigenschaften anzeigen. In der Gastsitzung können Benutzerinnen und Benutzer keine Sammlungen und gespeicherten Suchen erstellen oder diese weitergeben, nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Links teilen.
 
 In einer Organisation sind mehrere gleichzeitige Gastsitzungen zulässig, die jedoch auf 10 % des Gesamtbenutzerkontingents pro Organisation beschränkt sind.
 
@@ -725,7 +728,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version. Es werden mehrere neue Fu
 
 * In der Listenansicht werden in der ersten Spalte jetzt standardmäßig die Dateinamen der Assets angezeigt. Es werden auch Informationen zu Gebietsschema, Asset-Typ, Dimensionen, Größe, Bewertung und Veröffentlichung angezeigt. Es gibt neue **Anzeigeeinstellungen** zum Konfigurieren des Detailumfangs in der Listenansicht.
 
-* Verbesserte Darstellung von Asset-Details mit der Möglichkeit, mit neuen Navigationsschaltflächen zwischen den Assets hin und her zu navigieren und die Anzahl der Assets anzuzeigen.
+* Verbesserte Darstellung von Asset-Details mit der Möglichkeit, mit neuen Navigationsschaltflächen zwischen den Assets hin und her zu navigieren und die Asset-Anzahl anzuzeigen.
 
 ![](assets/navbtn.png)
 
