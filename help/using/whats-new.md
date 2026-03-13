@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
 workflow-type: tm+mt
-source-wordcount: '6400'
-ht-degree: 100%
+source-wordcount: '6645'
+ht-degree: 98%
 
 ---
 
@@ -102,13 +102,13 @@ Die Migration hat keine Auswirkungen auf Ihren vorhandenen Datensatz, Ihre Asset
 
 * [Einführung in Adobe-Profile](https://helpx.adobe.com/de/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Verwalten von Adobe-Profilen](https://helpx.adobe.com/de/enterprise/using/manage-adobe-profiles.html)
+* [Adobe-Profile verwalten](https://helpx.adobe.com/de/enterprise/using/manage-adobe-profiles.html)
 
 * [Aktualisierung des Anmeldeerlebnisses für Benutzer und Administratoren](https://helpx.adobe.com/de/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
 * [Anmeldebeschränkung während der Migration](https://helpx.adobe.com/de/enterprise/kb/account-temporarily-unavailable.html)
 
-* [Verwalten von Benutzern in der Admin Console](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html)
+* [Verwalten von Benutzenden in Admin Console](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html)
 
 * [Verwalten von Produktprofilen für Enterprise-Benutzer](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html#assign-users)
 
@@ -190,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Asset-Download {#asset-download-setting}
@@ -379,7 +379,8 @@ Basierend auf der Konfiguration bleibt der Download-Workflow für eigenständige
 
 In Brand Portal 6.4.6 wurde der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert. Brand Portal wird jetzt von AEM Assets as a Cloud Service, AEM Assets 6.3 und höher unterstützt. In AEM Assets 6.3 und höher wurde Brand Portal zunächst in der klassischen Benutzeroberfläche mit dem alten OAuth-Gateway konfiguriert. Dieses Gateway verwendet den JWT-Token-Austausch, um ein IMS-Zugriffs-Token zur Autorisierung zu erhalten. AEM Assets wird jetzt mit Brand Portal über die Adobe-Entwicklerkonsole konfiguriert, die ein IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten abruft.
 
-<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+<!-- 
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
 
 <!--
@@ -391,23 +392,25 @@ In Brand Portal 6.4.6 wurde der Autorisierungskanal zwischen AEM Assets und Bran
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** | | 
 
-   -->
+-->
 
 Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM-Version und abhängig davon, ob Sie zum ersten Mal eine Konfiguration durchführen oder die vorhandenen Konfigurationen aktualisieren:
 
-<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+<!--
+| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-
 -->
 
 
-<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+<!-- 
+AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 * AEM 6.5.4.0 and above
 * AEM 6.4.8.0 and above
-* AEM 6.3.3.8 and above -->
+* AEM 6.3.3.8 and above 
+-->
 
 | **AEM-Version** | **Neue Konfiguration** | **Upgrade der Konfiguration** |
 |---|---|---|
@@ -512,7 +515,7 @@ Mit Brand Portal 6.4.3 werden ein alternativer Alias für Zugriffs-URLs, eine ne
 
 ### Ordnerhierarchienavigation für Benutzer ohne Administratorrechte
 
-Administratoren können jetzt konfigurieren, wie Ordner für Benutzer ohne Administratorrechte (Bearbeiter, Betrachter und Gastbenutzer) bei der Anmeldung angezeigt werden. Die Konfiguration [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md) wird in den **Allgemeinen Einstellungen** im Admin-Tools-Bereich hinzugefügt. Wenn die Konfiguration:
+Administratoren können jetzt konfigurieren, wie die Ordner bei der Anmeldung Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern und Gastbenutzern) angezeigt werden. [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md) Die Konfiguration wird in **Allgemeine Einstellungen** im Admin-Tools-Bereich hinzugefügt. Wenn die Konfiguration:
 
 * **aktiviert** ist, dann ist die Ordnerstruktur, die vom Stammordner beginnt, für Benutzerinnen und Benutzer ohne Administratorrechte sichtbar. Dadurch erhalten sie ein Navigationserlebnis, das dem von Admins ähnelt.
 * **deaktiviert** ist, werden auf der Landingpage nur die freigegebenen Ordner angezeigt.
@@ -627,7 +630,7 @@ Brand Portal-Benutzende können mit der IBM® Aspera Connect-basierten Download-
 
 ![](assets/donload-assets-dialog-2.png)
 
-Um die IBM® Aspera Connect-basierte Download-Beschleunigung für Benutzende der Organisation zu aktivieren, müssen Admins die Option **Download-Beschleunigung aktivieren** (die standardmäßig deaktiviert ist) unter [Allgemeine Einstellungen](brand-portal-general-configuration.md#allow-download-acceleration) im Admin-Tools-Panel auswählen. 
+Um die IBM® Aspera Connect-basierte Download-Beschleunigung für Benutzende der Organisation zu aktivieren, müssen Admins die Option **Download-Beschleunigung aktivieren** (die standardmäßig deaktiviert ist) unter [Allgemeine Einstellungen](brand-portal-general-configuration.md#allow-download-acceleration) im Admin-Tools-Panel auswählen.
 
 Weitere Informationen zu Voraussetzungen und Schritten zur Fehlerbehebung beim schnelleren Herunterladen von Asset-Dateien über Brand Portal und freigegebene Links finden Sie unter [Anleitung zur Beschleunigung von Downloads von Brand Portal](../using/accelerated-download.md#main-pars-header).
 
@@ -834,7 +837,7 @@ Weitere Informationen finden Sie in Schritt 12 unter [Freigeben von Assets als 
 
 Die Funktion zur Benutzerauswahl wurde jetzt verbessert, um den Anforderungen von Kundinnen und Kunden mit großen Benutzerzahlen gerecht zu werden.
 
-### Änderungen beim Branding mit Experience Cloud              {#experience-cloud-branding-changes}
+### Änderungen beim Branding mit Experience Cloud {#experience-cloud-branding-changes}
 
 Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
@@ -917,7 +920,7 @@ Admins können drei Berichtstypen erstellen und verwalten – zu heruntergelade
 
 ### Zusätzliche Metadaten {#additional-metadata}
 
-Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.3 enthalten sind. Die Metadaten, die auf der Seite „Asset-Eigenschaften“ angezeigt werden, können mit dem Metadatenschema-Editor festlegt werden. Asset-Metadaten sind nicht für Benutzer sichtbar, die Assets als Freigabe über einen externen Link erhalten und die Assets nur mithilfe der Linkfreigabe-URL in der Vorschau anzeigen sowie herunterladen können.
+Mit Brand Portal 6.3.1 werden zusätzliche Metadaten eingeführt, die mit AEM Assets 6.3 auf einer Stufe stehen. Sie können das Formular des Schema-Editors verwenden, um die Metadaten zu steuern, die auf der Eigenschaftenseite von Assets angezeigt werden sollen. Asset-Metadaten sind nicht für Benutzer sichtbar, die Assets als Freigabe über einen externen Link erhalten und die Assets nur mithilfe der Linkfreigabe-URL in der Vorschau anzeigen sowie herunterladen können.
 
 ![](assets/additionsinmetadata.png)
 
