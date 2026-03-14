@@ -7,10 +7,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 75%
+source-wordcount: '969'
+ht-degree: 72%
 
 ---
 
@@ -20,7 +20,8 @@ Adobe Experience Manager Assets Brand Portal-Administratoren können Links mehre
 
 Die Freigabe von Assets über einen Link ist eine praktische Methode, um die Assets für externe Parteien verfügbar zu machen, ohne dass diese sich bei Brand Portal anmelden müssen.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 Weitere Informationen finden Sie unter [Verwalten von Benutzern, Gruppen und Benutzerrollen](../using/brand-portal-adding-users.md#manage-user-roles).

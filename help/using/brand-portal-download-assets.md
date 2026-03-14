@@ -6,10 +6,10 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 64%
+source-wordcount: '1957'
+ht-degree: 65%
 
 ---
 
@@ -85,7 +85,7 @@ Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigi
 
 >[!NOTE]
 >
->Wenn ein Benutzer mehreren Gruppen hinzugefügt wird und eine dieser Gruppen über Einschränkungen verfügt, gelten die Einschränkungen für den Benutzer.
+>Wenn eine Person zu mehreren Gruppen hinzugefügt wurde und eine dieser Gruppen über Einschränkungen verfügt, gelten die Einschränkungen generell für diese Person.
 
 Basierend auf der Konfiguration bleibt der Download-Workflow für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets mithilfe von Freigabe-Links konstant.
 
@@ -156,7 +156,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
      >
      >Wenn die heruntergeladenen Assets auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
      > 
-     >Experience Manager Assets Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die -Metadateneigenschaft [&#x200B; Assets in &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm) festgelegt wird.
+     >Experience Manager Assets Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die -Metadateneigenschaft [ Assets in ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) festgelegt wird.
 
 
      ![licensed-asset](assets/licensed-asset-new.png)
@@ -185,7 +185,8 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
    Wenn Sie IBM® Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn der **[!UICONTROL schnelle Download]** verweigert wird oder fehlschlägt, erstellt das System eine Fehlermeldung. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -209,7 +210,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 >
 >Brand Portal unterstützt die Konfiguration von Dynamic Media sowohl im Hybrid- als auch im Scene7-Modus.
 >
->(*Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus ausgeführt wird***)
+>(*Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus***)
 >
 >Um dynamische Ausgabedarstellungen in der Vorschau anzuzeigen oder herunterzuladen, aktivieren Sie Dynamic Media. Stellen Sie sicher, dass die Pyramid TIFF-Ausgabedarstellung des Assets in der Experience Manager Assets-Autoreninstanz, in der die Assets veröffentlicht wurden, vorhanden ist. Wenn ein Asset aus Experience Manager Assets in Brand Portal veröffentlicht wird, wird auch seine Pyramid TIFF-Ausgabedarstellung veröffentlicht.
 
@@ -217,7 +218,8 @@ Wenn [Admin Sie nicht zum Zugriff auf die Original-Ausgabedarstellungen autorisi
 
 ![no-access-message](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -250,7 +252,8 @@ Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Se
 
    Wenn Sie die Verwendung von **[!UICONTROL Schneller Download]** ablehnen, wird eine Fehlermeldung angezeigt. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -275,7 +278,8 @@ Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Se
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

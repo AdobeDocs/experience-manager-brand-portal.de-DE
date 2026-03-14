@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 68%
+source-wordcount: '1617'
+ht-degree: 66%
 
 ---
 
@@ -31,7 +31,7 @@ Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
    ![](assets/navigation-panel.png)
 
-1. Auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Auf der Seite **[!UICONTROL Metadatenschema-Formulare]** klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/create-metadata-schema-form.png)
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
    ![](assets/aemlogo.png)
 
 1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
-1. Wählen Sie auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise **[!UICONTROL Sammlung]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Metadatenschema-Formulare]** ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise **[!UICONTROL Sammlung]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
 1. Um eine Komponente zu konfigurieren, wählen Sie diese aus und ändern Sie ihre Eigenschaften auf der Registerkarte **[!UICONTROL Einstellungen]**.
 
-### Komponenten auf der Registerkarte„Formular erstellen“  {#components-in-the-build-form-tab}
+### Komponenten auf der Registerkarte„Formular erstellen“ {#components-in-the-build-form-tab}
 
 Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente, die Sie im Schemaformular verwenden können. Die Registerkarte **[!UICONTROL Einstellungen]** enthält die Attribute für jedes Element, das Sie auf der Registerkarte **[!UICONTROL Formular erstellen]** auswählen. Die folgende Tabelle enthält die auf der Registerkarte **[!UICONTROL Formular erstellen]** verfügbaren Formularelemente:
 
@@ -101,7 +101,7 @@ Um die Eigenschaften einer Metadatenkomponente im Formular zu bearbeiten, klicke
 
 * **[!UICONTROL Feldbezeichnung]**: Der Name der Metadateneigenschaft, der auf der Eigenschaftsseite des Assets angezeigt wird.
 
-* **[!UICONTROL Zu Eigenschaft zuordnen]**: Der Wert dieser Eigenschaft liefert den relativen Pfad/Namen zum Asset-Knoten für dessen Speicherort im CRX-Repository. Sie beginnt mit „**./**&quot;, da dies angibt, dass sich der Pfad unter dem Knoten des Assets befindet.
+* **[!UICONTROL Zu Eigenschaft zuordnen]**: Der Wert dieser Eigenschaft liefert den relativen Pfad/Namen zum Asset-Knoten für dessen Speicherort im CRX-Repository. Sie beginnt mit &quot;**./**&quot;, da dies angibt, dass sich der Pfad unter dem Knoten des Assets befindet.
 
 Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
@@ -112,7 +112,7 @@ Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 * **[!UICONTROL Platzhalter]**: Mit dieser Eigenschaft können Sie Benutzern relevante Informationen zur Metadateneigenschaft angeben.
 * **[!UICONTROL Erforderlich]**: Mit dieser Eigenschaft können Sie eine Metadateneigenschaft auf der Eigenschaftsseite als obligatorisch markieren.
 * **[!UICONTROL Bearbeitung deaktivieren]**: Mit dieser Eigenschaft können Sie verhindern, dass eine Metadateneigenschaft auf der Eigenschaftsseite bearbeitet werden kann.
-* **[!UICONTROL Leeres Feld schreibgeschützt anzeigen]**: Markieren Sie diese Eigenschaft, um eine Metadateneigenschaft auch dann auf der Eigenschaftsseite anzuzeigen, wenn sie keinen Wert aufweist. Standardmäßig werden Metadateneigenschaften ohne Werte nicht auf der Eigenschaftsseite aufgeführt.
+* **[!UICONTROL Leeres Feld anzeigen bei Schreibgeschützt]**: Markieren Sie diese Eigenschaft, um eine Metadateneigenschaft auf der Seite „Eigenschaften“ anzuzeigen, selbst wenn sie keinen Wert hat. Wenn eine Metadateneigenschaft keinen Wert aufweist, wird sie standardmäßig nicht auf der Seite Eigenschaften aufgeführt.
 * **[!UICONTROL Beschreibung]**: Mit dieser Eigenschaft können Sie eine kurze Beschreibung für die Metadatenkomponente hinzufügen.
 * **[!UICONTROL Löschsymbol]**: Klicken Sie auf dieses Symbol, um eine Komponente aus dem Schemaformular zu löschen.
 
@@ -166,7 +166,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwe
 >
 >Wenn Sie ein Schema, das verschachtelte Schemata enthält, auf einen Ordner anwenden, der Videodateien enthält, werden die Metadateneigenschaften für die Videodateien möglicherweise nicht ordnungsgemäß gerendert. Um sicherzustellen, dass die Metadateneigenschaften korrekt gerendert werden, entfernen Sie die verschachtelten Schemata und wenden Sie nur das übergeordnete Schema auf den Ordner an.
 
-## Löschen von Metadaten-Schemaformularen {#delete-a-metadata-schema-form}
+## Löschen von Metadatenschema-Formularen {#delete-a-metadata-schema-form}
 
 Mit Brand Portal können Sie nur benutzerdefinierte Schemaformulare löschen. Die Standardschemaformulare/-vorlagen können nicht gelöscht werden. Sie können jedoch alle benutzerdefinierten Änderungen in diesen Formularen löschen.
 

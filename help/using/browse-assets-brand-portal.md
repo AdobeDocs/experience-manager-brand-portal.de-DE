@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 30%
+source-wordcount: '1044'
+ht-degree: 35%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 Experience Manager Assets Brand Portal bietet verschiedene Funktionen und Benutzeroberflächenelemente, die das Durchsuchen von Ressourcen, Navigieren in Asset-Hierarchien und Suchen nach Assets mithilfe verschiedener Anzeigeoptionen erleichtern.
 
-Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin-Benutzern den Zugriff auf den Admin-Tools-Bereich.
+Das Experience Manager-Logo oben in der Symbolleiste erleichtert Admin-Benutzern den Zugriff auf den Admin-Tools-Bereich.
 
 ![](assets/aemlogo.png)
 
@@ -56,7 +56,7 @@ In der Kartenansicht werden Informationskarten für jedes Element auf der aktuel
 * Größe
 * Dimensionen
 
-Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten klicken (vermeiden Sie dabei die Schnellaktionen), und über die Breadcrumbs [&#x200B; der Kopfzeile wieder nach oben &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten klicken (vermeiden Sie dabei die Schnellaktionen), und über die Breadcrumbs [ der Kopfzeile wieder nach oben ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -64,7 +64,7 @@ Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten kl
 
 Karten von Ordnern in der Kartenansicht zeigen Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern und Gastbenutzern) Informationen zur Ordnerhierarchie an. Mit dieser Funktion erfahren die Benutzer den Speicherort der Ordner, auf die sie zugreifen, in Bezug auf die übergeordnete Hierarchie.
 
-Informationen zur Ordnerhierarchie sind besonders hilfreich, um Ordner mit Namen zu unterscheiden, die anderen Ordnern ähneln, die von einer anderen Ordnerhierarchie freigegeben wurden. Wenn Benutzende ohne Administratorrechte die Ordnerstruktur der für sie freigegebenen Assets nicht kennen, scheinen Assets/Ordner mit ähnlichen Namen verwirrend zu sein.
+Informationen zur Ordnerhierarchie sind besonders hilfreich, um Ordner mit Namen zu unterscheiden, die anderen Ordnern ähneln, die von einer anderen Ordnerhierarchie freigegeben wurden. Wenn Benutzende ohne Administratorrechte nicht die Ordnerstruktur der für sie freigegebenen Assets berücksichtigen, können Assets/Ordner mit denselben Namen für Verwirrung sorgen.
 
 * Die auf den entsprechenden Karten angezeigten Pfade werden so gekürzt, dass sie zu den Kartengrößen passen. Benutzer können den vollständigen Pfad jedoch als QuickInfo sehen, indem sie den Mauszeiger über den abgeschnittenen Pfad bewegen.
 
@@ -74,10 +74,10 @@ Informationen zur Ordnerhierarchie sind besonders hilfreich, um Ordner mit Namen
 
 Die Option Überblick steht Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern, Gastbenutzern) zur Verfügung, um Asset-Eigenschaften ausgewählter Assets/Ordner anzuzeigen. Die Option „Überblick“ finden Sie an folgenden Stellen:
 
-* Klicken Sie in der Symbolleiste oben auf ein Asset/einen Ordner.
+* In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners.
 * Wählen Sie in der Dropdown-Liste bei der Auswahl der Leistenauswahl aus.
 
-Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option Überblick auf der Asset-Detailseite die Metadaten des Assets sehen können.
+Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzenden bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
 ![](assets/overview-option.png)
 
@@ -106,7 +106,7 @@ In der Listenansicht werden Informationen für jede Ressource auf der aktuellen 
 * Ordnerpfad, der die Asset-Hierarchie anzeigt
 * Datum der Veröffentlichung des Assets in Brand Portal
 
-Mit der Spalte Pfad können Sie den Asset-Speicherort in der Ordnerhierarchie einfach identifizieren. Sie können in der Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen klicken, und mithilfe der [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) wieder nach oben navigieren.
+Mit der Spalte Pfad können Sie den Asset-Speicherort in der Ordnerhierarchie einfach identifizieren. Sie können in der Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen klicken, und mithilfe der [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) wieder nach oben navigieren.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -253,7 +253,8 @@ Sie können alle verfügbaren Ausgabedarstellungen des Assets auf der Seite mit 
 
 ![](assets/renditions.png)
 
-<!-- removed as it is fixed in 2022.02.0 release
+<!-- 
+removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:

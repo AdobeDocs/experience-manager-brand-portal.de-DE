@@ -6,10 +6,10 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 70%
+source-wordcount: '1078'
+ht-degree: 69%
 
 ---
 
@@ -93,7 +93,7 @@ So laden Sie Assets schneller von Brand Portal herunter:
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsdialog für den Download von Assets mit IBM® Aspera Connect angezeigt.
 
-   Wenn Sie Assets zum ersten Mal heruntergeladen haben und IBM® Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, das Asset zu installieren. Wenn die vorhandene Version veraltet ist, werden Sie auch aufgefordert, den [Aspera Download Accelerator“ &#x200B;](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) installieren.
+   Wenn Sie Assets zum ersten Mal heruntergeladen haben und IBM® Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, das Asset zu installieren. Wenn die vorhandene Version veraltet ist, werden Sie auch aufgefordert, den [Aspera Download Accelerator“ ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) installieren.
 
    ![](assets/aspera-not-launched.png)
 
@@ -205,7 +205,7 @@ Außerdem kann der Aspera Connect-Client so markiert werden, dass er beim System
 
 Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, versuchen Sie die folgenden Vorschläge:
 
-1. Stellen Sie sicher, dass keine Ports blockiert sind. Verwenden Sie die Google-Suche, um je nach verwendetem Betriebssystem Möglichkeiten zur Überprüfung zu finden, ob Ports blockiert sind. <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. Stellen Sie sicher, dass keine Ports blockiert sind. Verwenden Sie die Google-Suche, um je nach verwendetem Betriebssystem Möglichkeiten zur Überprüfung zu finden, ob Ports blockiert sind.  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    Wenn die Ports nicht in Ordnung sind, kontaktieren Sie Ihr Netzwerk-Team, um sicherzustellen, dass die Ports 33001 (TCP und UDP) nicht in der Firewall blockiert werden.
 
@@ -213,7 +213,9 @@ Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, versuchen Sie die
 
    Ist die Bandbreite gering (1–10 MBit/s oder nur KBit/s), rufen Sie die Aspera-Voreinstellungen auf und versuchen Sie, die Bandbreite auf die verfügbare Bandbreite zu beschränken.
 
-   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
-   (login:  asperaweb , password:  demoaspera ) -->
+   <!-- 
+   The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) 
+   -->
 
 1. Wenn keiner der zuvor genannten Schritte den Fehler beheben kann, heben Sie die Auswahl der Option „Download-Beschleunigung aktivieren“ auf und verwenden Sie die normale Download-Funktion.
