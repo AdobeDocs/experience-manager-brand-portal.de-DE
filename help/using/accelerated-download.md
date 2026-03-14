@@ -93,7 +93,7 @@ So laden Sie Assets schneller von Brand Portal herunter:
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsdialog für den Download von Assets mit IBM® Aspera Connect angezeigt.
 
-   Wenn Sie Assets zum ersten Mal heruntergeladen haben und IBM® Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, das Asset zu installieren. Wenn die vorhandene Version veraltet ist, werden Sie auch aufgefordert, den [Aspera Download Accelerator“ ](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) installieren.
+   Wenn Sie Assets zum ersten Mal heruntergeladen haben und IBM® Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, das Asset zu installieren. Wenn die vorhandene Version veraltet ist, werden Sie auch aufgefordert, den [Aspera Download Accelerator“ &#x200B;](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) installieren.
 
    ![](assets/aspera-not-launched.png)
 
