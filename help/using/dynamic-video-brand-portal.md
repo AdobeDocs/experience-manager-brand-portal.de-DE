@@ -57,11 +57,11 @@ Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherst
 
 * **Starten Sie Experience Manager Author im Dynamic Media-Modus**
 
-  Starten Sie die Experience Manager-Autoreninstanz (mit der Brand Portal konfiguriert wird) entweder im [Dynamic Media - [!DNL Scene7] Modus](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) oder im [Dynamic Media - Hybridmodus](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic) oder
+  Starten Sie die Experience Manager-Autoreninstanz (mit der Brand Portal konfiguriert wird) entweder im [Dynamic Media - [!DNL Scene7] Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) oder im [Dynamic Media - Hybridmodus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dynamic) oder
 
 * **Konfigurieren von Dynamic Media Cloud Services in der Experience Manager-Autoreninstanz**
 
-  Basierend auf dem Dynamic Media-Modus (Scene7-Modus oder Hybridmodus), auf dem Experience Manager Author ausgeführt wird, legen Sie entweder [Dynamic Media Cloud Services ([!DNL Scene7]-Modus)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) oder [Dynamic Media Cloud Services (Hybridmodus)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) für die Experience Manager-Autoreninstanz unter **Tools** | **Cloud Services** | **Dynamic Media** fest.
+  Basierend auf dem Dynamic Media-Modus (Scene7-Modus oder Hybridmodus), auf dem Experience Manager Author ausgeführt wird, legen Sie entweder [Dynamic Media Cloud Services ([!DNL Scene7]-Modus)](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) oder [Dynamic Media Cloud Services (Hybridmodus)](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) für die Experience Manager-Autoreninstanz unter **Tools** | **Cloud Services** | **Dynamic Media** fest.
 
 * **Konfigurieren von Dynamic Media auf Brand Portal**
 
@@ -71,11 +71,11 @@ Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherst
 
 * **Veröffentlichen von Ordnern mit auf Brand Portal angewendeten Videokodierungen**
 
-  Wenden Sie [Videokodierungen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles) an und veröffentlichen Sie den Ordner mit Rich-Media-Assets der Experience Manager-Autoreninstanz in Brand Portal.
+  Wenden Sie [Videokodierungen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/video-profiles) an und veröffentlichen Sie den Ordner mit Rich-Media-Assets der Experience Manager-Autoreninstanz in Brand Portal.
 
 * **Zulassungsliste der Egress-IPs in SPS, wenn die sichere Vorschau aktiviert ist**
 
-  Wenn Sie Dynamic Media-**[!DNL Scene7]** verwenden (mit [sicherer Vorschau](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) für ein Unternehmen), wird empfohlen, dass **[!DNL Scene7]** Unternehmensadministrator [&#x200B; die öffentlichen Ausgangs-IPs &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) die entsprechenden Regionen mithilfe der SPS-Flash-Benutzeroberfläche (**[!UICONTROL Scene7]** Publishing System) auf die Zulassungsliste setzt.
+  Wenn Sie Dynamic Media-**[!DNL Scene7]** verwenden (mit [sicherer Vorschau](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) für ein Unternehmen), wird empfohlen, dass **[!DNL Scene7]** Unternehmensadministrator [&#x200B; die öffentlichen Ausgangs-IPs &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) die entsprechenden Regionen mithilfe der SPS-Flash-Benutzeroberfläche (**[!UICONTROL Scene7]** Publishing System) auf die Zulassungsliste setzt.
 
   Die Egress-IPs lauten wie folgt:
 
@@ -85,7 +85,7 @@ Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherst
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
-  Informationen zur Zulassungsliste dieser Ausgangs-IPs finden Sie unter [Vorbereiten Ihres Kontos für einen sicheren Test-Service](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
+  Informationen zur Zulassungsliste dieser Ausgangs-IPs finden Sie unter [Vorbereiten Ihres Kontos für einen sicheren Test-Service](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 
 ## Best Practices
 
@@ -112,9 +112,9 @@ Stellen Sie sicher, dass die Konfigurationsdetails in Brand Portal und der **[!U
 
 ### Öffentliche Ausgangs-IPs für den Dynamic Media Scene7-Modus auf die Zulassungsliste setzen
 
-Wenn Dynamic Media **[!UICONTROL Scene7]** mit [aktivierter sicherer Vorschau](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) verwendet wird, um Video-Assets für Brand Portal bereitzustellen, richtet **[!UICONTROL Scene7]** einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit einer beliebigen Anforderung an diesen Server wird die IP-Ursprungsadresse geprüft. Wenn die eingehende Anfrage nicht in der Liste genehmigter IP-Adressen enthalten ist, erfolgt die Antwort mit einer Fehlermeldung.
+Wenn Dynamic Media **[!UICONTROL Scene7]** mit [aktivierter sicherer Vorschau](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) verwendet wird, um Video-Assets für Brand Portal bereitzustellen, richtet **[!UICONTROL Scene7]** einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit einer beliebigen Anforderung an diesen Server wird die IP-Ursprungsadresse geprüft. Wenn die eingehende Anfrage nicht in der Liste genehmigter IP-Adressen enthalten ist, erfolgt die Antwort mit einer Fehlermeldung.
 Der **[!UICONTROL Scene7]**-Unternehmensadministrator konfiguriert daher eine Liste genehmigter IP-Adressen für die **[!UICONTROL Secure Testing]**-Umgebung seines Unternehmens über die Flash-Benutzeroberfläche **[!UICONTROL SPS]** (Scene7 Publishing System). Stellen Sie sicher, dass die Egress-IP für Ihre jeweilige Region (siehe unten) in diese genehmigte Liste aufgenommen wird.
-Informationen zur Zulassungsliste dieser Ausgangs-IPs finden Sie unter [Vorbereiten Ihres Kontos für einen sicheren Test-Service](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
+Informationen zur Zulassungsliste dieser Ausgangs-IPs finden Sie unter [Vorbereiten Ihres Kontos für einen sicheren Test-Service](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 Die Egress-IPs lauten wie folgt:
 
 | **Region** | **Egress-IP** |
@@ -129,7 +129,7 @@ Wenn die Experience Manager-Autoreninstanz im Dynamic Media Hybrid-Modus ausgef�
 
 >[!NOTE]
 >
->Die [Videokodierungsprofile](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles) werden nicht in Brand Portal veröffentlicht. Stattdessen werden sie vom Scene7 **[!UICONTROL Server]**. Stellen Sie daher sicher, dass die Konfigurationsdetails in Ihrer Experience Manager-Autoreninstanz mit denen von [Dynamic Media Cloud Services ([!DNL Scene7]-Modus)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) identisch sind, damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können.
+>Die [Videokodierungsprofile](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/video-profiles) werden nicht in Brand Portal veröffentlicht. Stattdessen werden sie vom Scene7 **[!UICONTROL Server]**. Stellen Sie daher sicher, dass die Konfigurationsdetails in Ihrer Experience Manager-Autoreninstanz mit denen von [Dynamic Media Cloud Services ([!DNL Scene7]-Modus)](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) identisch sind, damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können.
 
 So richten Sie Dynamic Media-Konfigurationen für Brand Portal-Mandanten ein:
 
