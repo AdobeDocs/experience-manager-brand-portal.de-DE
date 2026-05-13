@@ -6,20 +6,32 @@ content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: ce3a7a5232f32c86b4930f9079bed5f04d001d8f
+TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 49%
+source-wordcount: 953
+ht-degree: 50%
 
 ---
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-In Brand Portal wird die Konfiguration mit Experience Manager Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die Experience Manager Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden können. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) repliziert die Benutzerin bzw. der Experience Manager-Autor mithilfe eines Replikationsagenten ein oder mehrere ausgewählte Assets zur genehmigten Verwendung durch Brand Portal-Benutzende in Brand Portal Cloud Service. In Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
+In Brand Portal wird die Konfiguration mit Experience Manager Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die Experience Manager Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden können. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) verwendet die Experience Manager-Autoreninstanz einen Replikationsagenten, um ein oder mehrere ausgewählte Assets im Brand Portal Cloud Service zu replizieren, damit sie von Brand Portal-Benutzern genehmigt verwendet werden können. Für Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu ermöglichen.
 
 >[!NOTE]
 >
->Um eine erfolgreiche Konfiguration von Experience Manager Assets Brand Portal mit Experience Manager Assets sicherzustellen, empfiehlt Adobe ein Upgrade auf Experience Manager 6.4.1.0. Aufgrund einer Einschränkung in Experience Manager 6.4 tritt beim Konfigurieren von Experience Manager Assets mit Brand Portal ein Fehler auf und die Replikation schlägt fehl.
+>Um eine erfolgreiche Konfiguration von Experience Manager Assets Brand Portal mit Experience Manager Assets sicherzustellen, empfiehlt Adobe ein Upgrade auf Experience Manager 6.4.1.0. Aufgrund einer Beschränkung in Experience Manager 6.4 wird beim Konfigurieren von Experience Manager Assets mit Brand Portal ein Fehler ausgegeben und die Replikation scheitert.
 
 Beim Konfigurieren eines Cloud Service für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzenden und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Service-Benutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus Experience Manager in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
 
@@ -39,7 +51,7 @@ So validieren Sie Ihre Veröffentlichungskonfigurationen:
 
 Überprüfen Sie die Tail-Protokolle. Überprüfen Sie, ob der Replikationsagent erstellt wurde oder nicht. Wenn die Erstellung des Replikationsagenten fehlschlägt, bearbeiten Sie den Cloud-Service, indem Sie kleinere Änderungen im Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
 
-Wenn der Cloud Service beim wiederholten Bearbeiten nicht ordnungsgemäß konfiguriert ist, melden Sie ein Daycare-Ticket.
+Wenn der Cloud-Service beim wiederholten Bearbeiten nicht ordnungsgemäß konfiguriert ist, melden Sie ein Daycare-Ticket.
 
 **Testen der Verbindung mit Replikationsagenten**
 
@@ -62,11 +74,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 Die Veröffentlichung schlägt oft mit dem Fehler „401 unauthorized“ fehl, da dem Benutzer (z. B. `mac-<tenantid>-replication`) der neueste private Schlüssel fehlt und in den Replikationsagenten-Protokollen kein anderer Fehler gemeldet wird. Wenn Sie keine Problembehebung vornehmen möchten, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration richtig funktioniert, sollten Sie bei der Einrichtung der Experience Manager-Autoreninstanz Folgendes bereinigen:
 
 1. Navigieren Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf `localhost:4502:` ausführen)
-i. `/etc/replication/agents.author/mp_replication` löschen
+I. Löschen `/etc/replication/agents.author/mp_replication`
 II. Löschen von `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gehen Sie zu localhost:4502/useradmin:\
-   i. Nach `mac-<tenantid>replication` suchen
+   I. Nach Benutzer suchen `mac-<tenantid>replication`
 II. Diesen Benutzer löschen
 
 Jetzt ist das System bereinigt. Jetzt können Sie versuchen, eine Cloud Service-Konfiguration zu erstellen und weiterhin die vorhandene JWT-Anwendung zu verwenden. Es ist nicht erforderlich, eine Anwendung zu erstellen. Aktualisieren Sie stattdessen den öffentlichen Schlüssel aus der neu erstellten Cloud-Konfiguration.
@@ -119,7 +131,7 @@ Basierend auf den Fehlern wird empfohlen, ein Support-Ticket zu erstellen, damit
 
 ## Brand Portal-IMS-Konfigurations-Token abgelaufen {#token-expired}
 
-Wenn Ihre Brand Portal-Umgebung abrupt beendet wird, kann es sein, dass die IMS-Konfigurationen nicht ordnungsgemäß funktionieren. Das System zeigt eine fehlerhafte IMS-Konfiguration an und gibt in einer Fehlermeldung (ähnlich der folgenden) an, dass Ihr Zugriffs-Token abgelaufen ist.
+Wenn Ihre Brand Portal-Umgebung abrupt gestoppt wird, kann es sein, dass die IMS-Konfigurationen nicht ordnungsgemäß funktionieren. Das System zeigt eine fehlerhafte IMS-Konfiguration an und gibt in einer Fehlermeldung (ähnlich der folgenden) an, dass Ihr Zugriffs-Token abgelaufen ist.
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
@@ -132,9 +144,9 @@ Normalerweise schlägt der Veröffentlichungsauftrag mit einem Zeitüberschreitu
 
 Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 
-1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
+1. Melden Sie sich bei der AEM Assets-Autoreninstanz an.
 1. Navigieren Sie im Bedienfeld **Tools** zu **[!UICONTROL Bereitstellung]** > **[!UICONTROL Replikation]**.
-1. Klicken Sie auf der Seite Replikation auf **[!UICONTROL `Agents on author`]**. Sie sehen die vier Replikationsagenten Ihres Brand Portal-Mandanten.
+1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL `Agents on author`]**. Sie sehen die vier Replikationsagenten Ihres Brand Portal-Mandanten.
 1. Klicken Sie auf die Replikationsagenten-URL und dann auf **[!UICONTROL Bearbeiten]**.
 1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]**.
 1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Verbindung schließen]**.

@@ -6,9 +6,21 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: 1363
 ht-degree: 59%
 
 ---
@@ -60,7 +72,7 @@ Sie können verschiedene Sucheigenschaften verwenden, um den Bereich **[!UICONTR
 
    >[!NOTE]
    >
-   >Wenn Sie das Kontrollkästchen **[!UICONTROL Teilsuche]** aktivieren, wird **[!UICONTROL Groß-/Kleinschreibung ignorieren]** standardmäßig aktiviert.
+   >Nach Aktivierung des Kontrollkästchens **[!UICONTROL Teilsuche]** wird **[!UICONTROL Groß-/Kleinschreibung ignorieren]** standardmäßig aktiviert.
 
 1. Öffnen Sie **[!UICONTROL Feld &quot;]**&quot; die Eigenschaftenauswahl und wählen Sie die Eigenschaft aus, auf deren Grundlage die Suche durchgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. Geben Sie beispielsweise `jcr :content/metadata/dc:title` oder `./jcr:content/metadata/dc:title` ein.
 
@@ -68,7 +80,7 @@ Sie können verschiedene Sucheigenschaften verwenden, um den Bereich **[!UICONTR
    >
    >In Brand Portal werden alle Zeichenfolgen-Eigenschaften (mit Ausnahme der Eigenschaften, die mit `xmp` beginnen) in `jcrcontent/metadata` von `dam:asset` standardmäßig indiziert. Alle anderen benutzerdefinierten Eigenschaften eines beliebigen Typs werden standardmäßig nicht indiziert.
    >
-   >Jede indizierte Eigenschaft kann beim Erstellen eines Eigenschaftsprädikats verwendet werden. Wenn eine nicht indizierte Eigenschaft konfiguriert ist, liefert die Suchanfrage für eine nicht indizierte Eigenschaft möglicherweise kein Suchergebnis.
+   >Jede indizierte Eigenschaft kann beim Erstellen eines Eigenschaftsprädikats verwendet werden. Wenn eine nicht indizierte Eigenschaft konfiguriert ist, liefert die Suchabfrage für eine nicht indizierte Eigenschaft möglicherweise kein Suchergebnis.
 
    ![](assets/title-prop.png)
 
@@ -85,23 +97,23 @@ Sie können die folgenden Prädikate auf ähnliche Weise wie **[!UICONTROL Eigen
 
 | **Prädikatsname** | **Beschreibung** | **Eigenschaften** |
 |-------|-------|----------|
-| **[!UICONTROL Pfadbrowser]** | Das Suchprädikat zum Suchen von Assets an einem bestimmten Speicherort. **Hinweis:** *Für angemeldete Benutzende zeigt der Pfad-Browser im Filter nur die Inhaltsstruktur der Ordner (und deren Vorgänger) an, die für die Benutzenden freigegeben sind.* <br> Administratoren können nach Assets in einem beliebigen Ordner suchen, indem sie mit dem Pfadbrowser zu diesem Ordner navigieren. <br> Benutzer ohne Administratorrechte können Assets in einem Ordner suchen (auf den sie zugreifen können), indem sie im Pfad-Browser zu diesem Ordner navigieren. | <ul><li>Feldbezeichnung</li><li>Pfad</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Eigenschaft]** | Sucht nach Assets basierend auf einer bestimmten Metadaten-Eigenschaft. **Hinweis:** *Nach Aktivierung der Teilsuche wird standardmäßig „Groß-/Kleinschreibung ignorieren“ aktiviert*. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Teilsuche</li><li>Groß-/Kleinschreibung ignorieren</li><li> Beschreibung</li></ul> |
-| **[!UICONTROL Mehrwert-Eigenschaft]** | Ähnelt einem Eigenschaftsprädikat, lässt jedoch mehrere Eingabewerte zu, die durch ein Trennzeichen getrennt sind (Standard ist ein Komma). Assets, die mit einem der Eingabewerte übereinstimmen, werden in den Ergebnissen zurückgegeben. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Unterstützung von Trennzeichen</li><li>Groß-/Kleinschreibung ignorieren</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Tags]** | Das Suchprädikat zum Suchen von Assets basierend auf Tags. Sie können die Pfadeigenschaft konfigurieren, um verschiedene Tags in der Tag-Liste zu füllen. Administratoren müssen ggf. den Pfadwert ändern, z. B. [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. Sie müssen das Suchformular aus AEM veröffentlichen, wobei der Pfad keine Mandanteninformationen enthält, z. B. [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Pfad]** | Das Suchprädikat zum Suchen von Assets an einem bestimmten Speicherort. | <ul><li>Feldbezeichnung</li><li>Pfad</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Relatives Datum]** | Das Suchprädikat , um Assets basierend auf dem relativen Erstellungsdatum zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Relatives Datum</li></ul> |
-| **[!UICONTROL Bereich]** | Das Suchprädikat zum Suchen nach Assets, die innerhalb eines bestimmten Bereichs von Eigenschaftswerten liegen. Im Bereich „Filter“ können Sie den Mindest- und den Höchstwert für den Bereich angeben. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Datumsbereich]** | Das Suchprädikat zum Suchen von Assets, die innerhalb eines angegebenen Bereichs für eine Datumseigenschaft erstellt wurden. Im Bereich „Filter“ können Sie das Start- und das Enddatum angeben. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Textbereich (von)</li><li>Textbereich (bis)</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Datum]** | Sucheigenschaft für eine Schieberegler-basierte Suche nach Assets basierend auf einer Datumseigenschaft | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Dateigröße]** | Das Suchprädikat , um Assets basierend auf ihrer Größe zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Asset zuletzt geändert]** | Das Suchprädikat, um Assets basierend auf dem Datum der letzten Änderung zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Genehmigungsstatus]** | Das Suchprädikat, um Assets basierend auf der Genehmigungsmetadaten-Eigenschaft zu suchen. Der standardmäßige Eigenschaftsname ist **`dam:status`**. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Checkout-Status]** | Das Suchprädikat zum Suchen von Assets basierend auf dem Checkout-Status eines Assets zum Zeitpunkt seiner Veröffentlichung in AEM Assets. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Ausgecheckt von]** | Das Suchprädikat zum Suchen von Assets basierend auf dem Benutzer, der das Asset ausgecheckt hat. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Gültigkeitsstatus]** | Das Suchprädikat, um Assets basierend auf dem Ablaufstatus zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Pfadbrowser]** | Das Suchprädikat zum Suchen von Assets an einem bestimmten Speicherort. **Hinweis:** *Für angemeldete Benutzende zeigt der Pfad-Browser im Filter nur die Inhaltsstruktur der Ordner (und deren Vorgänger) an, die für die Benutzenden freigegeben sind.* <br> Admin-Benutzer können Assets in jedem Ordner suchen, indem sie mit dem Pfad-Browser zu diesem Ordner gehen. <br> Benutzer ohne Administratorrechte können dagegen Assets in einem Ordner suchen (auf den sie zugreifen können), indem sie im Pfad-Browser zu diesem Ordner navigieren. | <ul><li>Feld-Label</li><li>Pfad</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Eigenschaft]** | Sucht nach Assets basierend auf einer bestimmten Metadaten-Eigenschaft. **Hinweis:** *Nach Aktivierung der Teilsuche wird standardmäßig „Groß-/Kleinschreibung ignorieren“ aktiviert*. | <ul><li>Feld-Label</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Teilsuche</li><li>Groß-/Kleinschreibung ignorieren</li><li> Beschreibung</li></ul> |
+| **[!UICONTROL Mehrwert-Eigenschaft]** | Ähnelt einem Eigenschaftsprädikat, lässt jedoch mehrere Eingabewerte zu, die durch ein Trennzeichen getrennt sind (Standard ist ein Komma). Assets, die mit einem der Eingabewerte übereinstimmen, werden in den Ergebnissen zurückgegeben. | <ul><li>Feld-Label</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Trennzeichen-Unterstützung</li><li>Groß-/Kleinschreibung ignorieren</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Tags]** | Das Suchprädikat zum Suchen von Assets basierend auf Tags. Sie können die Pfadeigenschaft konfigurieren, um verschiedene Tags in der Tag-Liste zu füllen. Administratoren müssen ggf. den Pfadwert ändern, z. B. [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. Sie müssen das Suchformular aus AEM veröffentlichen, wo der Pfad keine Mandanteninformationen enthält, z. B. [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Pfad]** | Das Suchprädikat zum Suchen von Assets an einem bestimmten Speicherort. | <ul><li>Feld-Label</li><li>Pfad</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Relatives Datum]** | Das Suchprädikat , um Assets basierend auf dem relativen Erstellungsdatum zu suchen. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Relatives Datum</li></ul> |
+| **[!UICONTROL Bereich]** | Das Suchprädikat zum Suchen nach Assets, die innerhalb eines bestimmten Bereichs von Eigenschaftswerten liegen. Im Bereich „Filter“ können Sie den Mindest- und den Höchstwert für den Bereich angeben. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Datumsbereich]** | Das Suchprädikat zum Suchen von Assets, die innerhalb eines angegebenen Bereichs für eine Datumseigenschaft erstellt wurden. Im Bereich „Filter“ können Sie das Start- und das Enddatum angeben. | <ul><li>Feld-Label</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Textbereich (von)</li><li>Textbereich (bis)</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Datum]** | Suchprädikat für eine Regler-basierte Suche nach Assets basierend auf einer Datumseigenschaft. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Dateigröße]** | Das Suchprädikat , um Assets basierend auf ihrer Größe zu suchen. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Asset zuletzt geändert]** | Das Suchprädikat, um Assets basierend auf dem Datum der letzten Änderung zu suchen. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Genehmigungsstatus]** | Das Suchprädikat, um Assets basierend auf der Genehmigungsmetadaten-Eigenschaft zu suchen. Der standardmäßige Eigenschaftsname ist **`dam:status`**. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Checkout-Status]** | Das Suchprädikat zum Suchen von Assets basierend auf dem Checkout-Status eines Assets zum Zeitpunkt seiner Veröffentlichung in AEM Assets. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Ausgecheckt von]** | Das Suchprädikat zum Suchen von Assets basierend auf dem Benutzer, der das Asset ausgecheckt hat. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Gültigkeitsstatus]** | Das Suchprädikat, um Assets basierend auf dem Ablaufstatus zu suchen. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | **[!UICONTROL Mitglied der Sammlung]** | Das Suchprädikat, um Assets basierend darauf zu suchen, ob ein Asset Teil einer Sammlung ist. | Beschreibung |
-| **[!UICONTROL Ausgeblendet]** | Dieses Prädikat ist für die Endbenutzer nicht explizit sichtbar und wird für ausgeblendete Einschränkungen verwendet, die normalerweise dazu dienen, den Suchergebnistyp auf **`dam:Asset`** zu beschränken. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Ausgeblendet]** | Dieses Prädikat ist für die Endbenutzer nicht explizit sichtbar und wird für ausgeblendete Einschränkungen verwendet, die normalerweise dazu dienen, den Suchergebnistyp auf **`dam:Asset`** zu beschränken. | <ul><li>Feld-Label</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 
 >[!NOTE]
 >

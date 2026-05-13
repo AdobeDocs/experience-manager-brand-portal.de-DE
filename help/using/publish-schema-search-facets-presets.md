@@ -5,16 +5,26 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+TQID: https://experienceleague.adobe.com/M2TJ3UdBegFbtGRdzdqrPDXMovdtf0BcPoY3FVNoQSw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: 1131
 ht-degree: 43%
 
 ---
 
 # Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
-In diesem Artikel wird beschrieben, wie Vorgaben, Metadatenschemata und benutzerdefinierte Suchfacetten aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden. Mit der Veröffentlichungsfunktion können Unternehmen die in einer AEM-Autoreninstanz erstellten oder bearbeiteten Bildvorgaben, Metadatenschemata und Suchfacetten wiederverwenden. Dieser Ansatz reduziert doppelten Aufwand.
+In diesem Artikel wird beschrieben, wie Bildvorgaben, Metadatenschemata und benutzerdefinierte Suchfacetten aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden. Mit der Veröffentlichungsfunktion können Unternehmen die in einer AEM-Autoreninstanz erstellten oder bearbeiteten Bildvorgaben, Metadatenschemata und Suchfacetten wiederverwenden. Dieser Ansatz reduziert doppelten Aufwand.
 
 >[!NOTE]
 >
@@ -27,18 +37,18 @@ Nachdem die Vorgabe erstellt wurde, wird sie in der Leiste „Asset-Detail-Ausga
 
 >[!NOTE]
 >
->Wenn die AEM-Autoreninstanz nicht im **[!UICONTROL Dynamic Media-Modus]** ausgeführt wird (der Kunde hat Dynamic Media nicht erworben), wird die Ausgabedarstellung **[!UICONTROL Pyramid TIFF]** der Assets zum Zeitpunkt des Uploads nicht erstellt. Bildvorgaben oder dynamische Ausgabedarstellungen funktionieren auf **[!UICONTROL Pyramid-TIFF]** eines Assets. Wenn daher **[!UICONTROL Pyramid TIFF]** in der AEM-Autoreninstanz nicht verfügbar ist, ist sie auch in Brand Portal nicht verfügbar. Daher sind auf der Seite mit den Asset-Details und im Dialogfeld Herunterladen in der Leiste „Ausgabedarstellungen“ keine dynamischen Ausgabedarstellungen vorhanden.
+>Wenn die AEM-Autoreninstanz nicht im **[!UICONTROL Dynamic Media-Modus]** ausgeführt wird (der Kunde hat Dynamic Media nicht erworben), wird die **[!UICONTROL Pyramid TIFF]**-Ausgabedarstellung der Assets zum Zeitpunkt des Uploads nicht erstellt. Bildvorgaben oder dynamische Ausgabedarstellungen funktionieren bei **[!UICONTROL Pyramid TIFF]** eines Assets. Wenn **[!UICONTROL Pyramid TIFF]** daher in der AEM-Autoreninstanz nicht verfügbar ist, ist es auch in Brand Portal nicht verfügbar. Daher sind auf der Seite mit den Asset-Details und im Dialogfeld Herunterladen in der Leiste „Ausgabedarstellungen“ keine dynamischen Ausgabedarstellungen vorhanden.
 
 Gehen Sie wie folgt vor, um Bildvorgaben in Brand Portal zu veröffentlichen:
 
 1. Klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Bildvorgaben]**.
-1. Wählen Sie die Bildvorgabe oder mehrere Bildvorgaben aus der Liste von Bildvorgaben aus und klicken Sie auf **[!UICONTROL Publish zu Brand Portal]**.
+1. Wählen Sie die Bildvorgabe oder mehrere Bildvorgaben aus der Liste von Bildvorgaben aus und klicken Sie auf **[!UICONTROL In Brand Portal veröffentlichen]**.
 
 ![](assets/publishpreset.png)
 
 >[!NOTE]
 >
->Wenn Benutzer auf **[!UICONTROL Publish in Brand Portal]** klicken, werden die Bildvorgaben zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
+>Wenn Benutzende auf **[!UICONTROL In Brand Portal veröffentlichen]** klicken, werden die Bildvorgaben zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
 
 Gehen Sie wie folgt vor, um die Veröffentlichung von Bildvorgaben in Brand Portal rückgängig zu machen:
 
@@ -57,13 +67,13 @@ Wenn Benutzer ein benutzerdefiniertes Schema in der AEM-Autoreninstanz erstellt 
 
 >[!NOTE]
 >
->Standardschemata können nicht in der Brand Portal veröffentlicht werden, wenn sie in der AEM-Instanz gesperrt waren. Das heißt, sie werden nicht bearbeitet.
+>Standardschemata können nicht in Brand Portal veröffentlicht werden, wenn sie in der AEM-Instanz gesperrt waren. Das heißt, sie werden nicht bearbeitet.
 
 ![](assets/default-schema-form.png)
 
 >[!NOTE]
 >
->Wenn auf eine AEM-Autoreninstanz ein Schema auf einen Ordner angewendet wird, muss dasselbe Schema auch auf der Brand Portal vorhanden sein. Dies hilft, die Konsistenz auf der Seite mit den Asset-Eigenschaften in AEM Author und Brand Portal aufrechtzuerhalten.
+>Wenn auf einen Ordner ein Schema in der AEM-Autoreninstanz angewendet wurde, muss dasselbe Schema auch in der Brand Portal vorhanden sein. Dies hilft, die Konsistenz auf der Seite mit den Asset-Eigenschaften in AEM Author und Brand Portal aufrechtzuerhalten.
 
 Gehen Sie wie folgt vor, um ein Metadatenschema aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 

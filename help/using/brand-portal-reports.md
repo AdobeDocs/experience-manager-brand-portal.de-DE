@@ -6,10 +6,21 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 31%
+source-wordcount: 1010
+ht-degree: 34%
 
 ---
 
@@ -35,11 +46,11 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    >[!NOTE]
    >
-   >Der Verwendungsbericht ist ein Standardbericht, der in Brand Portal erstellt wird. Sie kann nicht erstellt oder gelöscht werden. Sie können jedoch die Berichte Download, Ablauf, Publish, `Link Share` und Benutzeranmeldungen erstellen, herunterladen und löschen.
+   >Der Verwendungsbericht ist ein Standardbericht, der in Brand Portal erstellt wird. Sie kann nicht erstellt oder gelöscht werden. Sie können jedoch die Berichte Download, Ablauf, Veröffentlichung, `Link Share` und Benutzeranmeldungen erstellen, herunterladen und löschen.
 
    Um einen Bericht anzuzeigen, klicken Sie auf den Link zum Bericht. Wählen Sie alternativ den Bericht aus und klicken Sie auf der Symbolleiste auf das Symbol Ansicht .
 
-   Der **[!UICONTROL Nutzungsbericht]** zeigt Informationen zur Anzahl der aktiven Brand Portal-Benutzenden, zum Speicherplatz, der von allen Assets belegt ist, und zur Gesamtzahl der Assets in Brand Portal an. Die Brand Portal-Benutzenden, die keinem Produktprofil in der Admin Console zugewiesen sind, gelten als inaktive Benutzende und werden im **[!UICONTROL Verwendungsbericht“ nicht]**.
+   Der **[!UICONTROL Nutzungsbericht]** zeigt Informationen zur Anzahl der aktiven Brand Portal-Benutzenden, zum Speicherplatz, der von allen Assets belegt ist, und zur Gesamtzahl der Assets in Brand Portal an. Die Brand Portal-Benutzer, die keinem Produktprofil in der Admin Console zugewiesen sind, gelten als inaktive Benutzer und werden im **[!UICONTROL Verwendungsbericht]** nicht angezeigt.
 Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informationsmetriken an.
 
    ![](assets/usage-report.png)
@@ -83,12 +94,12 @@ Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informati
 Administratoren können die folgenden Standardberichte erstellen und verwalten. Nach der Generierung werden die Berichte für den [&#x200B; Zugriff gespeichert](../using/brand-portal-reports.md#main-pars-header).
 
 * Benutzeranmeldungen
-* Download
+* Herunterladen
 * Ablauf
 * Veröffentlichen
 * Link-Freigabe
 
-Die Spalten im Bericht „Download“, „Gültigkeit“ und &quot;Publish&quot; können zur Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu erstellen:
+Die Spalten im Bericht „Download“, „Gültigkeit“ und „Veröffentlichen“ können zur Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu erstellen:
 
 1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
@@ -113,14 +124,14 @@ Die Spalten im Bericht „Download“, „Gültigkeit“ und &quot;Publish&quot;
    >
    >Beim Erstellen des Berichts werden die Sonderzeichen `#` und `%` im Titel durch einen Bindestrich (-) ersetzt.
 
-1. Klicken Sie **[!UICONTROL Weiter]**, um die Spalten der Berichte Download, Ablauf und Publish zu konfigurieren.
+1. Klicken Sie **[!UICONTROL Weiter]**, um die Spalten der Berichte Download, Ablauf und Veröffentlichen zu konfigurieren.
 1. Aktivieren oder deaktivieren Sie dazu die entsprechenden Kontrollkästchen. Um beispielsweise die Namen von Benutzern (die Assets heruntergeladen haben) im Bericht &quot;**[!UICONTROL &quot; anzuzeigen]** wählen Sie **[!UICONTROL Heruntergeladen von]**. Die folgende Abbildung zeigt die Auswahl der Standardspalten im Download-Bericht.
 
    ![](assets/createdownloadreport.png)
 
    Sie können diesen Berichten auch benutzerdefinierte Spalten hinzufügen, um weitere Daten für Ihre benutzerdefinierten Anforderungen anzuzeigen.
 
-   Gehen Sie wie folgt vor, um dem Download-, Publish- oder Gültigkeitsbericht benutzerdefinierte Spalten hinzuzufügen:
+   Gehen Sie wie folgt vor, um dem Download-, Veröffentlichungs- oder Gültigkeitsbericht benutzerdefinierte Spalten hinzuzufügen:
 
    1. Um eine benutzerdefinierte Spalte anzuzeigen, klicken Sie auf **[!UICONTROL Hinzufügen]** unter [!UICONTROL Benutzerdefinierte Spalten].
    1. Geben Sie den Namen der Spalte im Feld **[!UICONTROL Spaltenname]** an.

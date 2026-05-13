@@ -5,10 +5,18 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/5U3958LUe-Pw2LMcX9fEDKIYHU6IVQ-J4CeKlmBFuKo
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 40%
+source-wordcount: 639
+ht-degree: 37%
 
 ---
 
@@ -22,16 +30,16 @@ Tags (die mit Assets und Sammlungen in AEM verknüpft sind) werden automatisch i
 
 >[!NOTE]
 >
->Adobe empfiehlt, Tags ausschließlich in Brand Portal zu veröffentlichen, bevor Sie die Assets (und Sammlungen) veröffentlichen, mit denen die Tags verknüpft sind. Dieser Ansatz sorgt für eine schnellere Veröffentlichung der Assets (und Sammlungen) in Brand Portal.
+>Adobe empfiehlt, ausschließlich Tags in Brand Portal zu veröffentlichen, bevor Sie die Assets (und Sammlungen) veröffentlichen, mit denen die Tags verknüpft sind. Dieser Ansatz sorgt für eine schnellere Veröffentlichung der Assets (und Sammlungen) in Brand Portal.
 
 ## Verwalten von Tags {#manage-tags}
 
-Sie können bereits vorhandene Tags über die AEM-Tags-Konsole (Tools) an ein Asset anhängen oder neue Tags **[!UICONTROL | Tagging | AEM-Tags]**). In beiden Szenarien müssen Sie die Tags zunächst in Brand Portal veröffentlichen und sie dann mit entsprechenden Assets verknüpfen.
+Sie können bereits vorhandene Tags über die AEM Tags-Konsole (**[!UICONTROL Tools | Tagging | AEM Tags) an ein Asset anhängen oder neue Tags]**. In beiden Szenarien müssen Sie die Tags zunächst in Brand Portal veröffentlichen und sie dann mit entsprechenden Assets verknüpfen.
 
 Führen Sie die folgenden Schritte aus, um Tags in AEM zu erstellen, in Brand Portal zu veröffentlichen und mit den entsprechenden Assets (oder Sammlungen) zu verknüpfen:
 
 1. **Tags erstellen**
-Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und greifen Sie über die globale Navigation auf die Konsole {2&#x200B;**AEM-Tags} zu:**
+Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und greifen Sie über die globale Navigation auf die {1&#x200B;**AEM Tags}-Konsole zu:**
 
    1. Wählen Sie **[!UICONTROL Tools]**
 
@@ -42,16 +50,14 @@ Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und gre
 1. Wählen Sie **[!UICONTROL Erstellen]** und dann die Option **[!UICONTROL Tag erstellen]** aus.
 1. Geben Sie Folgendes an:
 
-   * **[!UICONTROL Titel]**
-
+   * **[!UICONTROL title]**
      *(erforderlich)* Ein Anzeigetitel für das Tag.
-   * **[!UICONTROL Name]**
-
+   * **[!UICONTROL name]**
      *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. Siehe [TagID](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Beschreibung**
-
      *(optional)* Eine Beschreibung des Tags.
-   * **Tag-Pfad** JCR-Pfad des Tags.
+   * **Tag-Pfad**
+JCR-Pfad des Tags.
 
 1. Wählen Sie **[!UICONTROL Übermitteln]** aus, um das Tag zu erstellen.
 
@@ -59,7 +65,7 @@ Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und gre
 
 1. **Veröffentlichen Sie das Tag in Brand Portal**.
 
-   Wechseln Sie zur Konsole **[!UICONTROL AEM]** Tags[!UICONTROL &#x200B; (Tools | Tagging | AEM-Tags]), wählen Sie das gewünschte Tag aus und wechseln Sie von Publish zu Brand Portal.
+   Wechseln Sie zur Konsole **[!UICONTROL AEM Tags]** ([!UICONTROL Tools | Tagging | AEM Tags]), wählen Sie das gewünschte Tag aus und veröffentlichen Sie es in Brand Portal.
 
 1. **Hängen Sie das Tag an ein Asset (oder eine Sammlung)**.
 
@@ -83,6 +89,6 @@ Gehen Sie wie folgt vor, um ein Asset für einen Suchbegriff zu priorisieren:
    ![](assets/search-promote.png)
 
 1. Speichern Sie die Änderungen.
-1. Publish sendet das Asset zu Brand Portal.
+1. Veröffentlichen Sie das Asset in Brand Portal.
 1. Melden Sie sich bei Brand Portal an. Gehen Sie **[!UICONTROL Registerkarte]** im Abschnitt **[!UICONTROL Eigenschaften]** des Assets vor.
 Beachten Sie, dass der Suchbegriff aus **[!UICONTROL Suche priorisieren]** auch in den Eigenschaften dieses Assets sichtbar ist.
