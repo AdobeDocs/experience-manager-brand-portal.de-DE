@@ -6,9 +6,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 TQID: https://experienceleague.adobe.com/5U3958LUe-Pw2LMcX9fEDKIYHU6IVQ-J4CeKlmBFuKo
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 639
@@ -35,7 +39,7 @@ Sie können bereits vorhandene Tags über die AEM Tags-Konsole (**[!UICONTROL To
 Führen Sie die folgenden Schritte aus, um Tags in AEM zu erstellen, in Brand Portal zu veröffentlichen und mit den entsprechenden Assets (oder Sammlungen) zu verknüpfen:
 
 1. **Tags erstellen**
-Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und greifen Sie über die globale Navigation auf die {1]**AEM Tags}-Konsole zu:**[!UICONTROL 
+Melden Sie sich mit Administratorrechten bei einer AEM-Autoreninstanz an und greifen Sie über die globale Navigation auf die {1&#x200B;**AEM Tags}-Konsole zu:**
 
    1. Wählen Sie **[!UICONTROL Tools]**
 
@@ -80,7 +84,7 @@ Gehen Sie wie folgt vor, um ein Asset für einen Suchbegriff zu priorisieren:
 
 1. Öffnen Sie die Seite **[!UICONTROL Eigenschaften]** eines Assets in der AEM-Autoreninstanz.
 1. Wechseln Sie zur Registerkarte **[!UICONTROL Erweitert]**.
-1. Wählen **[!UICONTROL im Abschnitt]** Suche nach Keywords erhöhen **** die Option **[!UICONTROL Hinzufügen]** aus, um die Suchbegriffe oder Tags hinzuzufügen.
+1. Wählen **[!UICONTROL im Abschnitt]** Suche nach Keywords erhöhen **&#x200B;**&#x200B;die Option **[!UICONTROL Hinzufügen]** aus, um die Suchbegriffe oder Tags hinzuzufügen.
 
    ![](assets/search-promote.png)
 
