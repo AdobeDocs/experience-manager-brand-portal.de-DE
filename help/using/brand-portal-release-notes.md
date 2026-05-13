@@ -5,10 +5,15 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a0cde32c-c339-4649-bd06-f1111bc952fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 96%
+source-wordcount: 1633
+ht-degree: 93%
 
 ---
 
@@ -20,7 +25,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2026,01,01 |
+| Version | 2026.01.01 |
 | Datum | Januar 2026 |
 
 ## Übersicht {#overview}
@@ -109,13 +114,13 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 ### Version Mai 2023 {#may-2023}
 
 **Fehlerbehebungen**
-Diese Version enthält Fehlerbehebungen für die folgenden kritischen Probleme:
+Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn beim Herunterladen eines Assets von einem freigegebenen Link ein Fehler auftritt, werden die Kennzeichnungen `Notice` und `Close` in der Fehlermeldung nicht lokalisiert.
 * Brand Portal zeigt beim Zugriff auf Suchfilter mit dem `Filter`-Bereich den Fehler **Anfragekopfzeilenfelder zu groß** an.
 
 **Bekannte Probleme**
-Diese Version enthält die folgenden bekannten Probleme:
+Diese Version umfasst die folgenden bekannten Probleme:
 
 * Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
 * Einige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
@@ -399,8 +404,8 @@ Informationen dazu, welche Plattformen für die Ausführung mit dieser Brand Por
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)
+* [Adobe Experience Manager-Produktseite auf adobe.com](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)
+* [Dokumentation zu Assets Brand Portal](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 

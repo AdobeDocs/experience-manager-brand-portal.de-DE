@@ -2,10 +2,14 @@
 title: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
 description: Nutzen Sie Experience Manager Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-IsbLpGrq16MLj74ma34fxV3ac9EKMNBMny7taDO6ZQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 439
+ht-degree: 98%
 
 ---
 
@@ -45,8 +49,8 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 | [Unterstützte Dateiformate](brand-portal-supported-formats.md) | Unterstützte Dateiformate in Brand Portal für Vorschau und Download. |
 | [Veröffentlichen von Assets in Brand Portal](brand-portal-sharing-folders.md) | Veröffentlichen von Ordnern, Sammlungen, Links, Vorgaben, Schemas, Facetten und Tags in Brand Portal. |
 | [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md) | Konfigurieren der Asset-Beschaffung in AEM Assets, Hochladen von Assets in Brand Portal und erneutes Veröffentlichen des Beitragsordners in AEM Assets. |
-| [Videos zu Brand Portal-Funktionen](https://experienceleague.adobe.com/de?lang=de&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Erfahren Sie in Video-Tutorials, wie Sie Experience Manager Assets Brand Portal verwenden. |
+| [Videos zu Brand Portal-Funktionen](https://experienceleague.adobe.com/?lang=de&tag=Brand+Portal#recommended/solutions/experience-manager) | Erfahren Sie in Video-Tutorials, wie Sie Experience Manager Assets Brand Portal verwenden. |
 
 ### Hilfreiche Ressourcen
 
-* [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)
+* [Grundlegendes zu Brand Portal mit AEM Assets](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/home)

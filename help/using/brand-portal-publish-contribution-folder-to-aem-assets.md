@@ -6,9 +6,12 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/u5hGJpkNkUSrnC50ydHo4iERbyBn9uu4FItvZa-N34M
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: 1469
 ht-degree: 73%
 
 ---
@@ -155,7 +158,7 @@ Administratoren können zwei Berichte verwenden, um den Status von Asset-Beitrag
 
 ## Automatisches Löschen von in Experience Manager Assets veröffentlichten Assets aus dem Beitragsordner {#automatically-delete-published-assets-from-contribution-folder}
 
-Brand Portal führt jetzt alle zwölf Stunden automatische Aufträge aus, um alle Beitragsordner zu überprüfen und alle Assets zu löschen, die in AEM veröffentlicht wurden. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter dem [Schwellenwert](#upload-new-assets-to-contribution-folder) zu halten. Sie können auch den Status der Löschvorgänge überwachen, die in den letzten sieben Tagen automatisch ausgeführt wurden. Der Bericht für einen Auftrag enthält die folgenden Details:
+Brand Portal führt jetzt alle zwölf Stunden automatische Aufträge aus, um alle Beitragsordner zu überprüfen und alle Assets zu löschen, die in AEM veröffentlicht wurden. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter dem [Schwellenwert](#upload-new-assets-to-contribution-folder) zu halten. Sie können auch den Status der Löschaufträge überwachen, die in den letzten sieben Tagen automatisch ausgeführt wurden. Der Bericht für einen Auftrag enthält die folgenden Details:
 
 * Startzeit des Auftrags
 * Endzeit des Auftrags
@@ -166,14 +169,14 @@ Brand Portal führt jetzt alle zwölf Stunden automatische Aufträge aus, um all
 
   ![Löschbericht](assets/deletion-reports.png)
 
-Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
+Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch noch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
 
 ![Löschbericht detailliert](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
 > * Kunden können sich an die Adobe-Kundenunterstützung wenden, um die automatische Löschfunktion zu deaktivieren und wieder zu aktivieren oder die Häufigkeit der Ausführung zu ändern.
-> * Diese Funktion ist in Experience Manager 6.5.13.0 und höheren Versionen verfügbar.
+> * Diese Funktion ist in Experience Manager 6.5.13.0 und späteren Versionen verfügbar.
 
 ### Anzeigen und Herunterladen von Löschberichten {#view-delete-jobs}
 

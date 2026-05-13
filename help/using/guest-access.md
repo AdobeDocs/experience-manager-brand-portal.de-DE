@@ -6,10 +6,16 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 55%
+source-wordcount: 1051
+ht-degree: 54%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 55%
 
 Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzende in einer Gastsitzung können für die Dauer ihrer Sitzung Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen, es sei denn, Gastbenutzende wählen die Option [[!UICONTROL Sitzung beenden]](#exit-guest-session) aus. Eine Gastbenutzersitzung bleibt für 15 Minuten aktiv.
 
-Mit der Funktion „Gastzugriff“ können [&#x200B; genehmigte Assets schnell für &#x200B;](../using/brand-portal-sharing-folders.md#how-to-share-folders) vorgesehene Zielgruppe freigeben, ohne sie integrieren zu müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
+Mit der Funktion „Gastzugriff“ können [ genehmigte Assets schnell für ](../using/brand-portal-sharing-folders.md#how-to-share-folders) vorgesehene Zielgruppe freigeben, ohne sie integrieren zu müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
 Unternehmen können den Gastzugriff im Brand Portal-Konto des Unternehmens über die Option **[!UICONTROL Gastzugang zulassen]** in den Einstellungen **[!UICONTROL Zugriff]** im Admin-Tools-Bereich aktivieren bzw. deaktivieren.
 
 <!--
@@ -37,10 +43,10 @@ Um anonym in Brand Portal einzutreten, wählen Sie **[!UICONTROL Hier klicken]**
 
 ## Dauer der Gastsitzung {#guest-session-duration}
 
-Eine Gastbenutzersitzung bleibt 15 Minuten aktiv.
+Eine Gastbenutzersitzung bleibt für 15 Minuten aktiv.
 Durch diesen Prozess wird der Status der **[!UICONTROL Lightbox]** für 15 Minuten ab der Startzeit der Sitzung beibehalten. Danach wird die aktuelle Gastsitzung neu gestartet, wodurch der Status der Lightbox verloren geht.
 
-Beispiel: Ein Gastbenutzer meldet sich um 15:00 Uhr bei Brand Portal an und fügt der **[!UICONTROL Lightbox]** um 15:05 Uhr Assets zum Herunterladen hinzu. Wenn der Benutzer die Sammlung **[!UICONTROL Lightbox]** (oder ihre Assets) nicht vor 15:15 Stunden (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss er die Sitzung neu starten. Die **[!UICONTROL Lightbox]** ist leer, was bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren gegangen ist.
+Ein Gastbenutzer meldet sich beispielsweise um 1.500 Uhr bei Brand Portal an und fügt Assets zu **[!UICONTROL Lightbox]** hinzu, die nach 15 :05 heruntergeladen werden können. Wenn der Benutzer die Sammlung **[!UICONTROL Lightbox]** (oder ihre Assets) nicht vor 15 :15 (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss er die Sitzung neu starten. Die **[!UICONTROL Lightbox]** ist leer, was bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren gegangen ist.
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
@@ -123,7 +129,7 @@ Verwenden Sie zum Herunterladen von Assets und Sammlungen das Symbol „Download
 
 ![](assets/download-on-guest.png)
 
-Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL &#x200B; im Dialogfeld &#x200B;]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
+Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL  im Dialogfeld ]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
 
 ## Beenden einer Gastsitzung {#exit-guest-session}
 

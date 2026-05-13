@@ -7,9 +7,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: 904
 ht-degree: 60%
 
 ---
@@ -71,7 +75,7 @@ Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freige
 
 Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Dieser Vertrag für lizenzierte Assets kommt zustande, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Unabhängig davon, ob es abgelaufen ist oder nicht, können alle Benutzer lizenzgeschützte Assets anzeigen. Der Download und die Verwendung abgelaufener lizenzierter Assets sind jedoch begrenzt. Informationen zum Verhalten abgelaufener lizenzierter Assets und zulässiger Aktivitäten basierend auf Benutzerrollen finden Sie [Nutzungsberechtigungen abgelaufener Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die Metadateneigenschaft des Assets in [!DNL Experience Manager Assets] festgelegt wird.
+Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die Metadateneigenschaft des Assets in [!DNL Experience Manager Assets] festgelegt wird.
 
 Ein Asset gilt als geschützt, wenn es eine der folgenden (oder beide) Metadateneigenschaften enthält:
 

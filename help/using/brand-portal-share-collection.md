@@ -6,10 +6,15 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 77%
+source-wordcount: 689
+ht-degree: 75%
 
 ---
 
@@ -19,7 +24,7 @@ Eine Sammlung stellt eine Gruppe verwandter Assets dar, die zusammen in Adobe Ex
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Sammlungen werden per E-Mail als Link freigegeben. Jeder Benutzer mit Zugriff auf den Freigabe-Link kann die Sammlung öffnen. Freigegebene E-Mails können jedoch an jeden weitergeleitet werden. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/de/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
+Sammlungen werden per E-Mail als Link freigegeben. Jeder Benutzer mit Zugriff auf den Freigabe-Link kann die Sammlung öffnen. Freigegebene E-Mails können jedoch an jeden weitergeleitet werden. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
 
 * **Admins** können eine Sammlung für die autorisierten Benutzenden von Brand Portal freigeben oder die Freigabe aufheben. Sie können andere Benutzer zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können Admins öffentliche Sammlungen erstellen.
 
@@ -51,7 +56,7 @@ Im Folgenden finden Sie die Schritte zum Freigeben einer Sammlung für die autor
 
 1. Wählen Sie im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** die Benutzer aus, für die Sie die Sammlung freigeben möchten, und wählen Sie für einen Benutzer die Rolle aus, die seiner globalen Rolle entspricht. Weisen Sie zum Beispiel die Rolle „Bearbeiter“ einem globalen Bearbeiter und die Rolle „Betrachter“ einem globalen Betrachter zu.
 
-   Um die Sammlung dagegen für alle Benutzer unabhängig von der Gruppenmitgliedschaft und Rolle verfügbar zu machen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]**, damit die Sammlung als „Öffentlich“ festgelegt ist.
+   Um die Sammlung dagegen für alle Benutzer unabhängig von der Gruppenzugehörigkeit und Rolle verfügbar zu machen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]**, damit die Sammlung als „Öffentlich“ festgelegt ist.
 
    >[!NOTE]
    >

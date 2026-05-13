@@ -6,9 +6,15 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/XWG-kCasFqDycZEmxS6SBEVh4Jz-79p-u56SilhfprY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: cda65036-5305-4f01-89da-9b3506ae8c50
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: 817
 ht-degree: 61%
 
 ---
@@ -19,11 +25,11 @@ Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangab
 
 Bildvorgaben werden verwendet, um dynamische Ausgabedarstellungen von Bildern zu generieren, die als Vorschau angezeigt oder heruntergeladen werden können. Wenn Sie eine Vorschau von Bildern und deren Ausgabedarstellungen anzeigen, können Sie eine Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-(*Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus ausgeführt wird***) Um dynamische Ausgabedarstellungen eines Assets in Brand Portal anzuzeigen, stellen Sie sicher, dass seine Pyramid TIFF-Ausgabedarstellung in der Experience Manager Assets-Autoreninstanz, von der aus Sie in Brand Portal veröffentlichen, vorhanden ist. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabedarstellung in Brand Portal veröffentlicht.
+(*Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus)***. Um dynamische Ausgabedarstellungen eines Assets in Brand Portal anzuzeigen, stellen Sie sicher, dass seine Pyramid TIFF-Ausgabedarstellung in der Experience Manager Assets-Autoreninstanz, von der aus Sie in Brand Portal veröffentlichen, vorhanden ist. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabedarstellung in Brand Portal veröffentlicht.
 
 >[!NOTE]
 >
->Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter &quot;[&#x200B; von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
+>Beim Herunterladen von Bildern und deren Ausgabedarstellungen gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften einer benutzerdefinierten Bildvorgabe angeben. Weitere Informationen finden Sie unter &quot;[ von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
 Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben erforderlich sind, finden Sie unter [Verwalten von Bildvorgaben](../using/brand-portal-image-presets.md).
@@ -34,11 +40,11 @@ Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die au
 
 >[!NOTE]
 >
->Dynamische Ausgabedarstellungen werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn die Pyramid-TIFF für kein Asset verfügbar ist, können keine dynamischen Ausgabedarstellungen für dieses Asset in Brand Portal abgerufen werden.
+>Dynamische Ausgabedarstellungen werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn die Pyramid TIFF für kein Asset verfügbar ist, können keine dynamischen Ausgabedarstellungen für dieses Asset in Brand Portal abgerufen werden.
 >
->Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid-TIFF-Ausgabedarstellungen von Bild-Assets im Experience Manager Assets-Repository erstellt und gespeichert.
+>Wenn die Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid TIFF-Ausgabedarstellungen von Bild-Assets im Experience Manager Assets-Repository erstellt und gespeichert.
 >
->Wenn jedoch eine Experience Manager Assets-Autoreninstanz im **Dynamic Media Scene7-Modus** ausgeführt wird, sind Pyramid-TIFF-Ausgabedarstellungen von Bild-Assets auf dem Scene7-Server vorhanden.
+>Wenn jedoch eine Experience Manager Assets-Autoreninstanz im **Dynamic Media Scene7-Modus** ausgeführt wird, sind die Pyramid TIFF-Ausgabedarstellungen von Bild-Assets auf dem Scene7-Server vorhanden.
 >
 >Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabedarstellungen angezeigt.
 

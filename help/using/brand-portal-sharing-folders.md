@@ -1,20 +1,26 @@
 ---
 title: Freigeben von Ordnern
-description: Brand Portal erfordert die Veröffentlichung von Assets aus einer vorkonfigurierten Experience Manager Assets-Autoreninstanz. Benutzende ohne Administratorrechte können nur dann auf veröffentlichte Assets zugreifen, wenn sie bei der Replikationseinrichtung für den Experience Manager konfiguriert wurden. Außerdem müssen Assets für sie freigegeben werden.
+description: Brand Portal erfordert die Veröffentlichung von Assets aus einer vorkonfigurierten Experience Manager Assets-Autoreninstanz. Benutzende ohne Administratorrechte können nur dann auf veröffentlichte Assets zugreifen, wenn sie während der Replikationseinrichtung mit Experience Manager konfiguriert wurden. Außerdem müssen Assets für sie freigegeben werden.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 50%
+source-wordcount: 1108
+ht-degree: 48%
 
 ---
 
 # Freigeben von Ordnern in Brand Portal {#share-folders}
 
-Assets müssen in Brand Portal aus einer vorkonfigurierten Experience Manager-Autoreninstanz veröffentlicht werden, da Brand Portal die Asset-Erfassung nicht unterstützt.
+Assets müssen in Brand Portal aus einer vorkonfigurierten Experience Manager-Autoreninstanz veröffentlicht werden, da Brand Portal die Asset-Aufnahme nicht unterstützt.
 
 ## Workflow zur Ordnerfreigabe in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
@@ -28,21 +34,21 @@ Nachfolgend werden der Ordnerfreigabe-Workflow und der Benutzerzugriff beschrieb
 
 ### Freigeben von Ordnern für Benutzergruppen in Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. [ACLs](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/security/security) in AEM steuern dieses Verhalten, wobei untergeordnete Ordner die ACLs von den jeweiligen übergeordneten Ordnern erben. Angenommen, Ordner A enthält Ordner B, der Ordner C enthält. Dann hat eine Benutzergruppe (oder Benutzer) mit Zugriffsrechten für Ordner A dieselben Zugriffsrechte für Ordner B und Ordner C. Ordner B ist der untergeordnete Ordner von A und Ordner C erbt seine ACLs, und Ordner C ist der untergeordnete Ordner von B und erbt seine ACLs.
+Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. [ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) in AEM steuern dieses Verhalten, wobei untergeordnete Ordner die ACLs von den jeweiligen übergeordneten Ordnern erben. Angenommen, Ordner A enthält Ordner B, der Ordner C enthält. Dann hat eine Benutzergruppe (oder Benutzer) mit Zugriffsrechten für Ordner A dieselben Zugriffsrechte für Ordner B und Ordner C. Ordner B ist der untergeordnete Ordner von A und Ordner C erbt seine ACLs, und Ordner C ist der untergeordnete Ordner von B und erbt seine ACLs.
 
-Ebenso haben Benutzergruppen (oder Benutzer) mit Zugriffsberechtigungen nur für Ordner B die gleichen Zugriffsberechtigungen für Ordner C, aber nicht für Ordner A. Adobe empfiehlt, Inhalte so zu organisieren, dass die am häufigsten angezeigten Assets in untergeordneten Ordnern platziert werden, sodass der Zugriff von den untergeordneten Ordnern bis zum Stammordner beschränkt werden kann.
+Ebenso haben Benutzergruppen (oder Benutzer), die über die Berechtigung zum Zugriff auf Ordner B verfügen, dieselben Zugriffsberechtigungen für Ordner C, aber nicht für Ordner A. Adobe empfiehlt, Inhalte so zu organisieren, dass die am häufigsten angezeigten Assets in untergeordneten Ordnern platziert werden, sodass der Zugriff von den untergeordneten Ordnern bis zum Stammordner beschränkt werden kann.
 
 ### Veröffentlichen von öffentlichen Ordnern {#public-folder-publish}
 
-Benutzende ohne Administratorrechte (z. B. Bearbeiter und Betrachter) können nur dann auf Assets zugreifen, die aus AEM Assets in Brand Portal veröffentlicht wurden, wenn **[!UICONTROL Option „Öffentlicher Ordner Publish]** während der Brand Portal-Replikationskonfiguration aktiviert wurde.
+Benutzende ohne Administratorrechte (z. B. Bearbeiter und Betrachter) können nur dann auf Assets zugreifen, die aus AEM Assets in Brand Portal veröffentlicht wurden, wenn **[!UICONTROL Option „Öffentlichen Ordner veröffentlichen]** während der Brand Portal-Replikationskonfiguration aktiviert wurde.
 
 ![](assets/assetbpreplication.png)
 
-Wenn die Option **[!UICONTROL Öffentlichen Ordner - Publish]** deaktiviert ist, müssen Administratoren diese Assets mithilfe der Freigabefunktion speziell für Benutzende ohne Administratorrechte freigeben.
+Wenn die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** deaktiviert ist, müssen Administratoren diese Assets mithilfe der Freigabefunktion speziell für Benutzende ohne Administratorrechte freigeben.
 
 >[!NOTE]
 >
->Die Option **[!UICONTROL Veröffentlichung eines öffentlichen Ordners]** ist ab AEM-Version 6.3.2.1 verfügbar.
+>Die Option **[!UICONTROL Veröffentlichung eines öffentlichen Ordners]** ist ab AEM 6.3.2.1 verfügbar.
 
 ## Zugriff auf freigegebene Ordner {#access-to-shared-folders}
 

@@ -7,10 +7,15 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 1513
+ht-degree: 97%
 
 ---
 
@@ -25,18 +30,18 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 
 **Antwort:** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von Experience Manager Assets auf das neueste Service Pack aktualisieren und es mithilfe der Adobe Developer Console konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren von Experience Manager Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md). Um die alte OAuth-Konfiguration jedoch bis zum Upgrade verwenden zu können, ändern Sie den alten OAuth-Endpunkt in `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Frage: Nach der Aktualisierung auf Adobe Developer Console kann ich die Assets des Beitragsordners von Brand Portal nicht in Experience Manager Assets veröffentlichen. Meine Autoreninstanz befindet sich unter Experience Manager Assets 6.5.4. Was könnte der Grund sein?**
+**Frage: Nach der Aktualisierung auf Adobe Developer Console kann ich die Assets des Beitragsordners von Brand Portal nicht in Experience Manager Assets veröffentlichen. Meine Autoreninstanz befindet sich unter Experience Manager Assets 6.5.4. Was könnte der Grund sein?**
 
 **Antwort:** Ja, es gibt ein bekanntes Problem bei der Veröffentlichung von Assets des Beitragsordners in Experience Manager Assets 6.5.4 über die Adobe Developer Console.
 
-Das Problem wurde in Experience Manager Assets 6.5.5. behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und [Ihre Konfigurationen in Adobe Developer Console aktualisieren](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65).
+Das Problem wurde in Experience Manager Assets 6.5.5 behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und [Ihre Konfigurationen aktualisieren](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) auf Adobe Developer Console.
 
 
 **Frage: Ich sehe den Inhalt des Beitragsordners, der in Brand Portal veröffentlicht wurde, nicht in Experience Manager Assets. Was könnte der Grund sein?**
 
 **Antwort:** Wenden Sie sich an Ihre Experience Manager Assets-Admins, um die Konfigurationen überprüfen zu lassen, und stellen Sie sicher, dass für den Brand Portal-Mandanten nur eine einzige Autoreninstanz konfiguriert ist.
 
-Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten in mehreren Experience Manager Assets-Autoreninstanzen konfiguriert haben. Wenn z. B. die Admins denselben Brand Portal-Mandanten in der Experience Manager Assets-Autoreninstanz der Staging- und Proudktionsumgebung konfigurieren, wird die Asset-Veröffentlichung in Brand Portal zwar ausgelöst, die Experience Manager Assets-Autoreninstanz kann das Asset jedoch nicht importieren, da der Replikationsagent das Anfrage-Token nicht erhält.
+Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten in mehreren Experience Manager Assets-Autoreninstanzen konfiguriert haben. Wenn z. B. die Admins denselben Brand Portal-Mandanten in der Experience Manager Assets-Autoreninstanz der Staging- und Produktionsumgebung konfigurieren, wird die Asset-Veröffentlichung in Brand Portal zwar ausgelöst, die Experience Manager Assets-Autoreninstanz kann das Asset jedoch nicht importieren, da der Replikationsagent das Anfrage-Token nicht erhält.
 
 
 **Frage: Ich kann keine Assets aus Experience Manager Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist. Gibt es eine schnelle Lösung?**
@@ -56,7 +61,7 @@ Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 1. Starten Sie den Server neu und überprüfen Sie die Verbindung.
 
 
-## Häufig gestellte Fragen zu Brand Portal 6.4.5  {#faqs-bp645}
+## Häufig gestellte Fragen zu Brand Portal 6.4.5 {#faqs-bp645}
 
 **Frage: Was ist die wichtigste Änderung in Version 6.4.5 von Brand Portal?**
 

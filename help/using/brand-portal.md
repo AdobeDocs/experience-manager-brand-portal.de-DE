@@ -5,16 +5,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
+TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 55%
+source-wordcount: 1714
+ht-degree: 60%
 
 ---
 
 # Überblick über Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-Als Marketing-Experte müssen Sie manchmal mit Channel-Partnern und internen Geschäftsbenutzern zusammenarbeiten, um relevante digitale Inhalte für Kunden zu erstellen, zu verwalten und schnell bereitzustellen. Die zeitnahe Bereitstellung relevanter Inhalte für die gesamte Customer Journey ist ein wichtiger Faktor für Nachfragegenerierung, Konversionen, Interaktionen und Kundenloyalität.
+Als Marketing-Experte müssen Sie manchmal mit Channel-Partnern und internen Geschäftsbenutzern zusammenarbeiten, um relevante digitale Inhalte für Kunden zu erstellen, zu verwalten und schnell bereitzustellen. Die zeitnahe Bereitstellung relevanter Inhalte für die gesamte Customer Journey ist ein wichtiger Faktor für Nachfragegenerierung, Konversionen, Interaktionen und Kundentreue.
 
 Die Entwicklung von Lösungen, die die effiziente und sichere Freigabe von Dingen wie genehmigten Markenlogos, Kampagnen-Assets oder Produkt-Shots mit Teams, Partnern und Wiederverkäufern unterstützen, stellt jedoch eine Herausforderung dar. Um in diesem Prozess sowohl Effizienz als auch Sicherheit zu gewährleisten, ist eine sorgfältige Planung und Ausführung erforderlich.
 
@@ -35,9 +41,9 @@ Die Konfiguration von Adobe Experience Manager Assets mit Brand Portal bietet Be
 
 >[!IMPORTANT]
 >
-> * Brand Portal befindet sich im Wartungsmodus. Alle neuen Produktinnovationen sind auf [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) verfügbar.
-> * Wenn Sie Brand Portal noch aktivieren müssen, wenden Sie sich mit Details zu Ihrem Anwendungsfall und anderen spezifischen Anforderungen an Ihren Adobe-Support-Mitarbeiter.
-> * Brand Portal ist nicht verfügbar mit [Assets Prime](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-prime) oder [Assets Ultimate](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Bestehende Assets as a Cloud Service-Kunden, die bereits Zugriff auf Brand Portal haben, können diese jedoch auch weiterhin verwenden, wenn sie zu Assets Ultimate wechseln.
+> * Brand Portal befindet sich im Wartungsmodus. Alle neuen Produktinnovationen sind in [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) verfügbar.
+> * Wenn Sie Brand Portal noch aktivieren müssen, wenden Sie sich mit Details zu Ihrem Anwendungsfall und anderen spezifischen Anforderungen an den Adobe-Support.
+> * Brand Portal ist nicht mit [Assets Prime](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-prime) oder [Assets Ultimate](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) verfügbar. Für bestehende Kundinnen und Kunden von Assets as a Cloud Service, die bereits Zugriff auf Brand Portal haben, bleibt dieser jedoch bestehen, wenn sie zu Assets Ultimate wechseln.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -115,7 +121,7 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 ### Administrator {#administrator}
 
-Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert &#x200B;]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
+Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert ]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
 >[!NOTE]
 >
@@ -142,7 +148,7 @@ Ab Brand Portal 6.4.3 können Unternehmen für jede vorhandene URL ihres Brand P
 Wenn der Mandantenname mehr als 32 Zeichen umfasst, muss ein Mandantenalias erstellt werden.
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domain `geomettrix.brand-portal.adobe.com` kann beispielsweise auf Anfrage die Domain `geomettrixinc.brand-portal.adobe.com` erstellt werden.
 
-Die AEM-Autoreninstanz kann jedoch nur mit [&#x200B; Mandanten-ID-URL &#x200B;](../using/configure-aem-assets-with-brand-portal.md) nicht mit der (alternativen) Mandantenalias-URL konfiguriert werden.
+Die AEM-Autoreninstanz kann jedoch nur mit [ Mandanten-ID-URL ](../using/configure-aem-assets-with-brand-portal.md) nicht mit der (alternativen) Mandantenalias-URL konfiguriert werden.
 
 >[!NOTE]
 >
@@ -156,7 +162,7 @@ Benutzer können über den Anmeldebildschirm Zugriff auf Brand Portal anfragen. 
 
 Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
-1. Wählen Sie auf der Anmeldeseite von Brand Portal **[!UICONTROL Hier klicken]** neben **[!UICONTROL Benötigen Sie Zugriff?]**. Um jedoch einer Gastsitzung beizutreten, wählen Sie **[!UICONTROL Hier klicken]** neben **[!UICONTROL Gastzugang?]**.
+1. Wählen Sie auf der Brand Portal-Anmeldeseite die Option **[!UICONTROL Hier klicken]** entsprechend **[!UICONTROL Zugriff erforderlich?]**. Um jedoch einer Gastsitzung beizutreten, wählen Sie **[!UICONTROL Hier klicken]** neben **[!UICONTROL Gastzugang?]**.
 
    ![Brand Portal-Anmeldebildschirm](assets/bp-login-requestaccess.png)
 
@@ -219,7 +225,7 @@ Gehen Sie wie folgt vor, um die Sprache zu ändern:
 
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
-1. Experience Cloud Wählen Sie auf der Seite 0&rbrace; eine Sprache aus dem Dropdown[!UICONTROL Menü &#x200B;]Sprache“ aus.
+1. Wählen Sie auf der Seite ]0} eine Sprache aus dem Dropdown[!UICONTROL Menü ]Sprache“ aus.[!UICONTROL 
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
@@ -241,4 +247,4 @@ Sie können diese Benachrichtigung schließen und Brand Portal weiterhin verwend
 * [Adobe Customer Support]()
 -->
 
-* [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=de)
+* [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
