@@ -6,22 +6,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 60%
+source-wordcount: 1549
+ht-degree: 55%
 
 ---
 
@@ -33,7 +26,7 @@ Die Entwicklung von Lösungen, die die effiziente und sichere Freigabe von Dinge
 
 **Adobe Experience Manager (AEM) Assets Brand Portal** konzentriert sich auf die Notwendigkeit der Zusammenarbeit des Marketing-Experten mit den global verteilten Brand Portal-Benutzern durch die Bereitstellung von Funktionen zur Asset-Verteilung und zum Asset-Beitrag.
 
-Mit der Asset-Verteilung können Sie genehmigte Kreativ-Assets abrufen, kontrollieren und sicher und geräteübergreifend an externe Parteien und interne Geschäftsbenutzer verteilen. Der Asset-Beitrag ermöglicht es den Brand Portal-Benutzenden jedoch, Assets in Brand Portal hochzuladen und in Experience Manager Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird als **Asset-Beschaffung in Brand Portal** bezeichnet. Zusammengenommen verbessert sie die gesamte Brand Portal-Erfahrung bei der Verteilung von Assets und den Beiträgen der Brand Portal-Benutzer (externen Agenturen/Teams), beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff.
+Mit der Asset-Verteilung können Sie genehmigte Kreativ-Assets abrufen, kontrollieren und sicher und geräteübergreifend an externe Parteien und interne Geschäftsbenutzer verteilen. Der Asset-Beitrag ermöglicht es den Brand Portal-Benutzenden jedoch, Assets in Brand Portal hochzuladen und in Experience Manager Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird in Brand Portal als **Assets-Beschaffung bezeichnet**. Gemeinsam verbessern sie das Brand Portal-Gesamterlebnis bei der Asset-Verteilung und -Bereitstellung durch Brand Portal-Benutzende (externe Agenturen/Teams), beschleunigen die Time-to-Market für Assets und verringern das Risiko von Verstößen gegen Richtlinien und unbefugtem Zugriff.
 Siehe [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md).
 
 Die browserbasierte Portalumgebung ermöglicht das einfache Hochladen, Durchsuchen, Suchen, Anzeigen einer Vorschau und Exportieren von Assets in genehmigten Formaten.
@@ -50,11 +43,11 @@ Die Konfiguration von Adobe Experience Manager Assets mit Brand Portal bietet Be
 >
 > * Brand Portal befindet sich im Wartungsmodus. Alle neuen Produktinnovationen sind in [Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) verfügbar.
 > * Wenn Sie Brand Portal noch aktivieren müssen, wenden Sie sich mit Details zu Ihrem Anwendungsfall und anderen spezifischen Anforderungen an den Adobe-Support.
-> * Brand Portal ist nicht mit [Assets Prime](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-prime) oder [Assets Ultimate](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) verfügbar. Für bestehende Kundinnen und Kunden von Assets as a Cloud Service, die bereits Zugriff auf Brand Portal haben, bleibt dieser jedoch bestehen, wenn sie zu Assets Ultimate wechseln.
+> * Brand Portal ist nicht mit [Assets Prime](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-prime) oder [Assets Ultimate](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) verfügbar. Bestehende Assets as a Cloud Service-Kunden, die bereits Zugriff auf Brand Portal haben, können diese jedoch auch bei der Umstellung auf Assets Ultimate verwenden.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-Experience Manager Assets (On-Premise und Managed Service) wird jedoch manuell mit Brand Portal mithilfe von Adobe Developer Console konfiguriert, wodurch ein Adobe Identity Management Services (IMS)-Token zur Autorisierung des Brand Portal-Mandanten abgerufen wird.
+Experience Manager Assets (On-Premise und Managed Services) wird jedoch manuell mit Brand Portal mithilfe von Adobe Developer Console konfiguriert, wodurch ein Adobe Identity Management Services (IMS)-Token zur Autorisierung des Brand Portal-Mandanten abgerufen wird.
 
 Weitere Informationen finden Sie unter [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -92,7 +85,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 Experience Manager Assets Brand Portal ermöglicht den [Gastzugang](#request-access-to-brand-portal) zu Brand Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Ordner (und Sammlungen). Als Gastbenutzer können Sie Asset-Details durchsuchen und eine vollständige Asset-Ansicht von Mitgliedern öffentlicher Ordner und Sammlungen anzeigen. Sie können öffentliche Assets suchen, herunterladen und zur Sammlung [!UICONTROL Lightbox] hinzufügen.
 
-Die Gastsitzung verhindert jedoch, dass Sammlungen und gespeicherte Suchen erstellt werden, und gibt sie weiter frei. Benutzende in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
+Die Gastsitzung verhindert jedoch, dass Sammlungen und gespeicherte Suchen erstellt werden. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
 * [Öffentliche Assets durchsuchen und darauf zugreifen](browse-assets-brand-portal.md)
 
@@ -128,7 +121,7 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 ### Administrator {#administrator}
 
-Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert &#x200B;]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
+Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console als Systemadministrator oder Brand Portal-Produktadministrator markiert ]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
 >[!NOTE]
 >
@@ -153,15 +146,15 @@ Zusätzlich zu den oben genannten Aufgaben stehen AEM Assets-Autoren folgende Au
 
 Ab Brand Portal 6.4.3 können Unternehmen für jede vorhandene URL ihres Brand Portal-Mandanten eine alternative (Alias-)URL verwenden. Die Alias-URL kann erstellt werden, indem ein alternatives Präfix in die URL eingefügt wird.\
 Wenn der Mandantenname mehr als 32 Zeichen umfasst, muss ein Mandantenalias erstellt werden.
-Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domain `geomettrix.brand-portal.adobe.com` kann beispielsweise auf Anfrage die Domain `geomettrixinc.brand-portal.adobe.com` erstellt werden.
+Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domain `geomettrix.brand-portal.adobe.com` kann beispielsweise auf Anfrage `geomettrixinc.brand-portal.adobe.com` erstellt werden.
 
-Die AEM-Autoreninstanz kann jedoch nur mit [&#x200B; Mandanten-ID-URL &#x200B;](../using/configure-aem-assets-with-brand-portal.md) nicht mit der (alternativen) Mandantenalias-URL konfiguriert werden.
+Die AEM-Autoreninstanz kann jedoch nur mit [ Mandanten-ID-URL ](../using/configure-aem-assets-with-brand-portal.md) nicht mit der (alternativen) Mandantenalias-URL konfiguriert werden.
 
 >[!NOTE]
 >
->Um einen Alias für den Mandantennamen in einer vorhandenen Portal-URL zu erhalten, müssen Unternehmen den Kunden-Support kontaktieren und eine Anfrage zur Erstellung eines neuen Mandantenalias stellen. Überprüfen Sie zunächst, ob der Alias verfügbar ist, und erstellen Sie dann den Alias, um diese Anfrage zu verarbeiten.
+>Um einen Alias für den Mandantennamen in einer vorhandenen Portal-URL zu erhalten, müssen Unternehmen den Kunden-Support kontaktieren und die Erstellung eines neuen Mandantenalias anfordern. Überprüfen Sie zunächst, ob der Alias verfügbar ist, und erstellen Sie dann den Alias, um diese Anfrage zu verarbeiten.
 >
->Um den alten Alias zu ersetzen oder zu löschen, muss der gleiche Prozess befolgt werden.
+>Um den alten Alias zu ersetzen oder zu löschen, muss derselbe Prozess befolgt werden.
 
 ## Anfordern von Zugriff auf Brand Portal {#request-access-to-brand-portal}
 
@@ -183,7 +176,7 @@ Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
    **Szenario 1**
 
-   1. Wenn Sie bereits eine [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] oder [!UICONTROL Federated ID] haben, klicken Sie auf **[!UICONTROL Anmelden]**.
+   1. Wenn Sie über eine [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] oder [!UICONTROL Federated ID] verfügen, klicken Sie auf **[!UICONTROL Anmelden]**.
 Die [!UICONTROL Anmeldeseite] wird geöffnet.
 
    1. Geben Sie Ihre [!UICONTROL Adobe ID]-Anmeldeinformationen ein und klicken Sie auf **[!UICONTROL Anmelden]**.
@@ -194,9 +187,9 @@ Die [!UICONTROL Anmeldeseite] wird geöffnet.
 
    **Szenario 2**
 
-   1. Wenn Sie noch keine [!UICONTROL Adobe ID] haben, erstellen Sie die ID, indem Sie auf der Seite **[!UICONTROL Zugriff anfordern]** auf [!UICONTROL Adobe ID anfordern] klicken.
+   1. Wenn Sie nicht über eine [!UICONTROL Adobe ID] verfügen, um eine zu erstellen, klicken Sie auf **[!UICONTROL Adobe ID abrufen]** auf der Seite [!UICONTROL Zugriff anfordern].
 Die [!UICONTROL Anmeldeseite] wird geöffnet.
-   1. Klicken Sie auf **[!UICONTROL Adobe ID anfordern]**.
+   1. Klicken Sie **[!UICONTROL Adobe ID abrufen]**.
 Die [!UICONTROL Anmeldeseite] wird geöffnet.
    1. Geben Sie Ihren Vornamen und Nachnamen, E-Mail-Adresse und Passwort ein.
    1. Wählen Sie **[!UICONTROL Anmelden]** aus.
@@ -205,7 +198,7 @@ Die [!UICONTROL Anmeldeseite] wird geöffnet.
 
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.
 
-1. Auf der nächsten Seite werden der Name des aktuellen Benutzers und die E-Mail-Adresse angezeigt, die zum Anfordern des Zugriffs genutzt werden. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **[!UICONTROL Übermitteln]**.
+1. Auf der nächsten Seite werden der Name des aktuellen Benutzers und die E-Mail-Adresse angezeigt, die zum Anfordern des Zugriffs genutzt werden. Hinterlassen Sie einen Kommentar für den Administrator und klicken Sie auf **[!UICONTROL Senden]**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -222,7 +215,7 @@ Sie werden zur Homepage der [Adobe [!UICONTROL Admin Console]](https://admincons
 
 ## Brand Portal-Sprachen {#brand-portal-language}
 
-Sie können die Brand Portal-Sprache in den Adobe [!UICONTROL Experience Cloud-Einstellungen ändern].
+Sie können die Brand Portal-Sprache in Adobe [!UICONTROL Experience Cloud-Einstellungen] ändern.
 
 ![Benachrichtigung zu Zugriffsanforderungen](assets/BPLang.png)
 
@@ -232,7 +225,7 @@ Gehen Sie wie folgt vor, um die Sprache zu ändern:
 
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
-1. Wählen Sie auf der Seite 0&rbrace; eine Sprache aus dem Dropdown[!UICONTROL Menü &#x200B;]Sprache“ aus.
+1. Wählen Sie auf [!UICONTROL  Seite Experience ]-Einstellungen eine Sprache aus dem [!UICONTROL -Menü ]Sprache“ aus.
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
@@ -254,4 +247,4 @@ Sie können diese Benachrichtigung schließen und Brand Portal weiterhin verwend
 * [Adobe Customer Support]()
 -->
 
-* [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=de)
+* [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
