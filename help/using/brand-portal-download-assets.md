@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 65%
@@ -178,7 +178,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
      >
      >Wenn die heruntergeladenen Assets auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
      > 
-     >Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die -Metadateneigenschaft [&#x200B; Assets in &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/administer/drm) festgelegt wird.
+     >Lizenzgeschützte Assets verfügen über eine angehängte [Lizenzvereinbarung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm). Dies geschieht, indem die -Metadateneigenschaft [ Assets in ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) festgelegt wird.
 
 
      ![licensed-asset](assets/licensed-asset-new.png)
