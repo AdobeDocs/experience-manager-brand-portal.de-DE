@@ -6,25 +6,31 @@ content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+TQID: 'https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Troubleshooting
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 953
+source-wordcount: '954'
 ht-degree: 50%
-
 ---
-
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 In Brand Portal wird die Konfiguration mit Experience Manager Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die Experience Manager Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden können. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) verwendet die Experience Manager-Autoreninstanz einen Replikationsagenten, um ein oder mehrere ausgewählte Assets im Brand Portal Cloud Service zu replizieren, damit sie von Brand Portal-Benutzern genehmigt verwendet werden können. Für Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu ermöglichen.
@@ -79,7 +85,7 @@ II. Löschen von `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gehen Sie zu localhost:4502/useradmin:\
    I. Nach Benutzer suchen `mac-<tenantid>replication`
-II. Diesen Benutzer löschen
+   II. Diesen Benutzer löschen
 
 Jetzt ist das System bereinigt. Jetzt können Sie versuchen, eine Cloud Service-Konfiguration zu erstellen und weiterhin die vorhandene JWT-Anwendung zu verwenden. Es ist nicht erforderlich, eine Anwendung zu erstellen. Aktualisieren Sie stattdessen den öffentlichen Schlüssel aus der neu erstellten Cloud-Konfiguration.
 

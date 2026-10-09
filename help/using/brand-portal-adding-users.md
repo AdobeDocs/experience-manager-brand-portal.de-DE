@@ -6,26 +6,33 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-TQID: https://experienceleague.adobe.com/CxUuu1tgxUNjW4TD-vgW-LGn2y9-4avL-mc9eykqBQM
+TQID: 'https://experienceleague.adobe.com/CxUuu1tgxUNjW4TD-vgW-LGn2y9-4avL-mc9eykqBQM'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cda65036-5305-4f01-89da-9b3506ae8c50
+    internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Administration
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 2233
+source-wordcount: '2233'
 ht-degree: 56%
-
 ---
-
 # Verwalten von Benutzern, Gruppen und Benutzerrollen {#manage-users-groups-and-user-roles}
 
 Administratoren können Adobe Admin Console verwenden, um Benutzende und Produktprofile für Experience Manager Assets Brand Portal zu erstellen und ihre Rollen mithilfe der Benutzeroberfläche von Brand Portal zu verwalten. Diese Berechtigung ist für Betrachter und Bearbeiter nicht verfügbar.
@@ -87,7 +94,7 @@ Verwenden Sie als Produkt-Administrator Adobe [[!UICONTROL Admin Console]](https
    ![Benutzer zu Brand Portal hinzufügen](assets/add_user_to_aem_bp.png)
 
 1. Weisen Sie den Benutzer mindestens einem Produktprofil (ehemals „Produktkonfiguration“) zu, damit der Benutzer auf Brand Portal zugreifen kann. Wählen Sie im Feld **[!UICONTROL Profil für dieses Produkt auswählen]** das entsprechende Produktprofil aus.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Eine Begrüßungs-E-Mail wird an den neu hinzugefügten Benutzer gesendet. Der eingeladene Benutzer kann auf den Link in der Begrüßungs-E-Mail klicken, um auf Brand Portal zuzugreifen. Die Benutzerin bzw. der Benutzer kann sich mit der in der Admin Console konfigurierten E-MailID ([!UICONTROL Adobe ID], Enterprise IDoder [!UICONTROL Federated ID]) anmelden. Weitere Informationen finden Sie unter [Schritte bei der ersten Anmeldung](../using/brand-portal-onboarding.md).
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Eine Begrüßungs-E-Mail wird an den neu hinzugefügten Benutzer gesendet. Der eingeladene Benutzer kann auf den Link in der Begrüßungs-E-Mail klicken, um auf Brand Portal zuzugreifen. Die Benutzerin bzw. der Benutzer kann sich mit der in der Admin Console konfigurierten E-Mail]ID ([!UICONTROL Adobe ID], [!UICONTROL Enterprise IDoder [!UICONTROL Federated ID]) anmelden. Weitere Informationen finden Sie unter [Schritte bei der ersten Anmeldung](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
@@ -101,7 +108,7 @@ Produktprofile (ehemals „Produktkonfigurationen“) in der [!UICONTROL Admin C
 
 >[!NOTE]
 >
->Sie können sich direkt oder über Brand Portal bei [&#128279;](https://adminconsole.adobe.com/enterprise/overview)0&rbrace;Admin Console anmelden. Wenn Sie sich direkt bei der [!UICONTROL Admin Console &#x200B;], befolgen Sie die unten beschriebenen Schritte 4 bis 7, um ein Produktprofil hinzuzufügen.
+>Sie können sich direkt oder über Brand Portal bei ]](https://adminconsole.adobe.com/enterprise/overview)0}Admin Console anmelden. [[!UICONTROL Wenn Sie sich direkt bei der [!UICONTROL Admin Console ], befolgen Sie die unten beschriebenen Schritte 4 bis 7, um ein Produktprofil hinzuzufügen.
 
 1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin-Tools zuzugreifen.
 
@@ -120,7 +127,7 @@ Produktprofile (ehemals „Produktkonfigurationen“) in der [!UICONTROL Admin C
 
    ![Neues Produktprofil hinzufügen](assets/admin_console_addproductprofile.png)
 
-1. Geben [!UICONTROL &#x200B; auf der Seite &#x200B;]Neues Profil erstellen“ den Profilnamen, den Anzeigenamen und die Profilbeschreibung an. Entscheiden Sie sich dafür, Benutzer per E-Mail benachrichtigen zu lassen, wenn sie zum Profil hinzugefügt oder daraus entfernt werden.
+1. Geben [!UICONTROL  auf der Seite ]Neues Profil erstellen“ den Profilnamen, den Anzeigenamen und die Profilbeschreibung an. Entscheiden Sie sich dafür, Benutzer per E-Mail benachrichtigen zu lassen, wenn sie zum Profil hinzugefügt oder daraus entfernt werden.
 
    ![Produktprofil erstellen](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
@@ -134,7 +141,7 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
 >[!NOTE]
 >
->Sie können sich direkt oder über Brand Portal bei [&#128279;](https://adminconsole.adobe.com/enterprise/overview)0&rbrace;Admin Console anmelden. Wenn Sie sich direkt bei der Admin Console anmelden, befolgen Sie die unten beschriebenen Schritte 4 bis 7, um Benutzer zu einem Produktprofil hinzuzufügen.
+>Sie können sich direkt oder über Brand Portal bei ]](https://adminconsole.adobe.com/enterprise/overview)0}Admin Console anmelden. [[!UICONTROL Wenn Sie sich direkt bei der Admin Console anmelden, befolgen Sie die unten beschriebenen Schritte 4 bis 7, um Benutzer zu einem Produktprofil hinzuzufügen.
 
 1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
@@ -187,7 +194,7 @@ Sie können einem Brand Portal-Benutzer entweder Systemadministrator- oder Produ
 
 >[!NOTE]
 >
->Sie können sich direkt oder über Brand Portal bei [&#128279;](https://adminconsole.adobe.com/enterprise/overview)0&rbrace;Admin Console anmelden. Wenn Sie sich direkt bei der [!UICONTROL Admin Console] anmelden, befolgen Sie die unten beschriebenen Schritte 4 bis 8, um einen Benutzer zu einem Produktprofil hinzuzufügen.
+>Sie können sich direkt oder über Brand Portal bei ]](https://adminconsole.adobe.com/enterprise/overview)0}Admin Console anmelden. [[!UICONTROL Wenn Sie sich direkt bei der [!UICONTROL Admin Console] anmelden, befolgen Sie die unten beschriebenen Schritte 4 bis 8, um einen Benutzer zu einem Produktprofil hinzuzufügen.
 
 1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin-Tools zuzugreifen.
 
