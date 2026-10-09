@@ -39,7 +39,7 @@ ht-degree: 54%
 
 Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzende in einer Gastsitzung können für die Dauer ihrer Sitzung Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen, es sei denn, Gastbenutzende wählen die Option [[!UICONTROL Sitzung beenden]](#exit-guest-session) aus. Eine Gastbenutzersitzung bleibt für 15 Minuten aktiv.
 
-Mit der Funktion „Gastzugriff“ können [ genehmigte Assets schnell für ](../using/brand-portal-sharing-folders.md#how-to-share-folders) vorgesehene Zielgruppe freigeben, ohne sie integrieren zu müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
+Mit der Funktion „Gastzugriff“ können [&#x200B; genehmigte Assets schnell für &#x200B;](../using/brand-portal-sharing-folders.md#how-to-share-folders) vorgesehene Zielgruppe freigeben, ohne sie integrieren zu müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
 Unternehmen können den Gastzugriff im Brand Portal-Konto des Unternehmens über die Option **[!UICONTROL Gastzugang zulassen]** in den Einstellungen **[!UICONTROL Zugriff]** im Admin-Tools-Bereich aktivieren bzw. deaktivieren.
 
 <!--
@@ -145,7 +145,7 @@ Verwenden Sie zum Herunterladen von Assets und Sammlungen das Symbol „Download
 
 ![](assets/download-on-guest.png)
 
-Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL  im Dialogfeld ]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
+Durch Auswahl **[!UICONTROL Option]** Download-Beschleunigung aktivieren[!UICONTROL &#x200B; im Dialogfeld &#x200B;]Download“ können Sie [die Download-Leistung verbessern](../using/accelerated-download.md).
 
 ## Beenden einer Gastsitzung {#exit-guest-session}
 
