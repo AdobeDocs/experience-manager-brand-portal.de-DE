@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 53%
-
+source-wordcount: '1369'
+ht-degree: 52%
 ---
-
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
 Mit der Brand Portal-Suchfunktion können Sie relevante Assets schnell mit der Omnisearch- und Facettensuche suchen, die Filter verwendet, um Ihre Suche weiter einzugrenzen. Sie können Elemente auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern.
@@ -103,7 +110,7 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
      Das [!UICONTROL Eigenschaftsprädikat] unterstützt die Textsuche nach Folgendem:
 
      **Teilsätze**
-Um die Asset-Suche mithilfe teilweiser Sätze im Eigenschaftsprädikat zuzulassen, aktivieren Sie im Suchformular **[!UICONTROL Kontrollkästchen]** Teilsuche“. Mit dieser Methode können Sie nach den gewünschten Assets suchen, auch wenn Sie nicht die genauen Wörter oder Ausdrücke angeben, die in den Asset-Metadaten verwendet werden.
+     Um die Asset-Suche mithilfe teilweiser Sätze im Eigenschaftsprädikat zuzulassen, aktivieren Sie im Suchformular **[!UICONTROL Kontrollkästchen]** Teilsuche“. Mit dieser Methode können Sie nach den gewünschten Assets suchen, auch wenn Sie nicht die genauen Wörter oder Ausdrücke angeben, die in den Asset-Metadaten verwendet werden.
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Um die Asset-Suche mithilfe teilweiser Sätze im Eigenschaftsprädikat zuzulasse
      >* `jcr:content/metadata/dc:format`
 
      Sie haben folgende Möglichkeiten:
-      * Geben Sie ein Wort im Suchbegriff in der Facette im Bedienfeld Filter an. Wenn Sie beispielsweise nach dem Begriff **klettern** suchen (und das Eigenschaftsprädikat der `dc:title` Eigenschaft zugeordnet ist), werden alle Assets mit dem Wort **klettern** im Titelsatz zurückgegeben.
-      * Geben Sie einen Teil des Wortes ein, das im Suchbegriff vorkommt, und füllen Sie die Lücken mit einem Platzhalterzeichen (&#42;).
-Zum Beispiel gibt die Suche nach:
-         * **klettern&#42;** alle Elemente zurück, deren Titelphrase Wörter enthält, die mit der Zeichenfolge „klettern“ beginnen.
-         * **&#42;klettern** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
-         * **&#42;klettern&#42;** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die die Zeichenfolge „klettern“ enthalten.
+     * Geben Sie ein Wort im Suchbegriff in der Facette im Bedienfeld Filter an. Wenn Sie beispielsweise nach dem Begriff **klettern** suchen (und das Eigenschaftsprädikat der `dc:title` Eigenschaft zugeordnet ist), werden alle Assets mit dem Wort **klettern** im Titelsatz zurückgegeben.
+     * Geben Sie einen Teil des Wortes ein, das im Suchbegriff vorkommt, und füllen Sie die Lücken mit einem Platzhalterzeichen (&#42;).
+       Zum Beispiel gibt die Suche nach:
+       * **klettern&#42;** alle Elemente zurück, deren Titelphrase Wörter enthält, die mit der Zeichenfolge „klettern“ beginnen.
+       * **&#42;klettern** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
+       * **&#42;klettern&#42;** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die die Zeichenfolge „klettern“ enthalten.
 
      **Text ohne Unterscheidung von Groß- und Kleinschreibung**
-Sie können die Suche ohne Unterscheidung von Groß- und Kleinschreibung im Eigenschaftsprädikat zulassen. Aktivieren Sie einfach das **[!UICONTROL Groß-/Kleinschreibung ignorieren]** im Suchformular. Standardmäßig wird bei der Textsuche im Eigenschaftsprädikat zwischen Groß- und Kleinschreibung unterschieden.
+     Sie können die Suche ohne Unterscheidung von Groß- und Kleinschreibung im Eigenschaftsprädikat zulassen. Aktivieren Sie einfach das **[!UICONTROL Groß-/Kleinschreibung ignorieren]** im Suchformular. Standardmäßig wird bei der Textsuche im Eigenschaftsprädikat zwischen Groß- und Kleinschreibung unterschieden.
 
    >[!NOTE]
    >
