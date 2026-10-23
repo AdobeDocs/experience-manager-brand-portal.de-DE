@@ -1,6 +1,6 @@
 ---
 title: Asset-Beschaffung in Brand Portal
-description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion, die in Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
+description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion in Adobe Experience Manager Assets Brand Portal.
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -42,7 +42,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 ![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/32999/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Voraussetzungen {#prerequisites}
 
@@ -114,7 +114,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 Experience Manager Assets-Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) mit der Liste der aktiven Brand Portal-Benutzer in Experience Manager Assets hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
 
-Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Die Administratoren können der Konfigurationsdatei auch neue Benutzer hinzufügen und die geänderte Benutzerliste hochladen.
+Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Der Administrator oder die Administratorin kann der Konfigurationsdatei auch neue Benutzende hinzufügen und die geänderte Benutzerliste hochladen.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Administratoren können neue Benutzer in der Admin Console hinzufügen. Unter [B
 **So laden Sie die Brand Portal-Benutzerliste hoch:**
 
 1. Melden Sie sich bei Ihrer Experience Manager Assets-Instanz an.
-1. Navigieren Sie [!UICONTROL &#x200B; Bedienfeld &#x200B;]Tools“ zu **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
+1. Navigieren Sie [!UICONTROL  Bedienfeld ]Tools“ zu **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal Users]**.
 
 1. Das Fenster zum Hochladen von Beitragenden zu Brand Portal wird geöffnet.
 Durchsuchen Sie den lokalen Computer und laden Sie eine **Konfigurationsdatei (.csv) hoch** die die Liste der aktiven Brand Portal-Benutzer enthält.
