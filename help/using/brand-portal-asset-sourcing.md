@@ -1,6 +1,6 @@
 ---
 title: Asset-Beschaffung in Brand Portal
-description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion, die in Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
+description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion in Adobe Experience Manager Assets Brand Portal.
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -114,7 +114,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 Experience Manager Assets-Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) mit der Liste der aktiven Brand Portal-Benutzer in Experience Manager Assets hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
 
-Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Die Administratoren können der Konfigurationsdatei auch neue Benutzer hinzufügen und die geänderte Benutzerliste hochladen.
+Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Der Administrator oder die Administratorin kann der Konfigurationsdatei auch neue Benutzende hinzufügen und die geänderte Benutzerliste hochladen.
 
 >[!NOTE]
 >
